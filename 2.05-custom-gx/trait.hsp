@@ -8,9 +8,9 @@
 	if ( tid == TRAIT_NORMAL_STAT_STAMINA ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 3, 1, 0, 100, -1
-			traitrefn2 = lang("çŸ­è·é›¢èµ°è€…", "Short Distance Runner"), lang("ä¸­è·é›¢èµ°è€…", "Middle Distance Runner"), lang("é•·è·é›¢èµ°è€…", "Long Distance Runner")
+			traitrefn2 = lang("’Z‹——£‘–Ò", "Short Distance Runner"), lang("’†‹——£‘–Ò", "Middle Distance Runner"), lang("’·‹——£‘–Ò", "Long Distance Runner")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é•·å¹´ã®ç‰¹è¨“ã®æˆæœãŒã‚¹ã‚¿ãƒŸãƒŠã‚’é«˜ã‚ã‚‹", "Years of training strengthens your stamina."), lang("ã‚ãªãŸã¯æŒä¹…åŠ›ãŒã‚ã‚‹[ã‚¹ã‚¿ãƒŸãƒŠ+]", "You have good stamina. [Stamina+]"), lang("ã‚ãªãŸã¯ã‹ãªã‚ŠæŒä¹…åŠ›ãŒã‚ã‚‹[ã‚¹ã‚¿ãƒŸãƒŠ++]", "You have very good stamina. [Stamina++]"), lang("ã‚ãªãŸã®æŒä¹…åŠ›ã¯æã‚ã—ã„[ã‚¹ã‚¿ãƒŸãƒŠä¸Šæ˜‡]", "You have outstanding stamina. [Stamina+++]")
+				traitrefn(2) = lang("’·”N‚Ì“ÁŒP‚Ì¬‰Ê‚ªƒXƒ^ƒ~ƒi‚ğ‚‚ß‚é", "Years of training strengthens your stamina."), lang("‚ ‚È‚½‚Í‹v—Í‚ª‚ ‚é[ƒXƒ^ƒ~ƒi+]", "You have good stamina. [Stamina+]"), lang("‚ ‚È‚½‚Í‚©‚È‚è‹v—Í‚ª‚ ‚é[ƒXƒ^ƒ~ƒi++]", "You have very good stamina. [Stamina++]"), lang("‚ ‚È‚½‚Ì‹v—Í‚Í‹°‚ë‚µ‚¢[ƒXƒ^ƒ~ƒiã¸]", "You have outstanding stamina. [Stamina+++]")
 			}
 			return 1
 		}
@@ -19,9 +19,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_DRAIN_BLOOD ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("å¸è¡€é¬¼", "Vampiric Ability")
+			traitrefn2 = lang("‹zŒŒ‹S", "Vampiric Ability")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å¸è¡€é¬¼ã®å‹äººã‹ã‚‰è¡€ã®å¸ã„æ–¹ã‚’å­¦ã¶", "Your vampire friend teaches you how to suck blood."), lang("ã‚ãªãŸã¯è¡€ã‚’å¸ã†ã“ã¨ãŒã§ãã‚‹", "You can suck blood now.")
+				traitrefn(2) = lang("‹zŒŒ‹S‚Ì—Fl‚©‚çŒŒ‚Ì‹z‚¢•û‚ğŠw‚Ô", "Your vampire friend teaches you how to suck blood."), lang("‚ ‚È‚½‚ÍŒŒ‚ğ‹z‚¤‚±‚Æ‚ª‚Å‚«‚é", "You can suck blood now.")
 			}
 			return 1
 		}
@@ -33,9 +33,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_CHEER ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("æŒ‡å°è€…", "Natural Leader")
+			traitrefn2 = lang("w“±Ò", "Natural Leader")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æŒ‡å°ã‚’ç¶šã‘ã‚‹ã†ã¡ã«ã€ä»²é–“ã‚’ä¸€æ™‚çš„ã«å¼·ãã™ã‚‹æ–¹æ³•ã‚’è¦‹ã¤ã‘ã‚‹", "You find how to strengthen your allies for a short time."), lang("ã‚ãªãŸã¯ä»²é–“ã‚’ä¸€æ™‚çš„ã«å¼·ãã§ãã‚‹", "You can temporally strengthen your allies.")
+				traitrefn(2) = lang("w“±‚ğ‘±‚¯‚é‚¤‚¿‚ÉA’‡ŠÔ‚ğˆê“I‚É‹­‚­‚·‚é•û–@‚ğŒ©‚Â‚¯‚é", "You find how to strengthen your allies for a short time."), lang("‚ ‚È‚½‚Í’‡ŠÔ‚ğˆê“I‚É‹­‚­‚Å‚«‚é", "You can temporally strengthen your allies.")
 			}
 			return 1
 		}
@@ -47,9 +47,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_KNOCKOUT ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("æ‰‹åŠ æ¸›", "Knockout")
+			traitrefn2 = lang("è‰ÁŒ¸", "Knockout")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ä¿®è¡Œã®ä¸­ã§ã€ç›¸æ‰‹ã‚’æ®ºã•ãšã«æ°—çµ¶ã•ã›ã‚‹æ”»æ’ƒã‚’ç·¨ã¿å‡ºã™", "You find how to stun enemy without killing."), lang("ã‚ãªãŸã¯æ•µã«æ‰‹åŠ æ¸›ã—ã¦æ”»æ’ƒãŒã§ãã‚‹", "You can attack it easy on the enemy.")
+				traitrefn(2) = lang("Cs‚Ì’†‚ÅA‘Šè‚ğE‚³‚¸‚É‹Câ‚³‚¹‚éUŒ‚‚ğ•Ò‚İo‚·", "You find how to stun enemy without killing."), lang("‚ ‚È‚½‚Í“G‚Éè‰ÁŒ¸‚µ‚ÄUŒ‚‚ª‚Å‚«‚é", "You can attack it easy on the enemy.")
 			}
 			return 1
 		}
@@ -61,9 +61,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_EYE_OF_MANA ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("é­”çœ¼", "Magic Eye")
+			traitrefn2 = lang("–‚Šá", "Magic Eye")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è¬ã®å„€å¼ã«å·»ãè¾¼ã¾ã‚Œã€çœ¼ã«å‘ªè¡“ã‚’æ–½ã•ã‚Œã‚‹", "You are subjected to the magic in the eyes by the ritual."), lang("ã‚ãªãŸã®çœ¼ã«ã¯å¾—ä½“ã®ã—ã‚Œãªã„é­”åŠ›ãŒå®¿ã£ã¦ã„ã‚‹", "Your eye is harboring the magic of mystery.")
+				traitrefn(2) = lang("“ä‚Ì‹V®‚ÉŠª‚«‚Ü‚êAŠá‚Éôp‚ğ{‚³‚ê‚é", "You are subjected to the magic in the eyes by the ritual."), lang("‚ ‚È‚½‚ÌŠá‚É‚Í“¾‘Ì‚Ì‚µ‚ê‚È‚¢–‚—Í‚ªh‚Á‚Ä‚¢‚é", "Your eye is harboring the magic of mystery.")
 			}
 			return 1
 		}
@@ -75,9 +75,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_MISTELTEIN ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("é­”å°æ¤ç‰©ã®çŸ¥è­˜", "Magical plant knowledge")
+			traitrefn2 = lang("–‚“±A•¨‚Ì’m¯", "Magical plant knowledge")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æ‹¾ã£ãŸæ‰‹è¨˜ã®æ–­ç‰‡ã‹ã‚‰ç‰¹æ®Šãªæ¤ç‰©ã®å¬å–šæ³•ã‚’çŸ¥ã‚‹", "You learned how to summon magical plants from this note."), lang("ã‚ãªãŸã¯é­”åŠ›ã‚’å¸¯ã³ãŸæ¤ç‰©ã‚’å‘¼ã³å‡ºã—æ“ã‚Œã‚‹", "You can summon and manipulate magical plants.")
+				traitrefn(2) = lang("E‚Á‚½è‹L‚Ì’f•Ğ‚©‚ç“Áê‚ÈA•¨‚Ì¢Š«–@‚ğ’m‚é", "You learned how to summon magical plants from this note."), lang("‚ ‚È‚½‚Í–‚—Í‚ğ‘Ñ‚Ñ‚½A•¨‚ğŒÄ‚Ño‚µ‘€‚ê‚é", "You can summon and manipulate magical plants.")
 			}
 			return 1
 		}
@@ -89,9 +89,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_DIMENSIONAL_MOVE ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("ç©ºé–“æ­ªæ›²", "Dimensional Move")
+			traitrefn2 = lang("‹óŠÔ˜c‹È", "Dimensional Move")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å¤¢ã®ä¸­ã§è¿‘ãã¸ã®ç¬é–“ç§»å‹•ã‚’æ€ã„ã¤ã", "You hit upon an idea of insta-teleport from a dream."), lang("ã‚ãªãŸã¯ç©ºé–“ã‚’æ›²ã’ã‚‰ã‚Œã‚‹", "You can insta-teleport to nearby tiles.")
+				traitrefn(2) = lang("–²‚Ì’†‚Å‹ß‚­‚Ö‚ÌuŠÔˆÚ“®‚ğv‚¢‚Â‚­", "You hit upon an idea of insta-teleport from a dream."), lang("‚ ‚È‚½‚Í‹óŠÔ‚ğ‹È‚°‚ç‚ê‚é", "You can insta-teleport to nearby tiles.")
 			}
 			return 1
 		}
@@ -103,9 +103,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_FIRE_BREATH ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("ç«ç‚èŠ¸", "Fire Breath")
+			traitrefn2 = lang("‰Î‰ŠŒ|", "Fire Breath")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é…’ã‚’é£²ã‚“ã§ã„ã‚‹ã†ã¡ã«ç«ã‚’å™´ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹", "Too much drinking makes you want to breath fire."), lang("ã‚ãªãŸã¯å£ã‹ã‚‰ç«ã‚’å™´ã‘ã‚‹", "You can breath fire.")
+				traitrefn(2) = lang("ğ‚ğˆù‚ñ‚Å‚¢‚é‚¤‚¿‚É‰Î‚ğ•¬‚¯‚é‚æ‚¤‚É‚È‚é", "Too much drinking makes you want to breath fire."), lang("‚ ‚È‚½‚ÍŒû‚©‚ç‰Î‚ğ•¬‚¯‚é", "You can breath fire.")
 			}
 			return 1
 		}
@@ -117,9 +117,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_TOUCH_OF_SLEEP ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("å‚¬çœ è¡“å¸«", "Hypnotism")
+			traitrefn2 = lang("Ã–°pt", "Hypnotism")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("çªå¦‚ã¨ã—ã¦çœ ã‚Šã®æ‰‹ã‚’è¦šãˆã‚‹", "Suddenly, you know how to make everyone sleep."), lang("ã‚ãªãŸã¯å‚¬çœ ã‚’ã‹ã‘ã‚‹ã“ã¨ãŒã§ãã‚‹", "You can hypnotize single target.")
+				traitrefn(2) = lang("“Ë”@‚Æ‚µ‚Ä–°‚è‚Ìè‚ğŠo‚¦‚é", "Suddenly, you know how to make everyone sleep."), lang("‚ ‚È‚½‚ÍÃ–°‚ğ‚©‚¯‚é‚±‚Æ‚ª‚Å‚«‚é", "You can hypnotize single target.")
 			}
 			return 1
 		}
@@ -131,9 +131,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_TOUCH_OF_POISON ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("æ¯’ã®çŸ¥æµ", "Poison Nail")
+			traitrefn2 = lang("“Å‚Ì’mŒb", "Poison Nail")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æ¯’ã®ç ”ç©¶ã®çµæœã€æ¯’ã®æ‰‹ã‚’è¦šãˆã‚‹", "Researching poisons leads you to a method to poison others."), lang("ã‚ãªãŸã¯æ¯’ã‚’ç››ã‚‹ã“ã¨ãŒã§ãã‚‹", "You can poison a creature.")
+				traitrefn(2) = lang("“Å‚ÌŒ¤‹†‚ÌŒ‹‰ÊA“Å‚Ìè‚ğŠo‚¦‚é", "Researching poisons leads you to a method to poison others."), lang("‚ ‚È‚½‚Í“Å‚ğ·‚é‚±‚Æ‚ª‚Å‚«‚é", "You can poison a creature.")
 			}
 			return 1
 		}
@@ -145,9 +145,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_FASCINATION_DANCE ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("èˆè¸", "Sexy Dance"), lang("èˆè¸", "Sexy Dance")
+			traitrefn2 = lang("•‘“¥", "Sexy Dance"), lang("•‘“¥", "Sexy Dance")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è¦‹æƒšã‚Œã‚‹ã‚ˆã†ãªè¸Šã‚Šã‚’èº«ã«ç€ã‘ã‚‹", "You learn a sexy dance."), lang("ã‚ãªãŸã®è¸Šã‚Šã¯ã¨ã¦ã‚‚é­…åŠ›çš„ã ", "Your dance is very attractive."), lang("ã‚ãªãŸã®è¸Šã‚Šã¯ã¨ã¦ã‚‚é­…åŠ›çš„ã ", "Your dance is very attractive.")
+				traitrefn(2) = lang("Œ©›‚ê‚é‚æ‚¤‚È—x‚è‚ğg‚É’…‚¯‚é", "You learn a sexy dance."), lang("‚ ‚È‚½‚Ì—x‚è‚Í‚Æ‚Ä‚à–£—Í“I‚¾", "Your dance is very attractive."), lang("‚ ‚È‚½‚Ì—x‚è‚Í‚Æ‚Ä‚à–£—Í“I‚¾", "Your dance is very attractive.")
 			}
 			return 1
 		}
@@ -159,9 +159,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_UNCONTROL ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("åŠ›ã®æš´èµ°", "Uncontrollable power"), lang("åŠ›ã®æš´èµ°", "Uncontrollable power"), lang("åŠ›ã®æš´èµ°", "Uncontrollable power")
+			traitrefn2 = lang("—Í‚Ì–\‘–", "Uncontrollable power"), lang("—Í‚Ì–\‘–", "Uncontrollable power"), lang("—Í‚Ì–\‘–", "Uncontrollable power")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å†…ã«æ½œã‚€è¬ã®åŠ›ã«æŒ¯ã‚Šå›ã•ã‚Œã‚‹", "Swayed by the mystery power that lurks within."), lang("ã‚ãªãŸã¯åˆ¶å¾¡ã—ãã‚Œãªã„ä½•ã‹ã‚’ç§˜ã‚ã¦ã„ã‚‹", "You have hidden something that can not be controlled."), lang("ã‚ãªãŸã¯åˆ¶å¾¡ã—ãã‚Œãªã„ä½•ã‹ã‚’ç§˜ã‚ã¦ã„ã‚‹", "You have hidden something that can not be controlled."), lang("ã‚ãªãŸã¯åˆ¶å¾¡ã—ãã‚Œãªã„ä½•ã‹ã‚’ç§˜ã‚ã¦ã„ã‚‹", "You have hidden something that can not be controlled.")
+				traitrefn(2) = lang("“à‚Éö‚Ş“ä‚Ì—Í‚ÉU‚è‰ñ‚³‚ê‚é", "Swayed by the mystery power that lurks within."), lang("‚ ‚È‚½‚Í§Œä‚µ‚«‚ê‚È‚¢‰½‚©‚ğ”é‚ß‚Ä‚¢‚é", "You have hidden something that can not be controlled."), lang("‚ ‚È‚½‚Í§Œä‚µ‚«‚ê‚È‚¢‰½‚©‚ğ”é‚ß‚Ä‚¢‚é", "You have hidden something that can not be controlled."), lang("‚ ‚È‚½‚Í§Œä‚µ‚«‚ê‚È‚¢‰½‚©‚ğ”é‚ß‚Ä‚¢‚é", "You have hidden something that can not be controlled.")
 			}
 			return 1
 		}
@@ -173,9 +173,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_ACCOUNTANT ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 2, 1, 0, 100, -1
-			traitrefn2 = lang("è¦‹ç¿’ã„ä¼šè¨ˆå£«", "Apprentice Accountant"), lang("ç†Ÿç·´ä¼šè¨ˆå£«", "Expert Accountant")
+			traitrefn2 = lang("Œ©K‚¢‰ïŒvm", "Apprentice Accountant"), lang("n—û‰ïŒvm", "Expert Accountant")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ä¼šè¨ˆã®æŠ€èƒ½ã‚’ç£¨ãç¨é‡‘ã‚’æ¸›ã‚‰ã™", "Working as an accountant reduces your tax payment."), lang("ã‚ãªãŸã¯ç¨é‡‘ã®è¨ˆç®—ã«å¼·ã„[ç¨é‡‘7%æ¸›]", "You are good at calculating taxes. [TAX-7%]"), lang("ã‚ãªãŸã¯ç¨é‡‘ã®è¨ˆç®—ã«ã¨ã¦ã‚‚å¼·ã„[ç¨é‡‘15%æ¸›]", "You are very good at calculating taxes. [TAX-15%]")
+				traitrefn(2) = lang("‰ïŒv‚Ì‹Z”\‚ğ–‚«Å‹à‚ğŒ¸‚ç‚·", "Working as an accountant reduces your tax payment."), lang("‚ ‚È‚½‚ÍÅ‹à‚ÌŒvZ‚É‹­‚¢[Å‹à7%Œ¸]", "You are good at calculating taxes. [TAX-7%]"), lang("‚ ‚È‚½‚ÍÅ‹à‚ÌŒvZ‚É‚Æ‚Ä‚à‹­‚¢[Å‹à15%Œ¸]", "You are very good at calculating taxes. [TAX-15%]")
 			}
 			return 1
 		}
@@ -184,9 +184,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_QUARTERMASTER ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 2, 1, 0, 100, -1
-			traitrefn2 = lang("è¦‹ç¿’ã„è£œçµ¦ä¿‚", "Apprentice Quartermaster"), lang("ç†Ÿç·´è£œçµ¦ä¿‚", "Expert Quartermaster")
+			traitrefn2 = lang("Œ©K‚¢•â‹‹ŒW", "Apprentice Quartermaster"), lang("n—û•â‹‹ŒW", "Expert Quartermaster")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è£œçµ¦ä¿‚ã¨ã—ã¦ã®çµŒé¨“ãŒã€çµ¦æ–™ç‰©è³‡ã®å“è³ªã‚’ä¸Šã’ã‚‹", "Working as a quartermaster gives you better payoff."), lang("ã‚ãªãŸã¯ãŸã¾ã«è³ªã®é«˜ã„è£œçµ¦å“ã‚’å—ã‘å–ã‚‹", "You sometimes receive quality supplies."), lang("ã‚ãªãŸã¯é »ç¹ã«è³ªã®é«˜ã„è£œçµ¦å“ã‚’å—ã‘å–ã‚‹", "You frequently receive quality supplies.")
+				traitrefn(2) = lang("•â‹‹ŒW‚Æ‚µ‚Ä‚ÌŒoŒ±‚ªA‹‹—¿•¨‘‚Ì•i¿‚ğã‚°‚é", "Working as a quartermaster gives you better payoff."), lang("‚ ‚È‚½‚Í‚½‚Ü‚É¿‚Ì‚‚¢•â‹‹•i‚ğó‚¯æ‚é", "You sometimes receive quality supplies."), lang("‚ ‚È‚½‚Í•p”É‚É¿‚Ì‚‚¢•â‹‹•i‚ğó‚¯æ‚é", "You frequently receive quality supplies.")
 			}
 			return 1
 		}
@@ -195,9 +195,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_RES_CURSE ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("ç¥ˆç¥·å¸«", "Exorcist")
+			traitrefn2 = lang("‹F“˜t", "Exorcist")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ç¥ˆç¥·ã‚’æ§ã’ã‚‹ã“ã¨ã§ã€å‘ªã„ã®è¨€è‘‰ã®åŠ¹åŠ›ã‚’å¼±ã‚ã‚‹", "Your prayer weakens the power of cursed whisperings."), lang("ã‚ãªãŸã®ç¥ˆã‚Šã¯å‘ªã„ã®è¨€è‘‰ã‚’æ»ãæ¶ˆã™", "Your prayer nullifies cursed whisperings.")
+				traitrefn(2) = lang("‹F“˜‚ğ•ù‚°‚é‚±‚Æ‚ÅAô‚¢‚ÌŒ¾—t‚ÌŒø—Í‚ğã‚ß‚é", "Your prayer weakens the power of cursed whisperings."), lang("‚ ‚È‚½‚Ì‹F‚è‚Íô‚¢‚ÌŒ¾—t‚ğ‘~‚«Á‚·", "Your prayer nullifies cursed whisperings.")
 			}
 			return 1
 		}
@@ -206,9 +206,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_INDEPENDENT ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("å­¤é«˜", "Independent")
+			traitrefn2 = lang("ŒÇ‚", "Independent")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æœ€å¾Œã«ä¿¡ã˜ã‚‰ã‚Œã‚‹ã®ã¯ã€è‡ªåˆ†ã®åŠ›ã ã‘ã¨ã„ã†è€ƒãˆã«è‡³ã‚‹", "To the very end, you only believe in your own power."), lang("ã‚ãªãŸã¯ç‹¬ã‚Šã®æ–¹ãŒè¡Œå‹•ã—ã‚„ã™ã„[å˜ç‹¬æ™‚ã«é€Ÿåº¦+20%]", "You prefer to work alone. [SPD+20% when alone]")
+				traitrefn(2) = lang("ÅŒã‚ÉM‚¶‚ç‚ê‚é‚Ì‚ÍA©•ª‚Ì—Í‚¾‚¯‚Æ‚¢‚¤l‚¦‚ÉŠ‚é", "To the very end, you only believe in your own power."), lang("‚ ‚È‚½‚Í“Æ‚è‚Ì•û‚ªs“®‚µ‚â‚·‚¢[’P“Æ‚É‘¬“x+20%]", "You prefer to work alone. [SPD+20% when alone]")
 			}
 			return 1
 		}
@@ -217,9 +217,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_MOUNT_BOND ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("è¿…é¦¬ä¸€ä½“", "Mount Bond")
+			traitrefn2 = lang("v”nˆê‘Ì", "Mount Bond")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æˆ¦å ´ã‚’é¦¬ã¨å…±ã«é§†ã‘å›ã‚Šã€ä¹—é¦¬ç›¸æ‰‹ã¨ã®å‘¼å¸ã®åˆã‚ã›æ–¹ã‚’çŸ¥ã‚‹", "By mounting horses, you learned to follow your mount's rhythm."), lang("ã‚ãªãŸã¯é¦¬ä¸Šã§ã®æ­¦å™¨ã®æ‰±ã„ãŒå¾—æ„ã [ä¹—é¦¬æ™‚å‘½ä¸­ãƒšãƒŠãƒ«ãƒ†ã‚£ç·©å’Œ]", "You know how to handle weapons while riding. [Lowers to-hit penalty while riding]")
+				traitrefn(2) = lang("íê‚ğ”n‚Æ‹¤‚É‹ì‚¯‰ñ‚èAæ”n‘Šè‚Æ‚ÌŒÄ‹z‚Ì‡‚í‚¹•û‚ğ’m‚é", "By mounting horses, you learned to follow your mount's rhythm."), lang("‚ ‚È‚½‚Í”nã‚Å‚Ì•Ší‚Ìˆµ‚¢‚ª“¾ˆÓ‚¾[æ”n–½’†ƒyƒiƒ‹ƒeƒBŠÉ˜a]", "You know how to handle weapons while riding. [Lowers to-hit penalty while riding]")
 			}
 			return 1
 		}
@@ -228,9 +228,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_GRAVITY_ACCEL ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("é‡åŠ›åˆ¶å¾¡", "Gravity Control"), lang("é‡åŠ›åˆ¶å¾¡", "Gravity Control")
+			traitrefn2 = lang("d—Í§Œä", "Gravity Control"), lang("d—Í§Œä", "Gravity Control")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æ”¹é€ ã‚’æ–½ã•ã‚Œé‡åŠ›ã¸å¹²æ¸‰ã§ãã‚‹ä½“è³ªã«ãªã‚‹", "Your genes allow you to manipulate gravity."), lang("ã‚ãªãŸã¯é‡åŠ›ã‚’æ“ã‚‹", "You manipulate gravity."), lang("ã‚ãªãŸã¯é‡åŠ›ã‚’æ“ã‚‹", "You manipulate gravity."), lang("ã‚ãªãŸã¯é‡åŠ›ã‚’æ“ã‚‹", "You manipulate gravity.")
+				traitrefn(2) = lang("‰ü‘¢‚ğ{‚³‚êd—Í‚ÖŠ±Â‚Å‚«‚é‘Ì¿‚É‚È‚é", "Your genes allow you to manipulate gravity."), lang("‚ ‚È‚½‚Íd—Í‚ğ‘€‚é", "You manipulate gravity."), lang("‚ ‚È‚½‚Íd—Í‚ğ‘€‚é", "You manipulate gravity."), lang("‚ ‚È‚½‚Íd—Í‚ğ‘€‚é", "You manipulate gravity.")
 			}
 			return 1
 		}
@@ -242,9 +242,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_VINDALIAN_JIUJITSU ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("æŸ”è¡“", "Jiu-jitsu"), lang("æŸ”è¡“", "Jiu-jitsu")
+			traitrefn2 = lang("_p", "Jiu-jitsu"), lang("_p", "Jiu-jitsu")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å±±ã§ä¼šã£ãŸè¬ã®è€äººã‹ã‚‰å¤ã®æ­¦è¡“ã‚’ä¼æˆã•ã‚Œã‚‹", "You have been taught martial arts by a mysterious old man."), lang("ã‚ãªãŸã¯æŸ”è¡“ã‚’ä¼šå¾—ã—ã¦ã„ã‚‹", "You have mastered Jiu-jitsu."), lang("ã‚ãªãŸã¯æŸ”è¡“ã‚’ä¼šå¾—ã—ã¦ã„ã‚‹", "You have mastered Jiu-jitsu.")
+				traitrefn(2) = lang("R‚Å‰ï‚Á‚½“ä‚Ì˜Vl‚©‚çŒÃ‚Ì•p‚ğ“`ö‚³‚ê‚é", "You have been taught martial arts by a mysterious old man."), lang("‚ ‚È‚½‚Í_p‚ğ‰ï“¾‚µ‚Ä‚¢‚é", "You have mastered Jiu-jitsu."), lang("‚ ‚È‚½‚Í_p‚ğ‰ï“¾‚µ‚Ä‚¢‚é", "You have mastered Jiu-jitsu.")
 			}
 			return 1
 		}
@@ -256,9 +256,9 @@
 	if ( tid == TRAIT_NORMAL_SKILL_CASTING ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("ç£åŠ›æ“ä½œ", "Magnetic Manipulate"), lang("ç£åŠ›æ“ä½œ", "Magnetic Manipulate")
+			traitrefn2 = lang("¥—Í‘€ì", "Magnetic Manipulate"), lang("¥—Í‘€ì", "Magnetic Manipulate")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æ”¹é€ ã•ã‚Œã¦ç£åŠ›ã‚’æ“ã‚Œã‚‹ã‚ˆã†ã«ãªã‚‹", "As a result of body modification, you can manipulate magnetic force."), lang("ã‚ãªãŸã¯ç£åŠ›ã‚’è‡ªåœ¨ã«æ“ã‚‹", "You manipulate magnetic force."), lang("ã‚ãªãŸã¯ç£åŠ›ã‚’è‡ªåœ¨ã«æ“ã‚‹", "You manipulate magnetic force.")
+				traitrefn(2) = lang("‰ü‘¢‚³‚ê‚Ä¥—Í‚ğ‘€‚ê‚é‚æ‚¤‚É‚È‚é", "As a result of body modification, you can manipulate magnetic force."), lang("‚ ‚È‚½‚Í¥—Í‚ğ©İ‚É‘€‚é", "You manipulate magnetic force."), lang("‚ ‚È‚½‚Í¥—Í‚ğ©İ‚É‘€‚é", "You manipulate magnetic force.")
 			}
 			return 1
 		}
@@ -270,9 +270,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_SHIELD_BASH ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("ç›¾æ®´ã‚Š", "Shield Bash")
+			traitrefn2 = lang("‚‰£‚è", "Shield Bash")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ç›¾ã®æ‰±ã„ã‚’èº«ã«ã¤ã‘ã€ç›¾ã§ã®æ”»æ’ƒã®åŠ¹æœã‚’ä¸Šã’ã‚‹", "Mastering shields increased the power of your shield bashing."), lang("ã‚ãªãŸã¯ç›¾ã§ã®æ”»æ’ƒã«è¿½åŠ åŠ¹æœã‚’å¾—ã‚‹", "You can shield bash more effectively.")
+				traitrefn(2) = lang("‚‚Ìˆµ‚¢‚ğg‚É‚Â‚¯A‚‚Å‚ÌUŒ‚‚ÌŒø‰Ê‚ğã‚°‚é", "Mastering shields increased the power of your shield bashing."), lang("‚ ‚È‚½‚Í‚‚Å‚ÌUŒ‚‚É’Ç‰ÁŒø‰Ê‚ğ“¾‚é", "You can shield bash more effectively.")
 			}
 			if ( sorg(SKILL_NORMAL_SHIELD, CHARA_PLAYER) == 0 ) {
 				return -1
@@ -285,9 +285,9 @@
 	if ( tid == TRAIT_NORMAL_OTHER_GENTLE_FACE ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("å„ªã—ã„ç¬‘é¡”", "Gentle Face")
+			traitrefn2 = lang("—D‚µ‚¢ÎŠç", "Gentle Face")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å„ªã—ã„ç¬‘é¡”ã‚’ç¿’å¾—ã—ã€æ•µãŒé€ƒã’å‡ºã™ã®ã‚’é˜²ã", "Your gentle face prevents your enemies from escaping."), lang("ã‚ãªãŸã®ç¬‘é¡”ã¯æ•µã‚’æ²¹æ–­ã•ã›ã‚‹", "Your attacks don't cause enemies to run.")
+				traitrefn(2) = lang("—D‚µ‚¢ÎŠç‚ğK“¾‚µA“G‚ª“¦‚°o‚·‚Ì‚ğ–h‚®", "Your gentle face prevents your enemies from escaping."), lang("‚ ‚È‚½‚ÌÎŠç‚Í“G‚ğ–û’f‚³‚¹‚é", "Your attacks don't cause enemies to run.")
 			}
 			return 1
 		}
@@ -296,9 +296,9 @@
 	if ( tid == TRAIT_NORMAL_SKILL_DUAL_WIELD ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 2, 1, 0, 100, -1
-			traitrefn2 = lang("äºŒåˆ€æµã®ç¿’ç†Ÿ", "Ambidextrous"), lang("äºŒåˆ€æµã®é”äºº", "Improved Ambidextrous")
+			traitrefn2 = lang("“ñ“—¬‚ÌKn", "Ambidextrous"), lang("“ñ“—¬‚Ì’Bl", "Improved Ambidextrous")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é•·å¹´ã®ä¿®è¡Œã«ã‚ˆã‚ŠäºŒåˆ€æµã®æŠ€è¡“ã‚’ç£¨ã", "Years of training increases your two weapon fighting skill."), lang("ã‚ãªãŸã¯è¤‡æ•°ã®æ­¦å™¨ã‚’å·§ã¿ã«æ“ã‚‹[äºŒåˆ€æµ+4]", "You can handle multiple weapons. [Dual Wield+4]"), lang("ã‚ãªãŸã¯äºŒåˆ€æµã‚’æ¥µã‚ã¦ã„ã‚‹[äºŒåˆ€æµ+8]", "You mastered multiple weapon style. [Two Wield+8]")
+				traitrefn(2) = lang("’·”N‚ÌCs‚É‚æ‚è“ñ“—¬‚Ì‹Zp‚ğ–‚­", "Years of training increases your two weapon fighting skill."), lang("‚ ‚È‚½‚Í•¡”‚Ì•Ší‚ğI‚İ‚É‘€‚é[“ñ“—¬+4]", "You can handle multiple weapons. [Dual Wield+4]"), lang("‚ ‚È‚½‚Í“ñ“—¬‚ğ‹É‚ß‚Ä‚¢‚é[“ñ“—¬+8]", "You mastered multiple weapon style. [Two Wield+8]")
 			}
 			if ( sorg(SKILL_NORMAL_DUAL_WIELD, CHARA_PLAYER) == 0 ) {
 				return -1
@@ -311,9 +311,9 @@
 	if ( tid == TRAIT_NORMAL_RES_DARKNESS ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 2, 1, 0, 100, -1
-			traitrefn2 = lang("æš—é—‡ã¸ã®é©æ­£", "Conquer Darkness"), lang("æš—é—‡ã¸ã®å¼·ã„é©æ­£", "Conquer Deep Darkness")
+			traitrefn2 = lang("ˆÃˆÅ‚Ö‚Ì“K³", "Conquer Darkness"), lang("ˆÃˆÅ‚Ö‚Ì‹­‚¢“K³", "Conquer Deep Darkness")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("åœ°åº•ã§ã®ç”Ÿæ´»ãŒæš—é»’ã¸ã®è€æ€§ã‚’é«˜ã‚ã‚‹", "Living in darkness makes you resistant to darkness."), lang("ã‚ãªãŸã¯æš—é—‡ã«æ…£ã‚Œã¦ã„ã‚‹[æš—é»’è€æ€§å¼·åŒ–]", "You don't fear darkness. [RES Darkness+]"), lang("ã‚ãªãŸã¯é—‡ã®ä¸­ã§ç”Ÿæ´»ã§ãã‚‹[æš—é»’è€æ€§å¼·åŒ–]", "You can dance in darkness. [RES Darkness++]")
+				traitrefn(2) = lang("’n’ê‚Å‚Ì¶Šˆ‚ªˆÃ•‚Ö‚Ì‘Ï«‚ğ‚‚ß‚é", "Living in darkness makes you resistant to darkness."), lang("‚ ‚È‚½‚ÍˆÃˆÅ‚ÉŠµ‚ê‚Ä‚¢‚é[ˆÃ•‘Ï«‹­‰»]", "You don't fear darkness. [RES Darkness+]"), lang("‚ ‚È‚½‚ÍˆÅ‚Ì’†‚Å¶Šˆ‚Å‚«‚é[ˆÃ•‘Ï«‹­‰»]", "You can dance in darkness. [RES Darkness++]")
 			}
 			return 1
 		}
@@ -323,9 +323,9 @@
 	if ( tid == TRAIT_NORMAL_RES_POISON ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 2, 1, 0, 100, -1
-			traitrefn2 = lang("å…ç–«", "Poison Tolerance"), lang("å¼·ã„å…ç–«", "More Poison Tolerance")
+			traitrefn2 = lang("–Æ‰u", "Poison Tolerance"), lang("‹­‚¢–Æ‰u", "More Poison Tolerance")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è²´æ—ã®æ¯’è¦‹ä¿‚ã®ãŠã‹ã’ã§æ¯’ã¸ã®è€æ€§ã‚’å¾—ã‚‹", "Being a taster for a noble grants you resistance to poison."), lang("ã‚ãªãŸã¯æ¯’ã«å…ç–«ãŒã‚ã‚‹[æ¯’è€æ€§å¼·åŒ–]", "You have a tolerance to poison. [RES Poison+]"), lang("ã‚ãªãŸã«ã¯æ¯’ã«å¼·ã„å…ç–«ãŒã‚ã‚‹[æ¯’è€æ€§å¼·åŒ–]", "You have a strong tolerance to poison. [RES Poison++]")
+				traitrefn(2) = lang("‹M‘°‚Ì“ÅŒ©ŒW‚Ì‚¨‚©‚°‚Å“Å‚Ö‚Ì‘Ï«‚ğ“¾‚é", "Being a taster for a noble grants you resistance to poison."), lang("‚ ‚È‚½‚Í“Å‚É–Æ‰u‚ª‚ ‚é[“Å‘Ï«‹­‰»]", "You have a tolerance to poison. [RES Poison+]"), lang("‚ ‚È‚½‚É‚Í“Å‚É‹­‚¢–Æ‰u‚ª‚ ‚é[“Å‘Ï«‹­‰»]", "You have a strong tolerance to poison. [RES Poison++]")
 			}
 			return 1
 		}
@@ -335,9 +335,9 @@
 	if ( tid == TRAIT_NORMAL_SKILL_NEGOTIATION ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("å…±æ„Ÿä¸Šæ‰‹", "Empathy"), lang("å…±æ„Ÿä¸Šæ‰‹", "Empathy")
+			traitrefn2 = lang("‹¤Š´ãè", "Empathy"), lang("‹¤Š´ãè", "Empathy")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ç›¸æ‰‹ã®è€ƒãˆã‚’ç†è§£ã—å¯¾å¿œã™ã‚‹æŠ€è¡“ã‚’å­¦ã¶", "You learn the skill to understand and respond to enemy thoughts."), lang("ã‚ãªãŸã®è¨€è‘‰ã¯å¿ƒã«éŸ¿ã", "Your words resonate within their hearts."), lang("ã‚ãªãŸã®è¨€è‘‰ã¯å¿ƒã«éŸ¿ã", "Your words resonate within their hearts.")
+				traitrefn(2) = lang("‘Šè‚Ìl‚¦‚ğ—‰ğ‚µ‘Î‰‚·‚é‹Zp‚ğŠw‚Ô", "You learn the skill to understand and respond to enemy thoughts."), lang("‚ ‚È‚½‚ÌŒ¾—t‚ÍS‚É‹¿‚­", "Your words resonate within their hearts."), lang("‚ ‚È‚½‚ÌŒ¾—t‚ÍS‚É‹¿‚­", "Your words resonate within their hearts.")
 			}
 			return 1
 		}
@@ -352,9 +352,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_SAINT ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("è–è€…", "Saint"), lang("è–è€…", "Saint")
+			traitrefn2 = lang("¹Ò", "Saint"), lang("¹Ò", "Saint")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ç¥å®˜ã®ä¸‹ã§ä¿®è¡Œã—ç¥è–ãªåŠ›ã‚’è¡Œä½¿ã§ãã‚‹ã‚ˆã†ã«ãªã‚‹", "Training under a priest has taught you sacred skills."), lang("ã‚ãªãŸã¯ç¥è–ãªåŠ›ã‚’è¡Œä½¿ã™ã‚‹", "You wield divine power."), lang("ã‚ãªãŸã¯ç¥è–ãªåŠ›ã‚’è¡Œä½¿ã™ã‚‹", "You wield divine power.")
+				traitrefn(2) = lang("_Š¯‚Ì‰º‚ÅCs‚µ_¹‚È—Í‚ğsg‚Å‚«‚é‚æ‚¤‚É‚È‚é", "Training under a priest has taught you sacred skills."), lang("‚ ‚È‚½‚Í_¹‚È—Í‚ğsg‚·‚é", "You wield divine power."), lang("‚ ‚È‚½‚Í_¹‚È—Í‚ğsg‚·‚é", "You wield divine power.")
 			}
 			return 1
 		}
@@ -363,12 +363,26 @@
 		}
 		return 1
 	}
+	if ( tid == TRAIT_NORMAL_SPACT_WICKED ) {//Wicked Blade
+		if ( traitmode == 0 ) {
+			traitref = 0, 0, 1, 1, 0, 100, -1
+			traitrefn2 = lang("ˆ«ç…‚È", "Wicked"), lang("ˆ«ç…‚È", "Wicked")
+			if ( trait(tid) >= 0 ) {
+				traitrefn(2) = lang("‚ ‚È‚½‚Í“à‚È‚éˆ«‚ğŠoÁ‚³‚¹‚½", "You've awakened the evil within."), lang("‚ ‚È‚½‚Ì—Í‚Íc“‚³‚Æˆ«‚É‚ ‚é", "Your power lies in cruelty and evil."), lang("‚ ‚È‚½‚Ì—Í‚Íc“‚³‚Æˆ«‚É‚ ‚é", "Your power lies in cruelty and evil.")
+			}
+			return 1
+		}
+		if ( spact(SKILL_SPACT_WICKED_BLADE - STARTING_SKILL_SPACT) == 0 ) {
+			spact(SKILL_SPACT_WICKED_BLADE - STARTING_SKILL_SPACT) = 1
+		}
+		return 1
+	}
 	if ( tid == TRAIT_NORMAL_STAT_LUC ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 3, 1, 0, 100, -1
-			traitrefn2 = lang("å¹¸é‹ã®æŒã¡ä¸»", "Lucky"), lang("é¡ç¨€ãªå¹¸é‹", "Incredibly Lucky"), lang("å¹¸é‹ã®å¥³ç¥ã®å¯µæ„›", "Goddess of Luck")
+			traitrefn2 = lang("K‰^‚Ì‚¿å", "Lucky"), lang("—Ş‹H‚ÈK‰^", "Incredibly Lucky"), lang("K‰^‚Ì—_‚Ì’ˆ¤", "Goddess of Luck")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("æµã‚Œæ˜Ÿã‚’è¦‹ã¦å¹¸é‹ã‚’æ‰‹ã«ã™ã‚‹", "Sighting a falling star brings you luck."), lang("ã‚ãªãŸã¯å¹¸é‹ã®æŒã¡ä¸»ã ", "You are lucky"), lang("ã‚ãªãŸã¯é¡ç¨€ãªå¹¸é‹ã®æŒã¡ä¸»ã ", "You can rely on a good dose of luck."), lang("ã‚ãªãŸã¯å¹¸é‹ã®å¥³ç¥ã®å¯µæ„›ã‚’å—ã‘ã¦ã„ã‚‹", "The goddess of luck smiles upon you.")
+				traitrefn(2) = lang("—¬‚ê¯‚ğŒ©‚ÄK‰^‚ğè‚É‚·‚é", "Sighting a falling star brings you luck."), lang("‚ ‚È‚½‚ÍK‰^‚Ì‚¿å‚¾", "You are lucky"), lang("‚ ‚È‚½‚Í—Ş‹H‚ÈK‰^‚Ì‚¿å‚¾", "You can rely on a good dose of luck."), lang("‚ ‚È‚½‚ÍK‰^‚Ì—_‚Ì’ˆ¤‚ğó‚¯‚Ä‚¢‚é", "The goddess of luck smiles upon you.")
 			}
 			return 1
 		}
@@ -378,9 +392,9 @@
 	if ( tid == TRAIT_NORMAL_STAT_LIFE ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 5, 1, 0, 100, -1
-			traitrefn2 = lang("è‹¦è¡Œè€…è¦‹ç¿’ã„", "Apprentice Ascetic"), lang("è‹¦è¡Œè€…", "Journeyman Ascetic"), lang("ç†Ÿç·´ã®è‹¦è¡Œè€…", "Expert Ascetic"), lang("è‹¦è¡Œã®é”äºº", "Master Ascetic"), lang("ä¼èª¬çš„è‹¦è¡Œè€…", "Legendary Ascetic")
+			traitrefn2 = lang("‹êsÒŒ©K‚¢", "Apprentice Ascetic"), lang("‹êsÒ", "Journeyman Ascetic"), lang("n—û‚Ì‹êsÒ", "Expert Ascetic"), lang("‹ês‚Ì’Bl", "Master Ascetic"), lang("“`à“I‹êsÒ", "Legendary Ascetic")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è‹¦è¡Œã‚’é€šã˜ã¦HPã‚’å¢—ã‚„ã™", "Being an ascetic increases your HP."), lang("ã‚ãªãŸã¯è‹¦è¡Œè€…ã®è¦‹ç¿’ã„ã [HP+5%]", "You are an apprentice ascetic. [HP+5%]"), lang("ã‚ãªãŸã¯ç«‹æ´¾ãªè‹¦è¡Œè€…ã [HP+10%]", "You are a journeyman ascetic. [HP+10%]"), lang("ã‚ãªãŸã¯ç†Ÿç·´ã—ãŸè‹¦è¡Œè€…ã [HP+15%]", "You are an expert ascetic. [HP+15%]"), lang("ã‚ãªãŸã¯è‹¦è¡Œã®é”äººã [HP+20%]", "You are a master ascetic. [HP+20%]"), lang("ã‚ãªãŸã¯ä¼èª¬çš„åè‹¦è¡Œè€…ã [HP+25%]", "You are a legendary ascetic. [HP+25%]")
+				traitrefn(2) = lang("‹ês‚ğ’Ê‚¶‚ÄHP‚ğ‘‚â‚·", "Being an ascetic increases your HP."), lang("‚ ‚È‚½‚Í‹êsÒ‚ÌŒ©K‚¢‚¾[HP+5%]", "You are an apprentice ascetic. [HP+5%]"), lang("‚ ‚È‚½‚Í—§”h‚È‹êsÒ‚¾[HP+10%]", "You are a journeyman ascetic. [HP+10%]"), lang("‚ ‚È‚½‚Ín—û‚µ‚½‹êsÒ‚¾[HP+15%]", "You are an expert ascetic. [HP+15%]"), lang("‚ ‚È‚½‚Í‹ês‚Ì’Bl‚¾[HP+20%]", "You are a master ascetic. [HP+20%]"), lang("‚ ‚È‚½‚Í“`à“I–¼‹êsÒ‚¾[HP+25%]", "You are a legendary ascetic. [HP+25%]")
 			}
 			return 1
 		}
@@ -390,9 +404,9 @@
 	if ( tid == TRAIT_NORMAL_STAT_MANA ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 5, 1, 0, 100, -1
-			traitrefn2 = lang("é­”åŠ›ã®éºä¼å­", "Magical Gene"), lang("é­”åŠ›ã®ç´°èƒ", "Magical Cell"), lang("é­”åŠ›ã®è¡€æ¶²", "Magical Blood"), lang("é­”åŠ›ã®è‚‰ä½“", "Magic Body"), lang("é­”åŠ›ã®æ”¯é…", "Magic Being")
+			traitrefn2 = lang("–‚—Í‚Ìˆâ“`q", "Magical Gene"), lang("–‚—Í‚Ì×–E", "Magical Cell"), lang("–‚—Í‚ÌŒŒ‰t", "Magical Blood"), lang("–‚—Í‚Ì“÷‘Ì", "Magic Body"), lang("–‚—Í‚Ìx”z", "Magic Being")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("éºä¼å­çµ„ã¿æ›ãˆã‚’è¡Œã„MPã‚’å¢—ã‚„ã™", "You gain MP by using gene manipulation."), lang("ã‚ãªãŸã¯é­”åŠ›ã®éºä¼å­ã‚’æŒã£ã¦ã„ã‚‹[MP+5%]", "Your genes contain magic. [MP+5%]"), lang("ã‚ãªãŸã¯é­”åŠ›ã®ç´°èƒã‚’æŒã£ã¦ã„ã‚‹[MP+10%]", "Your cells contain magic [MP+10%]"), lang("ã‚ãªãŸã«ã¯é­”åŠ›ã®è¡€æ¶²ãŒæµã‚Œã¦ã„ã‚‹[MP+15%]", "Your blood contains magic [MP+15%]"), lang("ã‚ãªãŸã®è‚‰ä½“ã¯é­”åŠ›ã‚’å¸¯ã³ã¦ã„ã‚‹[MP+20%]", "Your body is made of magic. [MP+20%]"), lang("ã‚ãªãŸã¯é­”åŠ›ã‚’æ”¯é…ã—ã¦ã„ã‚‹[MP+25%]", "Magic dominates your entire body. [MP+25%]")
+				traitrefn(2) = lang("ˆâ“`q‘g‚İŠ·‚¦‚ğs‚¢MP‚ğ‘‚â‚·", "You gain MP by using gene manipulation."), lang("‚ ‚È‚½‚Í–‚—Í‚Ìˆâ“`q‚ğ‚Á‚Ä‚¢‚é[MP+5%]", "Your genes contain magic. [MP+5%]"), lang("‚ ‚È‚½‚Í–‚—Í‚Ì×–E‚ğ‚Á‚Ä‚¢‚é[MP+10%]", "Your cells contain magic [MP+10%]"), lang("‚ ‚È‚½‚É‚Í–‚—Í‚ÌŒŒ‰t‚ª—¬‚ê‚Ä‚¢‚é[MP+15%]", "Your blood contains magic [MP+15%]"), lang("‚ ‚È‚½‚Ì“÷‘Ì‚Í–‚—Í‚ğ‘Ñ‚Ñ‚Ä‚¢‚é[MP+20%]", "Your body is made of magic. [MP+20%]"), lang("‚ ‚È‚½‚Í–‚—Í‚ğx”z‚µ‚Ä‚¢‚é[MP+25%]", "Magic dominates your entire body. [MP+25%]")
 			}
 			return 1
 		}
@@ -402,9 +416,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_BLADE_STRINGS ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("ç³¸ä½¿ã„", "Strings Assassin"), lang("ç³¸ä½¿ã„", "Strings Assassin")
+			traitrefn2 = lang("…g‚¢", "Strings Assassin"), lang("…g‚¢", "Strings Assassin")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é‹­ãä¸ˆå¤«ãªç³¸ã‚’éš ã—æŒã¤", "You concealed sharp durable strings."), lang("ã‚ãªãŸã¯ç³¸ã‚’è‡ªåœ¨ã«æ“ã‚‹", "You manipulate strings freely."), lang("ã‚ãªãŸã¯ç³¸ã‚’è‡ªåœ¨ã«æ“ã‚‹", "You manipulate strings freely.")
+				traitrefn(2) = lang("‰s‚­ä•v‚È…‚ğ‰B‚µ‚Â", "You concealed sharp durable strings."), lang("‚ ‚È‚½‚Í…‚ğ©İ‚É‘€‚é", "You manipulate strings freely."), lang("‚ ‚È‚½‚Í…‚ğ©İ‚É‘€‚é", "You manipulate strings freely.")
 			}
 			return 1
 		}
@@ -416,9 +430,9 @@
 	if ( tid == TRAIT_NORMAL_STAT_SPD ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("è¶…åŠ é€Ÿ", "Super Accel"), lang("è¶…åŠ é€Ÿ", "Super Accel")
+			traitrefn2 = lang("’´‰Á‘¬", "Super Accel"), lang("’´‰Á‘¬", "Super Accel")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("èª°ã‚ˆã‚Šã‚‚é€Ÿã•ã‚’è¿½æ±‚ã™ã‚‹", "You pursue speed more than anyone."), lang("ã‚ãªãŸã¯è¦æ ¼å¤–ã®åŠ é€ŸåŠ›ã‚’æŒã¤[åŠ é€ŸåŠ¹æœä¸Šæ˜‡]", "Your acceleration is amazing. [Speedspell+]"), lang("ã‚ãªãŸã¯è¦æ ¼å¤–ã®åŠ é€ŸåŠ›ã‚’æŒã¤[åŠ é€ŸåŠ¹æœä¸Šæ˜‡]", "Your acceleration is amazing. [Speedspell+]")
+				traitrefn(2) = lang("’N‚æ‚è‚à‘¬‚³‚ğ’Ç‹‚·‚é", "You pursue speed more than anyone."), lang("‚ ‚È‚½‚Í‹KŠiŠO‚Ì‰Á‘¬—Í‚ğ‚Â[‰Á‘¬Œø‰Êã¸]", "Your acceleration is amazing. [Speedspell+]"), lang("‚ ‚È‚½‚Í‹KŠiŠO‚Ì‰Á‘¬—Í‚ğ‚Â[‰Á‘¬Œø‰Êã¸]", "Your acceleration is amazing. [Speedspell+]")
 			}
 			return 1
 		}
@@ -428,9 +442,9 @@
 	if ( tid == TRAIT_NORMAL_STAT_PV ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("åœ°æ°—åˆ©ç”¨", "Ground Manipulater"), lang("åœ°æ°—åˆ©ç”¨", "Ground Manipulater"), lang("åœ°æ°—åˆ©ç”¨", "Ground Manipulater")
+			traitrefn2 = lang("’n‹C—˜—p", "Ground Manipulater"), lang("’n‹C—˜—p", "Ground Manipulater"), lang("’n‹C—˜—p", "Ground Manipulater")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("åœŸåœ°ãŒæŒã¤ã‚¨ãƒãƒ«ã‚®ãƒ¼ã«ç›®ã‚’ã¤ã‘æ“ä½œæ³•ã‚’æ¢ã™", "You discover the energy of the land."), lang("ã‚ãªãŸã¯åœŸåœ°ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’æ“ã‚‹", "You manipulate the ground."), lang("ã‚ãªãŸã¯åœŸåœ°ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’æ“ã‚‹", "You manipulate the ground."), lang("ã‚ãªãŸã¯åœŸåœ°ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’æ“ã‚‹", "You manipulate the ground.")
+				traitrefn(2) = lang("“y’n‚ª‚ÂƒGƒlƒ‹ƒM[‚É–Ú‚ğ‚Â‚¯‘€ì–@‚ğ’T‚·", "You discover the energy of the land."), lang("‚ ‚È‚½‚Í“y’n‚ÌƒGƒlƒ‹ƒM[‚ğ‘€‚é", "You manipulate the ground."), lang("‚ ‚È‚½‚Í“y’n‚ÌƒGƒlƒ‹ƒM[‚ğ‘€‚é", "You manipulate the ground."), lang("‚ ‚È‚½‚Í“y’n‚ÌƒGƒlƒ‹ƒM[‚ğ‘€‚é", "You manipulate the ground.")
 			}
 			return 1
 		}
@@ -442,9 +456,9 @@
 	if ( tid == TRAIT_NORMAL_DISCERNMENT ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("è¦‹æ¥µã‚", "Discernment"), lang("è¦‹æ¥µã‚", "Discernment"), lang("è¦‹æ¥µã‚", "Discernment")
+			traitrefn2 = lang("Œ©‹É‚ß", "Discernment"), lang("Œ©‹É‚ß", "Discernment"), lang("Œ©‹É‚ß", "Discernment")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å®¢å•†å£²ã®ä¸­ã§ç›¸æ‰‹ã‚’è¦‹æ¥µã‚ã‚‹çœ¼åŠ›ã‚’ç£¨ã", "In business life, you learned to judge people's age/sex/faith."), lang("ã‚ãªãŸã¯ç›¸æ‰‹ã®æ€§åˆ¥å¹´é½¢ä¿¡ä»°ã‚’è¦‹æŠœã", "You can see the other's gender, age, and religion."), lang("ã‚ãªãŸã¯ç›¸æ‰‹ã®æ€§åˆ¥å¹´é½¢ä¿¡ä»°ã‚’è¦‹æŠœã", "You can see the other's gender, age, and religion."), lang("ã‚ãªãŸã¯ç›¸æ‰‹ã®æ€§åˆ¥å¹´é½¢ä¿¡ä»°ã‚’è¦‹æŠœã", "You can see the other's gender, age, and religion.")
+				traitrefn(2) = lang("‹q¤”„‚Ì’†‚Å‘Šè‚ğŒ©‹É‚ß‚éŠá—Í‚ğ–‚­", "In business life, you learned to judge people's age/sex/faith."), lang("‚ ‚È‚½‚Í‘Šè‚Ì«•Ê”N—îM‹Â‚ğŒ©”²‚­", "You can see the other's gender, age, and religion."), lang("‚ ‚È‚½‚Í‘Šè‚Ì«•Ê”N—îM‹Â‚ğŒ©”²‚­", "You can see the other's gender, age, and religion."), lang("‚ ‚È‚½‚Í‘Šè‚Ì«•Ê”N—îM‹Â‚ğŒ©”²‚­", "You can see the other's gender, age, and religion.")
 			}
 			return 1
 		}
@@ -453,9 +467,9 @@
 	if ( tid == TRAIT_NORMAL_SPACT_SHIKI_ORIGAMI ) {
 		if ( traitmode == 0 ) {
 			traitref = 0, 0, 1, 1, 0, 100, -1
-			traitrefn2 = lang("å¼æŠ˜ç¥", "Shiki-Origami"), lang("å¼æŠ˜ç¥", "Shiki-Origami"), lang("å¼æŠ˜ç¥", "Shiki-Origami")
+			traitrefn2 = lang("®Ü_", "Shiki-Origami"), lang("®Ü_", "Shiki-Origami"), lang("®Ü_", "Shiki-Origami")
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è¬ã®æ›¸ç‰©ã‚’èª­ã¿è§£ãã€ç´™ã‚’æ“ã‚‹å¤ã®é­”è¡“ã‚’ç¿’å¾—ã™ã‚‹", "You have mastered the ancient arts of manipulating paper."), lang("ã‚ãªãŸã¯é­”æ³•ç´™ã‚’æ“ã‚‹", "You know magical papercrafts."), lang("ã‚ãªãŸã¯é­”æ³•ç´™ã‚’æ“ã‚‹", "You know magical papercrafts."), lang("ã‚ãªãŸã¯é­”æ³•ç´™ã‚’æ“ã‚‹", "You know magical papercrafts.")
+				traitrefn(2) = lang("“ä‚Ì‘•¨‚ğ“Ç‚İ‰ğ‚«A†‚ğ‘€‚éŒÃ‚Ì–‚p‚ğK“¾‚·‚é", "You have mastered the ancient arts of manipulating paper."), lang("‚ ‚È‚½‚Í–‚–@†‚ğ‘€‚é", "You know magical papercrafts."), lang("‚ ‚È‚½‚Í–‚–@†‚ğ‘€‚é", "You know magical papercrafts."), lang("‚ ‚È‚½‚Í–‚–@†‚ğ‘€‚é", "You know magical papercrafts.")
 			}
 			return 1
 		}
@@ -468,9 +482,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ã‚«ãƒ³ãƒ‹ãƒãƒªã‚ºãƒ ", "Cannibalism"), lang("ã‚ãªãŸã¯äººè‚‰ã‚’é£Ÿã¹ã‚‹ã“ã¨ã«æŠµæŠ—ãŒãªã„", "You have no trouble eating human flesh.")
+				traitrefn(2) = lang("ƒJƒ“ƒjƒoƒŠƒYƒ€", "Cannibalism"), lang("‚ ‚È‚½‚Íl“÷‚ğH‚×‚é‚±‚Æ‚É’ïR‚ª‚È‚¢", "You have no trouble eating human flesh.")
 			}
-			traitrefn = lang("ã‚ãªãŸã¯äººè‚‰ã®å‘³ã®è™œã«ãªã£ãŸã€‚", "You are charmed by the flavor of human flesh."), lang("ã‚ãªãŸã¯äººè‚‰ã®å‘³ã«é£½ããŸã€‚", "You can no longer accept human flesh.")
+			traitrefn = lang("‚ ‚È‚½‚Íl“÷‚Ì–¡‚Ì—¸‚É‚È‚Á‚½B", "You are charmed by the flavor of human flesh."), lang("‚ ‚È‚½‚Íl“÷‚Ì–¡‚É–O‚«‚½B", "You can no longer accept human flesh.")
 			return 1
 		}
 		return 1
@@ -479,12 +493,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -3, 3, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é‰„ã®çš®è†š", "Iron Skin"), lang("ã‚ãªãŸã®çš®è†šã¯ç¡¬ã„[PV+3]", "Your skin is hard. [PV+3]"), lang("ã‚ãªãŸã®çš®è†šã¯ã¨ã¦ã‚‚ç¡¬ã„[PV+6]", "Your skin is very hard. [PV+6]"), lang("ã‚ãªãŸã¯é‰„ã®ã‚ˆã†ãªçš®è†šã‚’æŒã£ã¦ã„ã‚‹[PV+9]", "Your skin is as hard as iron. [PV+9]")
+				traitrefn(2) = lang("“S‚Ì”ç•†", "Iron Skin"), lang("‚ ‚È‚½‚Ì”ç•†‚Íd‚¢[PV+3]", "Your skin is hard. [PV+3]"), lang("‚ ‚È‚½‚Ì”ç•†‚Í‚Æ‚Ä‚àd‚¢[PV+6]", "Your skin is very hard. [PV+6]"), lang("‚ ‚È‚½‚Í“S‚Ì‚æ‚¤‚È”ç•†‚ğ‚Á‚Ä‚¢‚é[PV+9]", "Your skin is as hard as iron. [PV+9]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("ã‚¢ãƒ«ãƒ“ãƒ", "Albino"), lang("ã‚ãªãŸã®çš®è†šã¯ç™½ã„[PV-3]", "Your skin is white. [PV-3]"), lang("ã‚ãªãŸã®çš®è†šã¯è„†ã„[PV-6]", "Your skin is fragile. [PV-6]"), lang("ã‚ãªãŸã®çš®è†šã¯å´©ã‚Œã¦ã„ã‚‹[PV-9]", "Your skin is collapsing. [PV-9]")
+				traitrefn(2) = lang("ƒAƒ‹ƒrƒm", "Albino"), lang("‚ ‚È‚½‚Ì”ç•†‚Í”’‚¢[PV-3]", "Your skin is white. [PV-3]"), lang("‚ ‚È‚½‚Ì”ç•†‚ÍÆ‚¢[PV-6]", "Your skin is fragile. [PV-6]"), lang("‚ ‚È‚½‚Ì”ç•†‚Í•ö‚ê‚Ä‚¢‚é[PV-9]", "Your skin is collapsing. [PV-9]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®çš®è†šã¯ç¡¬ããªã£ãŸã€‚", "Your skin becomes harder."), lang("ã‚ãªãŸã®çš®è†šã¯è–„ããªã£ãŸã€‚", "Your skin becomes pale.")
+			traitrefn = lang("‚ ‚È‚½‚Ì”ç•†‚Íd‚­‚È‚Á‚½B", "Your skin becomes harder."), lang("‚ ‚È‚½‚Ì”ç•†‚Í”–‚­‚È‚Á‚½B", "Your skin becomes pale.")
 			return 1
 		}
 		cdata(CDATA_PV, CHARA_PLAYER) += trait(tid) * 3
@@ -494,12 +508,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -3, 3, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ã—ãªã‚„ã‹ãªé–¢ç¯€", "Flexible Joint"), lang("ã‚ãªãŸã®é–¢ç¯€ã¯ã—ãªã‚„ã‹ã [å™¨ç”¨+3]", "Your joints are flexible. [DEX+3]"), lang("ã‚ãªãŸã®é–¢ç¯€ã¯ã¨ã¦ã‚‚ã—ãªã‚„ã‹ã [å™¨ç”¨+6]", "Your joints are very flexible. [DEX+6]"), lang("ã‚ãªãŸã®é–¢ç¯€ã¯é©šãã»ã©ã—ãªã‚„ã‹ã [å™¨ç”¨+9]", "Your joints are incredibly flexible. [DEX+9]")
+				traitrefn(2) = lang("‚µ‚È‚â‚©‚ÈŠÖß", "Flexible Joint"), lang("‚ ‚È‚½‚ÌŠÖß‚Í‚µ‚È‚â‚©‚¾[Ší—p+3]", "Your joints are flexible. [DEX+3]"), lang("‚ ‚È‚½‚ÌŠÖß‚Í‚Æ‚Ä‚à‚µ‚È‚â‚©‚¾[Ší—p+6]", "Your joints are very flexible. [DEX+6]"), lang("‚ ‚È‚½‚ÌŠÖß‚Í‹Á‚­‚Ù‚Ç‚µ‚È‚â‚©‚¾[Ší—p+9]", "Your joints are incredibly flexible. [DEX+9]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("ãã—ã‚€é–¢ç¯€", "Creaking Joint"), lang("ã‚ãªãŸã®é–¢ç¯€ã¯ãã—ã‚€[å™¨ç”¨-3]", "Your joints creak. [DEX-3]"), lang("ã‚ãªãŸã¯é–¢ç¯€ç—›ã«æ‚©ã‚“ã§ã„ã‚‹[å™¨ç”¨-6]", "You are worrying about your joint creakings. [DEX-6]"), lang("ã‚ãªãŸã¯ã²ã©ã„é–¢ç¯€ç—›ã‚’æŠ±ãˆã¦ã„ã‚‹[å™¨ç”¨-9]", "You have terrible joint creakings. [DEX-9]")
+				traitrefn(2) = lang("‚«‚µ‚ŞŠÖß", "Creaking Joint"), lang("‚ ‚È‚½‚ÌŠÖß‚Í‚«‚µ‚Ş[Ší—p-3]", "Your joints creak. [DEX-3]"), lang("‚ ‚È‚½‚ÍŠÖß’É‚É”Y‚ñ‚Å‚¢‚é[Ší—p-6]", "You are worrying about your joint creakings. [DEX-6]"), lang("‚ ‚È‚½‚Í‚Ğ‚Ç‚¢ŠÖß’É‚ğ•ø‚¦‚Ä‚¢‚é[Ší—p-9]", "You have terrible joint creakings. [DEX-9]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®é–¢ç¯€ã¯ã—ãªã‚„ã‹ã«ãªã£ãŸã€‚", "Your joints become flexible."), lang("ã‚ãªãŸã®é–¢ç¯€ã¯ç—›ã¿å‡ºã—ãŸã€‚", "Your joints creak.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŠÖß‚Í‚µ‚È‚â‚©‚É‚È‚Á‚½B", "Your joints become flexible."), lang("‚ ‚È‚½‚ÌŠÖß‚Í’É‚İo‚µ‚½B", "Your joints creak.")
 			return 1
 		}
 		sdata(SKILL_ATTR_DEX, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_DEX, CHARA_PLAYER) + trait(tid) * 3, sdata(SKILL_ATTR_DEX, CHARA_PLAYER) > 0, 9999)
@@ -509,12 +523,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ãƒˆãƒ­ãƒ¼ãƒ«ã®è¡€", "Troll Blood"), lang("ã‚ãªãŸã®å‚·è·¡ã¯å†ç”Ÿã™ã‚‹[è‡ªç„¶æ²»ç™’å¼·åŒ–]", "Your wounds regenerate rapidly. [Regeneration+]"), lang("ã‚ãªãŸã®å‚·ã¯ç¬ãé–“ã«ãµã•ãŒã‚‹[è‡ªç„¶æ²»ç™’å¼·åŒ–]", "Your wounds regenerate instantly. [Regeneration++]")
+				traitrefn(2) = lang("ƒgƒ[ƒ‹‚ÌŒŒ", "Troll Blood"), lang("‚ ‚È‚½‚ÌÕ‚ÍÄ¶‚·‚é[©‘R¡–ü‹­‰»]", "Your wounds regenerate rapidly. [Regeneration+]"), lang("‚ ‚È‚½‚Ì‚Íu‚­ŠÔ‚É‚Ó‚³‚ª‚é[©‘R¡–ü‹­‰»]", "Your wounds regenerate instantly. [Regeneration++]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("è²§è¡€", "Anemia"), lang("ã‚ãªãŸã¯è¡€ã®æ°—ãŒå°‘ãªã„[è‡ªç„¶æ²»ç™’å¼±åŒ–]", "You suffer from anemia. [Regeneration-]"), lang("ã‚ãªãŸã®é¡”ã«ã¯è¡€ã®æ°—ãŒå…¨ããªã„[è‡ªç„¶æ²»ç™’å¼±åŒ–]", "You constantly have attacks of anemia. [Regeneration--]")
+				traitrefn(2) = lang("•nŒŒ", "Anemia"), lang("‚ ‚È‚½‚ÍŒŒ‚Ì‹C‚ª­‚È‚¢[©‘R¡–üã‰»]", "You suffer from anemia. [Regeneration-]"), lang("‚ ‚È‚½‚ÌŠç‚É‚ÍŒŒ‚Ì‹C‚ª‘S‚­‚È‚¢[©‘R¡–üã‰»]", "You constantly have attacks of anemia. [Regeneration--]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è¡€æ¶²ã¯ç·‘ã£ã½ããªã£ãŸã€‚", "Suddenly your blood become greenish!"), lang("ã‚ãªãŸã®è¡€æ¶²ã¯è–„ã‚ŒãŸã€‚", "Your metabolism slows down.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŒŒ‰t‚Í—Î‚Á‚Û‚­‚È‚Á‚½B", "Suddenly your blood become greenish!"), lang("‚ ‚È‚½‚ÌŒŒ‰t‚Í”–‚ê‚½B", "Your metabolism slows down.")
 			return 1
 		}
 		sdata(SKILL_NORMAL_HEALING, CHARA_PLAYER) = limit(sdata(SKILL_NORMAL_HEALING, CHARA_PLAYER) + trait(tid) * 4, sdata(SKILL_NORMAL_HEALING, CHARA_PLAYER) > 0, 9999)
@@ -524,12 +538,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -3, 3, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ã—ãªã‚„ã‹ãªè„š", "Lithe Leg"), lang("ã‚ãªãŸã®è„šã¯ã—ãªã‚„ã‹ã [é€Ÿåº¦ä¸Šæ˜‡]", "You have lithe legs. [SPD+5]"), lang("ã‚ãªãŸã®è„šã¯ã¨ã¦ã‚‚ã—ãªã‚„ã‹ã [é€Ÿåº¦ä¸Šæ˜‡]", "You have very lithe legs. [SPD+10]"), lang("ã‚ãªãŸã®è„šã¯ç†æƒ³çš„ãªå½¢ã‚’ã—ã¦ã„ã‚‹[é€Ÿåº¦ä¸Šæ˜‡]", "You have ideal legs. [SPD+15]")
+				traitrefn(2) = lang("‚µ‚È‚â‚©‚È‹r", "Lithe Leg"), lang("‚ ‚È‚½‚Ì‹r‚Í‚µ‚È‚â‚©‚¾[‘¬“xã¸]", "You have lithe legs. [SPD+5]"), lang("‚ ‚È‚½‚Ì‹r‚Í‚Æ‚Ä‚à‚µ‚È‚â‚©‚¾[‘¬“xã¸]", "You have very lithe legs. [SPD+10]"), lang("‚ ‚È‚½‚Ì‹r‚Í—‘z“I‚ÈŒ`‚ğ‚µ‚Ä‚¢‚é[‘¬“xã¸]", "You have ideal legs. [SPD+15]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("ã­ã˜ã‚ŒãŸè„š", "Twisted Leg"), lang("ã‚ãªãŸã®è„šã¯ã­ã˜ã‚Œã¦ã„ã‚‹[é€Ÿåº¦ä¸‹é™]", "Your legs are twisted. [SPD-5]"), lang("ã‚ãªãŸã®è„šã¯ã¨ã¦ã‚‚ã­ã˜ã‚Œã¦ã„ã‚‹[é€Ÿåº¦ä¸‹é™]", "Your legs are very twisted. [SPD-10]"), lang("ã‚ãªãŸã®è„šã¯æŠ˜ã‚Œã¦ã„ã‚‹[é€Ÿåº¦ä¸‹é™]", "Your legs are broken. [SPD-15]")
+				traitrefn(2) = lang("‚Ë‚¶‚ê‚½‹r", "Twisted Leg"), lang("‚ ‚È‚½‚Ì‹r‚Í‚Ë‚¶‚ê‚Ä‚¢‚é[‘¬“x‰º~]", "Your legs are twisted. [SPD-5]"), lang("‚ ‚È‚½‚Ì‹r‚Í‚Æ‚Ä‚à‚Ë‚¶‚ê‚Ä‚¢‚é[‘¬“x‰º~]", "Your legs are very twisted. [SPD-10]"), lang("‚ ‚È‚½‚Ì‹r‚ÍÜ‚ê‚Ä‚¢‚é[‘¬“x‰º~]", "Your legs are broken. [SPD-15]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è„šã¯ã—ãªã‚„ã‹ã«ãªã£ãŸã€‚", "Your legs become lithe."), lang("ã‚ãªãŸã®è„šã¯ã­ã˜ã‚ŒãŸã€‚", "Your legs are twisted!")
+			traitrefn = lang("‚ ‚È‚½‚Ì‹r‚Í‚µ‚È‚â‚©‚É‚È‚Á‚½B", "Your legs become lithe."), lang("‚ ‚È‚½‚Ì‹r‚Í‚Ë‚¶‚ê‚½B", "Your legs are twisted!")
 			return 1
 		}
 		sdata(SKILL_ATTR_SPD, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_SPD, CHARA_PLAYER) + trait(tid) * 5, sdata(SKILL_ATTR_SPD, CHARA_PLAYER) > 0, 9999)
@@ -539,12 +553,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -3, 3, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å¼·ã„è…•", "Strong Arm"), lang("ã‚ãªãŸã®è…•ã¯ã²ãã—ã¾ã£ã¦ã„ã‚‹[ç­‹åŠ›+3]", "You have well-knit arms. [STR+3]"), lang("ã‚ãªãŸã®è…•ã¯å¼·åŠ›ã [ç­‹åŠ›+6]", "You have well-muscled arms. [STR+6]"), lang("ã‚ãªãŸã®è…•ã¯ç­‹è‚‰ã®å¡Šã [ç­‹åŠ›+9]", "You have ideal arms. [STR+9]")
+				traitrefn(2) = lang("‹­‚¢˜r", "Strong Arm"), lang("‚ ‚È‚½‚Ì˜r‚Í‚Ğ‚«‚µ‚Ü‚Á‚Ä‚¢‚é[‹Ø—Í+3]", "You have well-knit arms. [STR+3]"), lang("‚ ‚È‚½‚Ì˜r‚Í‹­—Í‚¾[‹Ø—Í+6]", "You have well-muscled arms. [STR+6]"), lang("‚ ‚È‚½‚Ì˜r‚Í‹Ø“÷‚Ì‰ò‚¾[‹Ø—Í+9]", "You have ideal arms. [STR+9]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("å¼±ã„è…•", "Weak Arm"), lang("ã‚ãªãŸã®è…•ã¯ãŸã‚‹ã‚“ã§ã„ã‚‹[ç­‹åŠ›-3]", "Your arms are thin. [STR-3]"), lang("ã‚ãªãŸã®è…•ã¯ã¨ã¦ã‚‚ãŸã‚‹ã‚“ã§ã„ã‚‹[ç­‹åŠ›-6]", "Your arms are very thin. [STR-6]"), lang("ã‚ãªãŸã®è…•ã«ã¯ç­‹è‚‰ãŒãªã„[ç­‹åŠ›-9]", "Your arms are just decorative. [STR-9]")
+				traitrefn(2) = lang("ã‚¢˜r", "Weak Arm"), lang("‚ ‚È‚½‚Ì˜r‚Í‚½‚é‚ñ‚Å‚¢‚é[‹Ø—Í-3]", "Your arms are thin. [STR-3]"), lang("‚ ‚È‚½‚Ì˜r‚Í‚Æ‚Ä‚à‚½‚é‚ñ‚Å‚¢‚é[‹Ø—Í-6]", "Your arms are very thin. [STR-6]"), lang("‚ ‚È‚½‚Ì˜r‚É‚Í‹Ø“÷‚ª‚È‚¢[‹Ø—Í-9]", "Your arms are just decorative. [STR-9]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è…•ã®ç­‹è‚‰ãŒå¢—ãˆãŸã€‚", "Your arms grow stronger."), lang("ã‚ãªãŸã®è…•ã®è´…è‚‰ãŒå¢—ãˆãŸã€‚", "Your arms become thin.")
+			traitrefn = lang("‚ ‚È‚½‚Ì˜r‚Ì‹Ø“÷‚ª‘‚¦‚½B", "Your arms grow stronger."), lang("‚ ‚È‚½‚Ì˜r‚ÌæÒ“÷‚ª‘‚¦‚½B", "Your arms become thin.")
 			return 1
 		}
 		sdata(SKILL_ATTR_STR, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_STR, CHARA_PLAYER) + trait(tid) * 3, sdata(SKILL_ATTR_STR, CHARA_PLAYER) > 0, 9999)
@@ -554,12 +568,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ç¾å£°", "Sweet Voice"), lang("ã‚ãªãŸã¯ç¾å£°ã‚’æŒã£ã¦ã„ã‚‹[é­…åŠ›+5]", "Your voice is sweet. [CHR+5]"), lang("ã‚ãªãŸã®å£°ã¯å…¨ã¦ã‚’é­…äº†ã™ã‚‹[é­…åŠ›+10]", "Your voice charms everyone. [CHR+10]")
+				traitrefn(2) = lang("”üº", "Sweet Voice"), lang("‚ ‚È‚½‚Í”üº‚ğ‚Á‚Ä‚¢‚é[–£—Í+5]", "Your voice is sweet. [CHR+5]"), lang("‚ ‚È‚½‚Ìº‚Í‘S‚Ä‚ğ–£—¹‚·‚é[–£—Í+10]", "Your voice charms everyone. [CHR+10]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("ã‹ã‚ŒãŸå£°", "Husky Voice"), lang("ã‚ãªãŸã®å£°ã¯ã‹ã‚Œã¦ã„ã‚‹[é­…åŠ›-5]", "Your voice is husky. [CHR-5]"), lang("ã‚ãªãŸãŒå–‹ã‚‹ã¨çš†é€ƒã’ã‚‹[é­…åŠ›-10]", "Everyone is frightened when you talk. [CHR-10]")
+				traitrefn(2) = lang("‚©‚ê‚½º", "Husky Voice"), lang("‚ ‚È‚½‚Ìº‚Í‚©‚ê‚Ä‚¢‚é[–£—Í-5]", "Your voice is husky. [CHR-5]"), lang("‚ ‚È‚½‚ª’‚é‚ÆŠF“¦‚°‚é[–£—Í-10]", "Everyone is frightened when you talk. [CHR-10]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å£°ã¯ã‚ˆãé€šã‚‹ã€‚", "Your voice becomes lovely."), lang("ã‚ãªãŸã®å£°ã¯ã‹ã‚ŒãŸã€‚", "Your voice becomes scary.")
+			traitrefn = lang("‚ ‚È‚½‚Ìº‚Í‚æ‚­’Ê‚éB", "Your voice becomes lovely."), lang("‚ ‚È‚½‚Ìº‚Í‚©‚ê‚½B", "Your voice becomes scary.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CHA, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CHA, CHARA_PLAYER) + trait(tid) * 5, sdata(SKILL_ATTR_CHA, CHARA_PLAYER) > 0, 9999)
@@ -569,12 +583,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("è„³å†…ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿", "Brain Computer"), lang("ã‚ãªãŸã®è„³ã¯æ©Ÿæ¢°åŒ–ã—ã¦ã„ã‚‹[æš—è¨˜+4]", "Your brain is mechanized. [Memorization+4]"), lang("ã‚ãªãŸã®è„³ã¯å®Œç’§ãªæ©Ÿæ¢°ã [æš—è¨˜+8]", "Your brain is fully mechanized. [Memorization+8]")
+				traitrefn(2) = lang("”]“àƒRƒ“ƒsƒ…[ƒ^", "Brain Computer"), lang("‚ ‚È‚½‚Ì”]‚Í‹@ŠB‰»‚µ‚Ä‚¢‚é[ˆÃ‹L+4]", "Your brain is mechanized. [Memorization+4]"), lang("‚ ‚È‚½‚Ì”]‚ÍŠ®àø‚È‹@ŠB‚¾[ˆÃ‹L+8]", "Your brain is fully mechanized. [Memorization+8]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("ç—´å‘†", "Stupid"), lang("ã‚ãªãŸã¯å°‘ã—ã¼ã‘ã¦ã„ã‚‹[æš—è¨˜-4]", "You are stupid. [Memorization-4]"), lang("ã‚ãªãŸã¯ç—´å‘†ã [æš—è¨˜-8]", "You are really stupid. [Memorization-8]")
+				traitrefn(2) = lang("’s•ğ", "Stupid"), lang("‚ ‚È‚½‚Í­‚µ‚Ú‚¯‚Ä‚¢‚é[ˆÃ‹L-4]", "You are stupid. [Memorization-4]"), lang("‚ ‚È‚½‚Í’s•ğ‚¾[ˆÃ‹L-8]", "You are really stupid. [Memorization-8]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è„³ã¯æ©Ÿæ¢°åŒ–ã—ãŸã€‚", "Your brain is mechanized!"), lang("ã‚ãªãŸã®è„³ã¯åŸå§‹åŒ–ã—ãŸã€‚", "Your brain degenerates.")
+			traitrefn = lang("‚ ‚È‚½‚Ì”]‚Í‹@ŠB‰»‚µ‚½B", "Your brain is mechanized!"), lang("‚ ‚È‚½‚Ì”]‚ÍŒ´n‰»‚µ‚½B", "Your brain degenerates.")
 			return 1
 		}
 		sdata(SKILL_NORMAL_MEMORIZATION, CHARA_PLAYER) = limit(sdata(SKILL_NORMAL_MEMORIZATION, CHARA_PLAYER) + trait(tid) * 4, sdata(SKILL_NORMAL_MEMORIZATION, CHARA_PLAYER) > 0, 9999)
@@ -584,12 +598,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -1, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é­”æ³•ã¸ã®è€æ€§", "Magic Res+"), lang("ã‚ãªãŸã¯é­”æ³•ã«è€æ€§ãŒã‚ã‚‹[é­”æ³•è€æ€§å¼·åŒ–]", "You have resistance to magic. [RES Magic+]")
+				traitrefn(2) = lang("–‚–@‚Ö‚Ì‘Ï«", "Magic Res+"), lang("‚ ‚È‚½‚Í–‚–@‚É‘Ï«‚ª‚ ‚é[–‚–@‘Ï«‹­‰»]", "You have resistance to magic. [RES Magic+]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("é­”æ³•ã®å¼±ç‚¹", "Magic Res-"), lang("ã‚ãªãŸã¯é­”æ³•ã«å¼±ã„[é­”æ³•è€æ€§å¼±åŒ–]", "You have weakness to magic. [RES Magic-]")
+				traitrefn(2) = lang("–‚–@‚Ìã“_", "Magic Res-"), lang("‚ ‚È‚½‚Í–‚–@‚Éã‚¢[–‚–@‘Ï«ã‰»]", "You have weakness to magic. [RES Magic-]")
 			}
-			traitrefn = lang("ã‚ãªãŸã¯é­”æ³•ã®è€æ€§ã‚’å¾—ãŸã€‚", "You gain resistance to magic."), lang("ã‚ãªãŸã¯é­”æ³•ã®è€æ€§ã‚’å¤±ã£ãŸã€‚", "You lose resistance to magic.")
+			traitrefn = lang("‚ ‚È‚½‚Í–‚–@‚Ì‘Ï«‚ğ“¾‚½B", "You gain resistance to magic."), lang("‚ ‚È‚½‚Í–‚–@‚Ì‘Ï«‚ğ¸‚Á‚½B", "You lose resistance to magic.")
 			return 1
 		}
 		sdata(SKILL_RES_MAGIC, CHARA_PLAYER) = limit(sdata(SKILL_RES_MAGIC, CHARA_PLAYER) + trait(tid) * 50, sdata(SKILL_RES_MAGIC, CHARA_PLAYER) > 0, 9999)
@@ -599,12 +613,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -1, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å¼·ã„é¼“è†œ", "Sound Res+"), lang("ã‚ãªãŸã®é¼“è†œã¯åšã„[éŸ³è€æ€§å¼·åŒ–]", "Your eardrums are thick. [RES Sound+]")
+				traitrefn(2) = lang("‹­‚¢ŒÛ–Œ", "Sound Res+"), lang("‚ ‚È‚½‚ÌŒÛ–Œ‚ÍŒú‚¢[‰¹‘Ï«‹­‰»]", "Your eardrums are thick. [RES Sound+]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("å¼±ã„é¼“è†œ", "Sound Res-"), lang("ã‚ãªãŸã®é¼“è†œã¯è–„ã„[éŸ³è€æ€§å¼±åŒ–]", "Your eardrums are thin. [RES Sound-]")
+				traitrefn(2) = lang("ã‚¢ŒÛ–Œ", "Sound Res-"), lang("‚ ‚È‚½‚ÌŒÛ–Œ‚Í”–‚¢[‰¹‘Ï«ã‰»]", "Your eardrums are thin. [RES Sound-]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®é¼“è†œã¯åšããªã£ãŸã€‚", "Your eardrums become thick."), lang("ã‚ãªãŸã®é¼“è†œã¯è–„ããªã£ãŸã€‚", "Your eardrums become thin.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŒÛ–Œ‚ÍŒú‚­‚È‚Á‚½B", "Your eardrums become thick."), lang("‚ ‚È‚½‚ÌŒÛ–Œ‚Í”–‚­‚È‚Á‚½B", "Your eardrums become thin.")
 			return 1
 		}
 		sdata(SKILL_RES_SOUND, CHARA_PLAYER) = limit(sdata(SKILL_RES_SOUND, CHARA_PLAYER) + trait(tid) * 50, sdata(SKILL_RES_SOUND, CHARA_PLAYER) > 0, 9999)
@@ -614,12 +628,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -1, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("ç«ç‚è€æ€§", "Fire Res+"), lang("ã‚ãªãŸã®è¡€ã¯æ»¾ã£ã¦ã„ã‚‹[ç«ç‚è€æ€§å¼·åŒ–]", "Your blood is boiling. [RES Fire+]")
+				traitrefn(2) = lang("‰Î‰Š‘Ï«", "Fire Res+"), lang("‚ ‚È‚½‚ÌŒŒ‚ÍŸö‚Á‚Ä‚¢‚é[‰Î‰Š‘Ï«‹­‰»]", "Your blood is boiling. [RES Fire+]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("ç«ç‚å¼±ç‚¹", "Fire Res-"), lang("ã‚ãªãŸã®è…•ã«ã¯é³¥è‚ŒãŒãŸã£ã¦ã„ã‚‹[ç«ç‚è€æ€§å¼±åŒ–]", "Your skin gets gooseflesh. [RES Fire-]")
+				traitrefn(2) = lang("‰Î‰Šã“_", "Fire Res-"), lang("‚ ‚È‚½‚Ì˜r‚É‚Í’¹”§‚ª‚½‚Á‚Ä‚¢‚é[‰Î‰Š‘Ï«ã‰»]", "Your skin gets gooseflesh. [RES Fire-]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è¡€ã¯æ»¾ã‚Šã ã—ãŸã€‚", "Your blood starts to boil."), lang("ã‚ãªãŸã®è…•ã«é³¥è‚ŒãŒãŸã£ãŸã€‚", "Your skin gets gooseflesh.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŒŒ‚ÍŸö‚è‚¾‚µ‚½B", "Your blood starts to boil."), lang("‚ ‚È‚½‚Ì˜r‚É’¹”§‚ª‚½‚Á‚½B", "Your skin gets gooseflesh.")
 			return 1
 		}
 		sdata(SKILL_RES_FIRE, CHARA_PLAYER) = limit(sdata(SKILL_RES_FIRE, CHARA_PLAYER) + trait(tid) * 50, sdata(SKILL_RES_FIRE, CHARA_PLAYER) > 0, 9999)
@@ -629,12 +643,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -1, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("å†·æ°—è€æ€§", "Cold Res+"), lang("ã‚ãªãŸã®çš®è†šã«ã¯éœœãŒä»˜ã„ã¦ã„ã‚‹[å†·æ°—è€æ€§å¼·åŒ–]", "Your skin is covered by frost. [RES Cold+]")
+				traitrefn(2) = lang("—â‹C‘Ï«", "Cold Res+"), lang("‚ ‚È‚½‚Ì”ç•†‚É‚Í‘š‚ª•t‚¢‚Ä‚¢‚é[—â‹C‘Ï«‹­‰»]", "Your skin is covered by frost. [RES Cold+]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("å†·æ°—å¼±ç‚¹", "Cold Res-"), lang("ã‚ãªãŸã®çš®è†šã¯å¯’ã•ã«å¼±ã„[å†·æ°—è€æ€§å¼±åŒ–]", "Your skin is sheer. [RES Cold-]")
+				traitrefn(2) = lang("—â‹Cã“_", "Cold Res-"), lang("‚ ‚È‚½‚Ì”ç•†‚ÍŠ¦‚³‚Éã‚¢[—â‹C‘Ï«ã‰»]", "Your skin is sheer. [RES Cold-]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®çš®è†šã¯å†·ãŸããªã£ãŸã€‚", "You feel hot-headed."), lang("ã‚ãªãŸã¯æ±—ã‚’ã‹ãã¯ã˜ã‚ãŸã€‚", "You shiver.")
+			traitrefn = lang("‚ ‚È‚½‚Ì”ç•†‚Í—â‚½‚­‚È‚Á‚½B", "You feel hot-headed."), lang("‚ ‚È‚½‚ÍŠ¾‚ğ‚©‚«‚Í‚¶‚ß‚½B", "You shiver.")
 			return 1
 		}
 		sdata(SKILL_RES_COLD, CHARA_PLAYER) = limit(sdata(SKILL_RES_COLD, CHARA_PLAYER) + trait(tid) * 50, sdata(SKILL_RES_COLD, CHARA_PLAYER) > 0, 9999)
@@ -644,12 +658,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -1, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é›»æ’ƒè€æ€§", "Lightning Res+"), lang("ã‚ãªãŸã¯éé›»å°ä½“ã [é›»æ’ƒè€æ€§å¼·åŒ–]", "You have resistance to lightning. [RES Lightning+]")
+				traitrefn(2) = lang("“dŒ‚‘Ï«", "Lightning Res+"), lang("‚ ‚È‚½‚Í”ñ“d“±‘Ì‚¾[“dŒ‚‘Ï«‹­‰»]", "You have resistance to lightning. [RES Lightning+]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("é›»æ’ƒå¼±ç‚¹", "Lightning Res-"), lang("ã‚ãªãŸã®èº«ä½“ã¯é›»æ°—ã‚’è‰¯ãé€šã™[é›»æ’ƒè€æ€§å¼±åŒ–]", "You have weakness to lightning. [RES Lightning-]")
+				traitrefn(2) = lang("“dŒ‚ã“_", "Lightning Res-"), lang("‚ ‚È‚½‚Ìg‘Ì‚Í“d‹C‚ğ—Ç‚­’Ê‚·[“dŒ‚‘Ï«ã‰»]", "You have weakness to lightning. [RES Lightning-]")
 			}
-			traitrefn = lang("ã‚ãªãŸã¯éé›»å°ä½“ã«ãªã£ãŸã€‚", "You gain resistance to lightning."), lang("ã‚ãªãŸã®èº«ä½“ã¯é›»æ°—ã‚’è‰¯ãé€šã™ã€‚", "You lose resistance to lightning.")
+			traitrefn = lang("‚ ‚È‚½‚Í”ñ“d“±‘Ì‚É‚È‚Á‚½B", "You gain resistance to lightning."), lang("‚ ‚È‚½‚Ìg‘Ì‚Í“d‹C‚ğ—Ç‚­’Ê‚·B", "You lose resistance to lightning.")
 			return 1
 		}
 		sdata(SKILL_RES_LIGHTNING, CHARA_PLAYER) = limit(sdata(SKILL_RES_LIGHTNING, CHARA_PLAYER) + trait(tid) * 50, sdata(SKILL_RES_LIGHTNING, CHARA_PLAYER) > 0, 9999)
@@ -659,12 +673,12 @@
 		if ( traitmode == 0 ) {
 			traitref = 1, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = lang("é·¹ã®ç›®", "Hawk Eye"), lang("ã‚ãªãŸã¯çŒ«ã®ç›®ã‚’ã—ã¦ã„ã‚‹[æ„Ÿè¦š+5]", "You have the eyes of a cat. [PER+5]"), lang("ã‚ãªãŸã¯é·¹ã®ç›®ã‚’ã—ã¦ã„ã‚‹[æ„Ÿè¦š+10]", "You have the eyes of a hawk. [PER+10]")
+				traitrefn(2) = lang("‘é‚Ì–Ú", "Hawk Eye"), lang("‚ ‚È‚½‚Í”L‚Ì–Ú‚ğ‚µ‚Ä‚¢‚é[Š´Šo+5]", "You have the eyes of a cat. [PER+5]"), lang("‚ ‚È‚½‚Í‘é‚Ì–Ú‚ğ‚µ‚Ä‚¢‚é[Š´Šo+10]", "You have the eyes of a hawk. [PER+10]")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = lang("è‰²å¼±", "Color Blind"), lang("ã‚ãªãŸã¯è‰²å¼±ã [æ„Ÿè¦š-5]", "You are partially color-blind. [PER-5]"), lang("ã‚ãªãŸã¯ç‰‡ç›®ãŒãªã„[æ„Ÿè¦š-10]", "You are blind in one eye. [PER-10]")
+				traitrefn(2) = lang("Fã", "Color Blind"), lang("‚ ‚È‚½‚ÍFã‚¾[Š´Šo-5]", "You are partially color-blind. [PER-5]"), lang("‚ ‚È‚½‚Í•Ğ–Ú‚ª‚È‚¢[Š´Šo-10]", "You are blind in one eye. [PER-10]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®ç›®ã¯ç´°ããªã£ãŸã€‚", "Your eyes glow."), lang("ã‚ãªãŸã®è¦–åŠ›ã¯ä½ä¸‹ã—ãŸã€‚", "Your sight is weakened.")
+			traitrefn = lang("‚ ‚È‚½‚Ì–Ú‚Í×‚­‚È‚Á‚½B", "Your eyes glow."), lang("‚ ‚È‚½‚Ì‹—Í‚Í’á‰º‚µ‚½B", "Your sight is weakened.")
 			return 1
 		}
 		sdata(SKILL_ATTR_PER, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_PER, CHARA_PLAYER) + trait(tid) * 5, sdata(SKILL_ATTR_PER, CHARA_PLAYER) > 0, 9999)
@@ -674,10 +688,10 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ç«ç‚ã«è€æ€§ãŒã‚ã‚‹", "You have resistance to fire."), lang("ã‚ãªãŸã¯ç«ç‚ã«ã‹ãªã‚Šã®è€æ€§ãŒã‚ã‚‹", "You have strong resistance to fire.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í‰Î‰Š‚É‘Ï«‚ª‚ ‚é", "You have resistance to fire."), lang("‚ ‚È‚½‚Í‰Î‰Š‚É‚©‚È‚è‚Ì‘Ï«‚ª‚ ‚é", "You have strong resistance to fire.")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ç«ç‚ã«å¼±ã„", "You have weakness to fire."), lang("ã‚ãªãŸã¯ã‹ãªã‚Šç«ç‚ã«å¼±ã„", "You have strong weakness to fire.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í‰Î‰Š‚Éã‚¢", "You have weakness to fire."), lang("‚ ‚È‚½‚Í‚©‚È‚è‰Î‰Š‚Éã‚¢", "You have strong weakness to fire.")
 			}
 			return 1
 		}
@@ -688,10 +702,10 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯å†·æ°—ã«è€æ€§ãŒã‚ã‚‹", "You have resistance to cold."), lang("ã‚ãªãŸã¯å†·æ°—ã«ã‹ãªã‚Šã®è€æ€§ãŒã‚ã‚‹", "You have strong resistance to cold.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í—â‹C‚É‘Ï«‚ª‚ ‚é", "You have resistance to cold."), lang("‚ ‚È‚½‚Í—â‹C‚É‚©‚È‚è‚Ì‘Ï«‚ª‚ ‚é", "You have strong resistance to cold.")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯å†·æ°—ã«å¼±ã„", "You have weakness to cold."), lang("ã‚ãªãŸã¯ã‹ãªã‚Šå†·æ°—ã«å¼±ã„", "You have strong weakness to cold.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í—â‹C‚Éã‚¢", "You have weakness to cold."), lang("‚ ‚È‚½‚Í‚©‚È‚è—â‹C‚Éã‚¢", "You have strong weakness to cold.")
 			}
 			return 1
 		}
@@ -702,10 +716,10 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯æ¯’ã«è€æ€§ãŒã‚ã‚‹", "You have resistance to poison."), lang("ã‚ãªãŸã¯æ¯’ã«ã‹ãªã‚Šã®è€æ€§ãŒã‚ã‚‹", "You have strong resistance to poison.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í“Å‚É‘Ï«‚ª‚ ‚é", "You have resistance to poison."), lang("‚ ‚È‚½‚Í“Å‚É‚©‚È‚è‚Ì‘Ï«‚ª‚ ‚é", "You have strong resistance to poison.")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯æ¯’ã«å¼±ã„", "You have weakness to poison."), lang("ã‚ãªãŸã¯ã‹ãªã‚Šæ¯’ã«å¼±ã„", "You have strong weakness to poison.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í“Å‚Éã‚¢", "You have weakness to poison."), lang("‚ ‚È‚½‚Í‚©‚È‚è“Å‚Éã‚¢", "You have strong weakness to poison.")
 			}
 			return 1
 		}
@@ -716,10 +730,10 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯æš—é»’ã«è€æ€§ãŒã‚ã‚‹", "You have resistance to darkness."), lang("ã‚ãªãŸã¯æš—é»’ã«ã‹ãªã‚Šã®è€æ€§ãŒã‚ã‚‹", "You have strong resistance to darkness.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÍˆÃ•‚É‘Ï«‚ª‚ ‚é", "You have resistance to darkness."), lang("‚ ‚È‚½‚ÍˆÃ•‚É‚©‚È‚è‚Ì‘Ï«‚ª‚ ‚é", "You have strong resistance to darkness.")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯æš—é»’ã«å¼±ã„", "You have weakness to darkness."), lang("ã‚ãªãŸã¯ã‹ãªã‚Šæš—é»’ã«å¼±ã„", "You have strong weakness to darkness.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÍˆÃ•‚Éã‚¢", "You have weakness to darkness."), lang("‚ ‚È‚½‚Í‚©‚È‚èˆÃ•‚Éã‚¢", "You have strong weakness to darkness.")
 			}
 			return 1
 		}
@@ -730,7 +744,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ãƒãƒŠã®åå‹•ã‚’è»½æ¸›ã§ãã‚‹", "You take less damage from magic reaction.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Íƒ}ƒi‚Ì”½“®‚ğŒyŒ¸‚Å‚«‚é", "You take less damage from magic reaction.")
 			}
 			return 1
 		}
@@ -740,7 +754,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é«˜ã„è€æ€§ã‚’ã‚‚ã£ã¦ã„ã‚‹", "You have outstanding resistances.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í‚‚¢‘Ï«‚ğ‚à‚Á‚Ä‚¢‚é", "You have outstanding resistances.")
 			}
 			return 1
 		}
@@ -758,7 +772,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯2sã‚’è¶…ãˆã‚‹ç‰©ã‚’è£…å‚™ã§ããªã„[DVä¸Šæ˜‡]", "You can't wear equipment weight over 2s. [DV++]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í2s‚ğ’´‚¦‚é•¨‚ğ‘•”õ‚Å‚«‚È‚¢[DVã¸]", "You can't wear equipment weight over 2s. [DV++]")
 			}
 			return 1
 		}
@@ -771,7 +785,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ç½ªæ‚ªæ„Ÿã‚’æ„Ÿã˜ãªã„[ã‚«ãƒ«ãƒä¸Šé™-20]", "You don't feel guilty. [Karma limit -20]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Íßˆ«Š´‚ğŠ´‚¶‚È‚¢[ƒJƒ‹ƒ}ãŒÀ-20]", "You don't feel guilty. [Karma limit -20]")
 			}
 			return 1
 		}
@@ -781,7 +795,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯è‰¯ã„å¿ƒã‚’æŒã£ã¦ã„ã‚‹[ã‚«ãƒ«ãƒä¸Šé™+20]", "You are a good man. [Karma limit +20]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í—Ç‚¢S‚ğ‚Á‚Ä‚¢‚é[ƒJƒ‹ƒ}ãŒÀ+20]", "You are a good man. [Karma limit +20]")
 			}
 			return 1
 		}
@@ -791,7 +805,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®å‘¨ã‚Šã§ã¯è³ªã®é«˜ã„ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆãŒç”Ÿæˆã•ã‚Œã‚„ã™ã„", "Quality stuff is generated around you.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ìü‚è‚Å‚Í¿‚Ì‚‚¢ƒGƒ“ƒ`ƒƒƒ“ƒg‚ª¶¬‚³‚ê‚â‚·‚¢", "Quality stuff is generated around you.")
 			}
 			return 1
 		}
@@ -801,7 +815,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸãŒå—ã‘ã‚‹ç‰©ç†ãƒ€ãƒ¡ãƒ¼ã‚¸ã¯è»½æ¸›ã•ã‚Œã‚‹", "You are given physical damage reduction.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ªó‚¯‚é•¨—ƒ_ƒ[ƒW‚ÍŒyŒ¸‚³‚ê‚é", "You are given physical damage reduction.")
 			}
 			return 1
 		}
@@ -811,7 +825,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®å…ƒç´ é­”æ³•ã¯å¼·åŒ–ã•ã‚Œã¦ã„ã‚‹", "Elemental spells you cast are empowered.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÌŒ³‘f–‚–@‚Í‹­‰»‚³‚ê‚Ä‚¢‚é", "Elemental spells you cast are empowered.")
 			}
 			return 1
 		}
@@ -821,7 +835,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯å‘¨å›²ã®ç‹‚æ°—ã‚’ç·©å’Œã™ã‚‹", "You are surrounded by an aura that cures insanity.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÍüˆÍ‚Ì‹¶‹C‚ğŠÉ˜a‚·‚é", "You are surrounded by an aura that cures insanity.")
 			}
 			return 1
 		}
@@ -831,7 +845,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯èŒãˆã‚‹", "You moe.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í–G‚¦‚é", "You moe.")
 			}
 			return 1
 		}
@@ -841,7 +855,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯æœ¦æœ§çŠ¶æ…‹ã«ãªã‚‰ãªã„", "You won't be dimmed.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÍNOó‘Ô‚É‚È‚ç‚È‚¢", "You won't be dimmed.")
 			}
 			return 1
 		}
@@ -851,7 +865,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é£¢ãˆã¦ã„ã‚‹éš›ã«æº€è…¹åº¦æ¸›å°‘ã‚’ç·©å’Œã™ã‚‹", "You reduce the hunger drop when you are hungry.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í‹Q‚¦‚Ä‚¢‚éÛ‚É–• “xŒ¸­‚ğŠÉ˜a‚·‚é", "You reduce the hunger drop when you are hungry.")
 			}
 			return 1
 		}
@@ -861,7 +875,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ã‚ˆã‚Šå¤šããƒãƒ†ãƒªã‚¢ãƒ«æ¡å–ã§ãã‚‹", "You can gather more materials.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í‚æ‚è‘½‚­ƒ}ƒeƒŠƒAƒ‹Ìæ‚Å‚«‚é", "You can gather more materials.")
 			}
 			return 1
 		}
@@ -871,7 +885,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã«ã¯è¿½åŠ ã®æˆé•·ãƒœãƒ¼ãƒŠã‚¹ãŒä¸ãˆã‚‰ã‚Œã‚‹", "You receive extra bonus points.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚É‚Í’Ç‰Á‚Ì¬’·ƒ{[ƒiƒX‚ª—^‚¦‚ç‚ê‚é", "You receive extra bonus points.")
 			}
 			return 1
 		}
@@ -881,10 +895,10 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, -2, 2, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é­”æ³•ã«è€æ€§ãŒã‚ã‚‹", "You have resistance to magic."), lang("ã‚ãªãŸã¯é­”æ³•ã«ã‹ãªã‚Šã®è€æ€§ãŒã‚ã‚‹", "You have strong resistance to magic.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í–‚–@‚É‘Ï«‚ª‚ ‚é", "You have resistance to magic."), lang("‚ ‚È‚½‚Í–‚–@‚É‚©‚È‚è‚Ì‘Ï«‚ª‚ ‚é", "You have strong resistance to magic.")
 			}
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é­”æ³•ã«å¼±ã„", "You have weakness to magic."), lang("ã‚ãªãŸã¯ã‹ãªã‚Šé­”æ³•ã«å¼±ã„", "You have strong weakness to magic.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í–‚–@‚Éã‚¢", "You have weakness to magic."), lang("‚ ‚È‚½‚Í‚©‚È‚è–‚–@‚Éã‚¢", "You have strong weakness to magic.")
 			}
 			return 1
 		}
@@ -895,7 +909,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®è‚‰ä½“ã¯åˆ»ã€…ã¨å¤‰åŒ–ã™ã‚‹", "Your body is changing every moment.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì“÷‘Ì‚ÍX‚Æ•Ï‰»‚·‚é", "Your body is changing every moment.")
 			}
 			return 1
 		}
@@ -905,7 +919,7 @@
 		if ( traitmode == 0 ) {
 			traitref = 2, 0, 1, 1, 0, 100, -1
 			if ( trait(tid) >= 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®ã‚¨ãƒ¼ãƒ†ãƒ«ç—…ã®é€²è¡Œã¯é…ã„", "Your body slows the progress of the Ether Disease.")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÌƒG[ƒeƒ‹•a‚Ìis‚Í’x‚¢", "Your body slows the progress of the Ether Disease.")
 			}
 			return 1
 		}
@@ -915,9 +929,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -3, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é‡åŠ›ã‚’ç”Ÿã¿å‡ºã—ã¦ã„ã‚‹[é‡é‡+10%]", "You generate gravity. [Weight+10%]"), lang("ã‚ãªãŸã¯å¤§ããªé‡åŠ›ã‚’ç”Ÿã¿å‡ºã—ã¦ã„ã‚‹[é‡é‡+20%]", "You generate heavy gravity. [Weight+20%]"), lang("ã‚ãªãŸã¯ã¨ã¦ã¤ã‚‚ãªã„é‡åŠ›ã‚’ç”Ÿã¿å‡ºã—ã¦ã„ã‚‹[é‡é‡+30%]", "You generate massive gravity. [Weight+30%]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Íd—Í‚ğ¶‚İo‚µ‚Ä‚¢‚é[d—Ê+10%]", "You generate gravity. [Weight+10%]"), lang("‚ ‚È‚½‚Í‘å‚«‚Èd—Í‚ğ¶‚İo‚µ‚Ä‚¢‚é[d—Ê+20%]", "You generate heavy gravity. [Weight+20%]"), lang("‚ ‚È‚½‚Í‚Æ‚Ä‚Â‚à‚È‚¢d—Í‚ğ¶‚İo‚µ‚Ä‚¢‚é[d—Ê+30%]", "You generate massive gravity. [Weight+30%]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å‘¨ã‚Šã®é‡åŠ›ã¯è»½æ¸›ã—ãŸã€‚", "The gravity around you has diminished."), lang("ã‚ãªãŸã¯é‡åŠ›ã‚’ç™ºã™ã‚‹ã‚ˆã†ã«ãªã£ãŸã€‚", "You start to generate gravity.")
+			traitrefn = lang("‚ ‚È‚½‚Ìü‚è‚Ìd—Í‚ÍŒyŒ¸‚µ‚½B", "The gravity around you has diminished."), lang("‚ ‚È‚½‚Íd—Í‚ğ”­‚·‚é‚æ‚¤‚É‚È‚Á‚½B", "You start to generate gravity.")
 			return 1
 		}
 		return 1
@@ -926,9 +940,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -3, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®é¡”ã¯ãŸã ã‚Œã¦ã„ã‚‹[é­…åŠ›" + limit((-1) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]", "You have sores on your face. [CHR" + limit((-1) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]"), lang("ã‚ãªãŸã®é¡”ä¸­ã«è•éº»ç–¹ãŒå‡ºã¦ã„ã‚‹[é­…åŠ›" + limit((-2) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]", "Your face is ulcerate. [CHR" + limit((-2) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]"), lang("ã‚ãªãŸã®é¡”ã¯å´©ã‚Œã‹ã‘ã¦ã„ã‚‹[é­…åŠ›" + limit((-3) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]", "Your face is crumbling. [CHR" + limit((-3) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÌŠç‚Í‚½‚¾‚ê‚Ä‚¢‚é[–£—Í" + limit((-1) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]", "You have sores on your face. [CHR" + limit((-1) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]"), lang("‚ ‚È‚½‚ÌŠç’†‚Éå@–ƒ]‚ªo‚Ä‚¢‚é[–£—Í" + limit((-2) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]", "Your face is ulcerate. [CHR" + limit((-2) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]"), lang("‚ ‚È‚½‚ÌŠç‚Í•ö‚ê‚©‚¯‚Ä‚¢‚é[–£—Í" + limit((-3) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]", "Your face is crumbling. [CHR" + limit((-3) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®é¡”ã®ãŸã ã‚Œã¯è»½ããªã£ãŸã€‚", "The swelling in your face decreases."), lang("ã‚ãªãŸã®é¡”ã¯ãŸã ã‚ŒãŸã€‚", "Your face is festered.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŠç‚Ì‚½‚¾‚ê‚ÍŒy‚­‚È‚Á‚½B", "The swelling in your face decreases."), lang("‚ ‚È‚½‚ÌŠç‚Í‚½‚¾‚ê‚½B", "Your face is festered.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CHA, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CHA, CHARA_PLAYER) + limit(trait(tid) * (4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5), -999, 0), sdata(SKILL_ATTR_CHA, CHARA_PLAYER) > 0, 9999)
@@ -938,9 +952,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®è¶³ã®è£ã¯è¹„ã«ãªã£ã¦ã„ã‚‹[è¶³è£…å‚™ä¸å¯ é€Ÿåº¦+" + limit(20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + "]", "Your feet transformed into hooves. [SPD+" + limit(20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " Can't wear boots]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì‘«‚Ì— ‚Í’û‚É‚È‚Á‚Ä‚¢‚é[‘«‘•”õ•s‰Â ‘¬“x+" + limit(20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + "]", "Your feet transformed into hooves. [SPD+" + limit(20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " Can't wear boots]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è¶³ã¯å…ƒã«æˆ»ã£ãŸã€‚", "Your feet become normal."), lang("ã‚ãªãŸã®è¶³ã®è£ã¯è¹„ã«å¤‰å½¢ã—ãŸã€‚", "Your feet change into hooves.")
+			traitrefn = lang("‚ ‚È‚½‚Ì‘«‚ÍŒ³‚É–ß‚Á‚½B", "Your feet become normal."), lang("‚ ‚È‚½‚Ì‘«‚Ì— ‚Í’û‚É•ÏŒ`‚µ‚½B", "Your feet change into hooves.")
 			return 1
 		}
 		sdata(SKILL_ATTR_SPD, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_SPD, CHARA_PLAYER) + limit(20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255), sdata(SKILL_ATTR_SPD, CHARA_PLAYER) > 0, 9999)
@@ -950,9 +964,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®ç›®ã¯4ã¤ã‚ã‚‹[æ„Ÿè¦š+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3, 0, 255) + " é­…åŠ›" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + "]", "You have 4 eyes. [PER+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3, 0, 255) + " CHR" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì–Ú‚Í4‚Â‚ ‚é[Š´Šo+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3, 0, 255) + " –£—Í" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + "]", "You have 4 eyes. [PER+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3, 0, 255) + " CHR" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®ç›®ã¯æ¸›ã£ãŸã€‚", "Your eyes become normal."), lang("ã‚ãªãŸã®ç›®ã¯å¢—æ®–ã—ãŸã€‚", "Your eyes are multiplying.")
+			traitrefn = lang("‚ ‚È‚½‚Ì–Ú‚ÍŒ¸‚Á‚½B", "Your eyes become normal."), lang("‚ ‚È‚½‚Ì–Ú‚Í‘B‚µ‚½B", "Your eyes are multiplying.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CHA, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CHA, CHARA_PLAYER) + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0), sdata(SKILL_ATTR_CHA, CHARA_PLAYER) > 0, 9999)
@@ -963,9 +977,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®èƒŒä¸­ã«ã¯ç¾½ãŒã‚ã‚‹[èƒŒä¸­è£…å‚™ä¸å¯ é‡é‡-20% é€Ÿåº¦+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + "]", "You have grown feathers. [SPD+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + " Weight-20% Can't wear cloaks]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì”w’†‚É‚Í‰H‚ª‚ ‚é[”w’†‘•”õ•s‰Â d—Ê-20% ‘¬“x+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + "]", "You have grown feathers. [SPD+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + " Weight-20% Can't wear cloaks]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®èƒŒä¸­ã‹ã‚‰ç¾½ãŒæ¶ˆãˆãŸã€‚", "Your feathers wilt."), lang("ã‚ãªãŸã®èƒŒä¸­ã«ç¾½ãŒç”ŸãˆãŸã€‚", "Feathers come out from your back.")
+			traitrefn = lang("‚ ‚È‚½‚Ì”w’†‚©‚ç‰H‚ªÁ‚¦‚½B", "Your feathers wilt."), lang("‚ ‚È‚½‚Ì”w’†‚É‰H‚ª¶‚¦‚½B", "Feathers come out from your back.")
 			return 1
 		}
 		cbitmod CHARA_BIT_FLOAT, 0, 1
@@ -976,9 +990,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®é¦–ã¯ã‚‚ã®å‡„ãå¤ªã„[é¦–è£…å‚™ä¸å¯ é­…åŠ›" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5) * (-1), -255, 0) + " PV+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER), 0, 255) + "]", "Your neck is extremely thick. [CHR" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5) * (-1), -255, 0) + " PV+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER), 0, 255) + " Can't wear amulets]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ìñ‚Í‚à‚Ì¦‚­‘¾‚¢[ñ‘•”õ•s‰Â –£—Í" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5) * (-1), -255, 0) + " PV+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER), 0, 255) + "]", "Your neck is extremely thick. [CHR" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5) * (-1), -255, 0) + " PV+" + limit(12 + cdata(CDATA_LEVEL, CHARA_PLAYER), 0, 255) + " Can't wear amulets]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®é¦–ã¯ç´°ããªã£ãŸã€‚", "Your neck becomes thin."), lang("ã‚ãªãŸã®é¦–ã¯å¤ªããªã£ãŸã€‚", "Your neck becomes extremely thick.")
+			traitrefn = lang("‚ ‚È‚½‚Ìñ‚Í×‚­‚È‚Á‚½B", "Your neck becomes thin."), lang("‚ ‚È‚½‚Ìñ‚Í‘¾‚­‚È‚Á‚½B", "Your neck becomes extremely thick.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CHA, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CHA, CHARA_PLAYER) + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 5) * (-1), -255, 0), sdata(SKILL_ATTR_CHA, CHARA_PLAYER) > 0, 9999)
@@ -989,9 +1003,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯æ®ºæˆ®ã«é£¢ãˆã¦ã„ã‚‹[è¢«ãƒ€ãƒ¡ãƒ¼ã‚¸ä¿®æ­£+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) / 4 + " ä¸ãƒ€ãƒ¡ãƒ¼ã‚¸ä¿®æ­£+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) + "]", "Desire for violence arises within you. [Dmg taken+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) / 4 + ", Dmg dealt+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) + "] ")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÍEC‚É‹Q‚¦‚Ä‚¢‚é[”íƒ_ƒ[ƒWC³+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) / 4 + " —^ƒ_ƒ[ƒWC³+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) + "]", "Desire for violence arises within you. [Dmg taken+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) / 4 + ", Dmg dealt+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) * 2 / 3, 0, 100) + "] ")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å¿ƒã¯è½ã¡ç€ã„ãŸã€‚", " A deep sense of peace fills your heart."), lang("ã‚ãªãŸã¯æ†ã—ã¿ã«æ”¯é…ã•ã‚ŒãŸã€‚", "Hatred dominates your soul.")
+			traitrefn = lang("‚ ‚È‚½‚ÌS‚Í—‚¿’…‚¢‚½B", " A deep sense of peace fills your heart."), lang("‚ ‚È‚½‚Í‘‚µ‚İ‚Éx”z‚³‚ê‚½B", "Hatred dominates your soul.")
 			return 1
 		}
 		return 1
@@ -1000,9 +1014,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®é ­ã¯å·¨å¤§åŒ–ã—ã¦ã„ã‚‹[è€ä¹…" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + " å™¨ç”¨" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " ç¿’å¾—+" + limit(6 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " æ„å¿—+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]", "Your head has grown huge. [END" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + " DEX" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " LER+" + limit(6 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " WIL+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì“ª‚Í‹‘å‰»‚µ‚Ä‚¢‚é[‘Ï‹v" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + " Ší—p" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " K“¾+" + limit(6 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " ˆÓu+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]", "Your head has grown huge. [END" + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0) + " DEX" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " LER+" + limit(6 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " WIL+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®é ­ã¯å…ƒã«æˆ»ã£ãŸã€‚", "Your head is normal size now."), lang("ã‚ãªãŸã®é ­ã¯å·¨å¤§åŒ–ã—ãŸã€‚", "Suddenly your head become giant size.")
+			traitrefn = lang("‚ ‚È‚½‚Ì“ª‚ÍŒ³‚É–ß‚Á‚½B", "Your head is normal size now."), lang("‚ ‚È‚½‚Ì“ª‚Í‹‘å‰»‚µ‚½B", "Suddenly your head become giant size.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CON, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CON, CHARA_PLAYER) + limit((5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 3) * (-1), -255, 0), sdata(SKILL_ATTR_CON, CHARA_PLAYER) > 0, 9999)
@@ -1015,9 +1029,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é›¨ã‚’å‘¼ã¶[é›¨å¤©ç¢ºç‡ä¸Šæ˜‡]", "Clouds of rain follow you. [Chance of rain+]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í‰J‚ğŒÄ‚Ô[‰J“VŠm—¦ã¸]", "Clouds of rain follow you. [Chance of rain+]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®é ­ä¸Šã‹ã‚‰é›¨é›²ãŒæ¶ˆãˆãŸã€‚", "Clouds of rain stop following you."), lang("ã‚ãªãŸã®é ­ä¸Šã«é›¨é›²ãŒç¾ã‚ŒãŸã€‚", "Clouds of rain start to follow you.")
+			traitrefn = lang("‚ ‚È‚½‚Ì“ªã‚©‚ç‰J‰_‚ªÁ‚¦‚½B", "Clouds of rain stop following you."), lang("‚ ‚È‚½‚Ì“ªã‚É‰J‰_‚ªŒ»‚ê‚½B", "Clouds of rain start to follow you.")
 			return 1
 		}
 		return 1
@@ -1026,9 +1040,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ãƒãƒ¼ã‚·ãƒ§ãƒ³ä¸­æ¯’ã [å®šæœŸçš„ãƒãƒ¼ã‚·ãƒ§ãƒ³æ¶ˆè²»]", "You are addicted to potions. [Consume potions]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Íƒ|[ƒVƒ‡ƒ“’†“Å‚¾[’èŠú“Iƒ|[ƒVƒ‡ƒ“Á”ï]", "You are addicted to potions. [Consume potions]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®ãƒãƒ¼ã‚·ãƒ§ãƒ³ä¸­æ¯’ã¯æ¶ˆãˆãŸã€‚", "You are no longer addicted to potions."), lang("ã‚ãªãŸã¯ãƒãƒ¼ã‚·ãƒ§ãƒ³ä¸­æ¯’ã«ãªã£ãŸã€‚", "Potions! More potions!! Suddenly, you become addicted to potions.")
+			traitrefn = lang("‚ ‚È‚½‚Ìƒ|[ƒVƒ‡ƒ“’†“Å‚ÍÁ‚¦‚½B", "You are no longer addicted to potions."), lang("‚ ‚È‚½‚Íƒ|[ƒVƒ‡ƒ“’†“Å‚É‚È‚Á‚½B", "Potions! More potions!! Suddenly, you become addicted to potions.")
 			return 1
 		}
 		return 1
@@ -1037,9 +1051,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯å¤œã‚ˆã‚Šã‚‚æ˜¼ã«çœ ããªã‚‹[çœ æ°—æ™‚é–“å¸¯å¤‰åŒ–]", "You feel more sleepy during the day than at night. [Change in sleepiness]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í–é‚æ‚è‚à’‹‚É–°‚­‚È‚é[–°‹CŠÔ‘Ñ•Ï‰»]", "You feel more sleepy during the day than at night. [Change in sleepiness]")
 			}
-			traitrefn = lang("ã‚ãªãŸã¯å†ã³å¤œã«çœ æ°—ã‚’æ„Ÿã˜ã‚‹ã‚ˆã†ã«ãªã£ãŸã€‚", "You started feeling sleepy at night again."), lang("ã‚ãªãŸã¯æ˜¼ã«çœ æ°—ã‚’æ„Ÿã˜ã‚‹ã‚ˆã†ã«ãªã£ãŸã€‚", "You start to feel sleepy during the day.")
+			traitrefn = lang("‚ ‚È‚½‚ÍÄ‚Ñ–é‚É–°‹C‚ğŠ´‚¶‚é‚æ‚¤‚É‚È‚Á‚½B", "You started feeling sleepy at night again."), lang("‚ ‚È‚½‚Í’‹‚É–°‹C‚ğŠ´‚¶‚é‚æ‚¤‚É‚È‚Á‚½B", "You start to feel sleepy during the day.")
 			return 1
 		}
 		return 1
@@ -1048,9 +1062,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯è¡°å¼±ã—ã¦ã„ã‚‹[HP-15% ç­‹åŠ›" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]", "You suffer debilitation. [HP-15% STR" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÍŠã‚µ‚Ä‚¢‚é[HP-15% ‹Ø—Í" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]", "You suffer debilitation. [HP-15% STR" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã¯å¥åº·ã«ãªã£ãŸã€‚", "You become healthy again."), lang("ã‚ãªãŸã¯è¡°å¼±ã—ãŸã€‚", "You become weak, very weak.")
+			traitrefn = lang("‚ ‚È‚½‚ÍŒ’N‚É‚È‚Á‚½B", "You become healthy again."), lang("‚ ‚È‚½‚ÍŠã‚µ‚½B", "You become weak, very weak.")
 			return 1
 		}
 		sdata(SKILL_ATTR_STR, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_STR, CHARA_PLAYER) + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0), sdata(SKILL_ATTR_STR, CHARA_PLAYER) > 0, 9999)
@@ -1061,9 +1075,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ç—´å‘†ã«ãªã£ã¦ã„ã‚‹[MP-15% é­”åŠ›" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]", "You have dementia. [MP-15% MAG" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í’s•ğ‚É‚È‚Á‚Ä‚¢‚é[MP-15% –‚—Í" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]", "You have dementia. [MP-15% MAG" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã¯æ˜æ™°ã«ãªã£ãŸã€‚", "You become confident again."), lang("ã‚ãªãŸã¯ã¼ã‘ãŸã€‚", "You become feebleminded.")
+			traitrefn = lang("‚ ‚È‚½‚Í–¾ğ‚É‚È‚Á‚½B", "You become confident again."), lang("‚ ‚È‚½‚Í‚Ú‚¯‚½B", "You become feebleminded.")
 			return 1
 		}
 		sdata(SKILL_ATTR_MAG, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_MAG, CHARA_PLAYER) + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0), sdata(SKILL_ATTR_MAG, CHARA_PLAYER) > 0, 9999)
@@ -1074,9 +1088,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯é‡ã„ç”²æ®»ã§è¦†ã‚ã‚Œã¦ã„ã‚‹[PV+" + limit(15 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " é€Ÿåº¦" + limit((20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]", "You are covered by heavy carapace. [PV+" + limit(15 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " SPD" + limit((20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Íd‚¢bŠk‚Å•¢‚í‚ê‚Ä‚¢‚é[PV+" + limit(15 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " ‘¬“x" + limit((20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]", "You are covered by heavy carapace. [PV+" + limit(15 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2, 0, 255) + " SPD" + limit((20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®çš®è†šã‹ã‚‰ç”²æ®»ãŒæ¶ˆãˆãŸã€‚", "Your carapace starts to break."), lang("ã‚ãªãŸã®çš®è†šã¯ç”²æ®»ã§è¦†ã‚ã‚ŒãŸã€‚", "A heavy carapace starts to cover up your skin.")
+			traitrefn = lang("‚ ‚È‚½‚Ì”ç•†‚©‚çbŠk‚ªÁ‚¦‚½B", "Your carapace starts to break."), lang("‚ ‚È‚½‚Ì”ç•†‚ÍbŠk‚Å•¢‚í‚ê‚½B", "A heavy carapace starts to cover up your skin.")
 			return 1
 		}
 		sdata(SKILL_ATTR_SPD, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_SPD, CHARA_PLAYER) + limit((20 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0), sdata(SKILL_ATTR_SPD, CHARA_PLAYER) > 0, 9999)
@@ -1087,9 +1101,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®å‘¨å›²ã®ç©ºé–“ã¯æ©ã‚Œã¦ã„ã‚‹[ãƒ©ãƒ³ãƒ€ãƒ ãƒ†ãƒ¬ãƒãƒ¼ãƒˆ]", "You destabilize the space around you. [Random teleporation]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÌüˆÍ‚Ì‹óŠÔ‚Í€‚ê‚Ä‚¢‚é[ƒ‰ƒ“ƒ_ƒ€ƒeƒŒƒ|[ƒg]", "You destabilize the space around you. [Random teleporation]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å‘¨å›²ã®ç©ºé–“ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "You feel steady."), lang("ã‚ãªãŸã®å‘¨å›²ã®ç©ºé–“ã¯æ©ã‚ŒãŸã€‚", "You feel unstable.")
+			traitrefn = lang("‚ ‚È‚½‚ÌüˆÍ‚Ì‹óŠÔ‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "You feel steady."), lang("‚ ‚È‚½‚ÌüˆÍ‚Ì‹óŠÔ‚Í€‚ê‚½B", "You feel unstable.")
 			return 1
 		}
 		return 1
@@ -1098,9 +1112,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã¯ç”ŸããŸãƒãƒŠãƒãƒƒãƒ†ãƒªãƒ¼ã [æ–ã‹ã‚‰é­”åŠ›æŠ½å‡º]", "You are a living mana battery. [Absorb mana from rods]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Í¶‚«‚½ƒ}ƒiƒoƒbƒeƒŠ[‚¾[ñ‚©‚ç–‚—Í’Šo]", "You are a living mana battery. [Absorb mana from rods]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®ãƒãƒŠã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "You are no longer a living mana battery."), lang("ã‚ãªãŸã®ãƒãƒŠã¯æ–ã‹ã‚‰é­”åŠ›ã‚’æŠ½å‡ºã™ã‚‹ã€‚", "You are a living mana battery.")
+			traitrefn = lang("‚ ‚È‚½‚Ìƒ}ƒi‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "You are no longer a living mana battery."), lang("‚ ‚È‚½‚Ìƒ}ƒi‚Íñ‚©‚ç–‚—Í‚ğ’Šo‚·‚éB", "You are a living mana battery.")
 			return 1
 		}
 		return 1
@@ -1109,9 +1123,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®æ‰‹ã‹ã‚‰æ¯’ãŒæ»´ã£ã¦ã„ã‚‹[ãƒãƒ¼ã‚·ãƒ§ãƒ³æ¯’åŒ– æ¯’è€æ€§å¼·åŒ–]", "Poison drips from your hands. [Poison potions RES Poison+]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ìè‚©‚ç“Å‚ª“H‚Á‚Ä‚¢‚é[ƒ|[ƒVƒ‡ƒ““Å‰» “Å‘Ï«‹­‰»]", "Poison drips from your hands. [Poison potions RES Poison+]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®æ‰‹ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your hands are clean now."), lang("ã‚ãªãŸã®æ‰‹ã‹ã‚‰æ¯’ãŒæ»´ã‚Šå‡ºã—ãŸã€‚", "Poison starts to drip from your hands.")
+			traitrefn = lang("‚ ‚È‚½‚Ìè‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your hands are clean now."), lang("‚ ‚È‚½‚Ìè‚©‚ç“Å‚ª“H‚èo‚µ‚½B", "Poison starts to drip from your hands.")
 			return 1
 		}
 		sdata(SKILL_RES_POISON, CHARA_PLAYER) = limit(sdata(SKILL_RES_POISON, CHARA_PLAYER) + 100, sdata(SKILL_RES_POISON, CHARA_PLAYER) > 0, 9999)
@@ -1121,9 +1135,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®é ­ã«ã¯ç£ã®è€³ãŒç”Ÿãˆã¦ã„ã‚‹[é ­è£…å‚™ä¸å¯ æ„Ÿè¦š+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + "]", "Your head is growing ears of a beast. [PER+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + " Can't wear helms]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì“ª‚É‚Íb‚Ì¨‚ª¶‚¦‚Ä‚¢‚é[“ª‘•”õ•s‰Â Š´Šo+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + "]", "Your head is growing ears of a beast. [PER+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + " Can't wear helms]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è€³ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your ears have been restored."), lang("ã‚ãªãŸã«ç£ã®è€³ãŒç”ŸãˆãŸã€‚", "Ears of the beast grew on your head.")
+			traitrefn = lang("‚ ‚È‚½‚Ì¨‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your ears have been restored."), lang("‚ ‚È‚½‚Éb‚Ì¨‚ª¶‚¦‚½B", "Ears of the beast grew on your head.")
 			return 1
 		}
 		sdata(SKILL_ATTR_PER, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_PER, CHARA_PLAYER) + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255), sdata(SKILL_ATTR_PER, CHARA_PLAYER) > 0, 9999)
@@ -1133,9 +1147,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®éª¨ã¯é£›ã³å‡ºã—ã¦ã„ã‚‹[ä½“è£…å‚™ä¸å¯ åˆ‡ã‚Šå‚·åæ’ƒ]", "Your bones are popping out. [Deals cut damage to the attacker, Can't wear armors]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ìœ‚Í”ò‚Ño‚µ‚Ä‚¢‚é[‘Ì‘•”õ•s‰Â Ø‚è”½Œ‚]", "Your bones are popping out. [Deals cut damage to the attacker, Can't wear armors]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®éª¨ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your bones have retracted."), lang("ã‚ãªãŸã®ä½“ã‹ã‚‰é‹­ã„éª¨ãŒçš®è†šã‚’çªãç ´ã£ã¦é£›ã³å‡ºã—ãŸã€‚", "Sharp bones from your body pierced through your skin.")
+			traitrefn = lang("‚ ‚È‚½‚Ìœ‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your bones have retracted."), lang("‚ ‚È‚½‚Ì‘Ì‚©‚ç‰s‚¢œ‚ª”ç•†‚ğ“Ë‚«”j‚Á‚Ä”ò‚Ño‚µ‚½B", "Sharp bones from your body pierced through your skin.")
 			return 1
 		}
 		return 1
@@ -1144,9 +1158,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã«ã¯ç™ºé”ã—ãŸå°»å°¾ãŒã‚ã‚‹[è…°è£…å‚™ä¸å¯ å™¨ç”¨+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + "]", "You have a developed tail. [DEX+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + " Can't wear girdles]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚É‚Í”­’B‚µ‚½K”ö‚ª‚ ‚é[˜‘•”õ•s‰Â Ší—p+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + "]", "You have a developed tail. [DEX+" + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255) + " Can't wear girdles]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å°»å°¾ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your tail has shrunk."), lang("ã‚ãªãŸã¯å°»å°¾ãŒç™ºé”ã—ãŸã€‚", "Your tail has grown.")
+			traitrefn = lang("‚ ‚È‚½‚ÌK”ö‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your tail has shrunk."), lang("‚ ‚È‚½‚ÍK”ö‚ª”­’B‚µ‚½B", "Your tail has grown.")
 			return 1
 		}
 		sdata(SKILL_ATTR_DEX, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_DEX, CHARA_PLAYER) + limit(10 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4, 0, 255), sdata(SKILL_ATTR_DEX, CHARA_PLAYER) > 0, 9999)
@@ -1156,9 +1170,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã«ã¯ç¾ã—ã„èŠ±ãŒå’²ã„ã¦ã„ã‚‹[å¯„ç”Ÿç„¡åŠ¹ [æ²»ç™’" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + " é­…åŠ›+" + limit(1 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8, 0, 255) + "]", "The beautiful flower is blooming on you. [Prevents-aliens Healing" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + " CHR" + limit(1 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8, 0, 255) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚É‚Í”ü‚µ‚¢‰Ô‚ªç‚¢‚Ä‚¢‚é[Šñ¶–³Œø [¡–ü" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + " –£—Í+" + limit(1 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8, 0, 255) + "]", "The beautiful flower is blooming on you. [Prevents-aliens Healing" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0) + " CHR" + limit(1 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8, 0, 255) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã«å’²ã„ã¦ã„ãŸèŠ±ãŒæ•£ã£ãŸã€‚", "The flower that was blooming on you scattered."), lang("ã‚ãªãŸã®çš®è†šãŒç ´ã‚Œã¦èŠ±ãŒå’²ã„ãŸã€‚", "Your skin has torn and flowers have bloomed.")
+			traitrefn = lang("‚ ‚È‚½‚Éç‚¢‚Ä‚¢‚½‰Ô‚ªU‚Á‚½B", "The flower that was blooming on you scattered."), lang("‚ ‚È‚½‚Ì”ç•†‚ª”j‚ê‚Ä‰Ô‚ªç‚¢‚½B", "Your skin has torn and flowers have bloomed.")
 			return 1
 		}
 		sdata(SKILL_NORMAL_HEALING, CHARA_PLAYER) = limit(sdata(SKILL_NORMAL_HEALING, CHARA_PLAYER) + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 2) * (-1), -255, 0), sdata(SKILL_NORMAL_HEALING, CHARA_PLAYER) > 0, 9999)
@@ -1169,9 +1183,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã«ã¯å¤§ããªæ°´ã‹ããŒã¤ã„ã¦ã„ã‚‹[æŒ‡è£…å‚™ä¸å¯ ç€è¡£æ°´æ³³+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]", "You have a big webbeds. [Swimming+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + " Can't wear rings]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚É‚Í‘å‚«‚È…‚©‚«‚ª‚Â‚¢‚Ä‚¢‚é[w‘•”õ•s‰Â ’…ˆß…‰j+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]", "You have a big webbeds. [Swimming+" + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + " Can't wear rings]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®æ°´ã‹ãã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your webbed has become smaller."), lang("ã‚ãªãŸã®æŒ‡ã®é–“ã«å¤§ããªæ°´ã‹ããŒã§ããŸã€‚", "Large webbeds were generated between your fingers.")
+			traitrefn = lang("‚ ‚È‚½‚Ì…‚©‚«‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your webbed has become smaller."), lang("‚ ‚È‚½‚Ìw‚ÌŠÔ‚É‘å‚«‚È…‚©‚«‚ª‚Å‚«‚½B", "Large webbeds were generated between your fingers.")
 			return 1
 		}
 		sdata(SKILL_NORMAL_SWIMMING, CHARA_PLAYER) = limit(sdata(SKILL_NORMAL_SWIMMING, CHARA_PLAYER) + limit(2 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255), sdata(SKILL_NORMAL_SWIMMING, CHARA_PLAYER) > 0, 9999)
@@ -1181,9 +1195,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®è…•ã¯èƒ´ã‚ˆã‚Šå¤ªã„[è…•è£…å‚™ä¸å¯ ç­‹åŠ›+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]", "Your arms are thicker than your torso. [STR+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + " Can't wear gloves]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì˜r‚Í“·‚æ‚è‘¾‚¢[˜r‘•”õ•s‰Â ‹Ø—Í+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + "]", "Your arms are thicker than your torso. [STR+" + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255) + " Can't wear gloves]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è…•ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your arms became restored."), lang("ã‚ãªãŸã®è…•ãŒèƒ´ã‚ˆã‚Šå¤ªããªã£ãŸã€‚", "Your arms become thicker than your torso.")
+			traitrefn = lang("‚ ‚È‚½‚Ì˜r‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your arms became restored."), lang("‚ ‚È‚½‚Ì˜r‚ª“·‚æ‚è‘¾‚­‚È‚Á‚½B", "Your arms become thicker than your torso.")
 			return 1
 		}
 		sdata(SKILL_ATTR_STR, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_STR, CHARA_PLAYER) + limit(5 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6, 0, 255), sdata(SKILL_ATTR_STR, CHARA_PLAYER) > 0, 9999)
@@ -1193,9 +1207,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®æ‰‹ã¯åˆƒç‰©ã«ãªã£ã¦ã„ã‚‹[æ‰‹è£…å‚™ä¸å¯ é¦–ç‹©ã‚Šæ”»æ’ƒä¼šå¾—]", "Your hands are blades. [Can't wear weapons, Available Decapitation]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ìè‚Ín•¨‚É‚È‚Á‚Ä‚¢‚é[è‘•”õ•s‰Â ñë‚èUŒ‚‰ï“¾]", "Your hands are blades. [Can't wear weapons, Available Decapitation]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®æ‰‹ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your hands became restored."), lang("ã‚ãªãŸã®æ‰‹ãŒé‹­ã„åˆƒç‰©ã«å¤‰åŒ–ã—ãŸã€‚", "Your hands has turned into sharp blades.")
+			traitrefn = lang("‚ ‚È‚½‚Ìè‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your hands became restored."), lang("‚ ‚È‚½‚Ìè‚ª‰s‚¢n•¨‚É•Ï‰»‚µ‚½B", "Your hands has turned into sharp blades.")
 			return 1
 		}
 		return 1
@@ -1204,9 +1218,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®å£ã¯è£‚ã‘ã¦ã„ã‚‹[é­…åŠ›" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8) * (-1), -255, 0) + " è²ªé£Ÿã®ç‰™ä¼šå¾—]", "Your mouth is torn. [CHR" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8) * (-1), -255, 0) + " Available Voracity Fang]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚ÌŒû‚Í—ô‚¯‚Ä‚¢‚é[–£—Í" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8) * (-1), -255, 0) + " æÃH‚Ì‰å‰ï“¾]", "Your mouth is torn. [CHR" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8) * (-1), -255, 0) + " Available Voracity Fang]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å£ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your mouth became restored."), lang("ã‚ãªãŸã®å£ãŒå¤§ããè£‚ã‘ãŸã€‚", "Your mouth began to torn greatly.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŒû‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your mouth became restored."), lang("‚ ‚È‚½‚ÌŒû‚ª‘å‚«‚­—ô‚¯‚½B", "Your mouth began to torn greatly.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CHA, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CHA, CHARA_PLAYER) + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 8) * (-1), -255, 0), sdata(SKILL_ATTR_CHA, CHARA_PLAYER) > 0, 9999)
@@ -1216,9 +1230,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã«ã¯å£ãŒè¤‡æ•°ã‚ã‚‹[è€ä¹…" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6) * (-1), -255, 0) + " é£Ÿäº‹ã‚¿ãƒ¼ãƒ³åŠæ¸›]", "You have multiple mouths. [END" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6) * (-1), -255, 0) + " Halve eating turn]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚É‚ÍŒû‚ª•¡”‚ ‚é[‘Ï‹v" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6) * (-1), -255, 0) + " H–ƒ^[ƒ“”¼Œ¸]", "You have multiple mouths. [END" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6) * (-1), -255, 0) + " Halve eating turn]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®å£ã¯å…ƒé€šã‚Šã®æ•°ã«ãªã£ãŸã€‚", "Your mouth has returned to its original number."), lang("ã‚ãªãŸã®çš®è†šãŒå‰²ã‚Œã¦æ–°ãŸãªå£ãŒå½¢æˆã•ã‚ŒãŸã€‚", "Your skin cracked and a new mouth was formed.")
+			traitrefn = lang("‚ ‚È‚½‚ÌŒû‚ÍŒ³’Ê‚è‚Ì”‚É‚È‚Á‚½B", "Your mouth has returned to its original number."), lang("‚ ‚È‚½‚Ì”ç•†‚ªŠ„‚ê‚ÄV‚½‚ÈŒû‚ªŒ`¬‚³‚ê‚½B", "Your skin cracked and a new mouth was formed.")
 			return 1
 		}
 		sdata(SKILL_ATTR_CON, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_CON, CHARA_PLAYER) + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 6) * (-1), -255, 0), sdata(SKILL_ATTR_CON, CHARA_PLAYER) > 0, 9999)
@@ -1228,9 +1242,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -1, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã®ç²¾åŠ›ã¯ç•°å¸¸ã [SP+20% æ„å¿—" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " ç¿’å¾—" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + "]", "Your libido is abnormal. [SP+20% WIL" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " LER" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + "]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚Ì¸—Í‚ÍˆÙí‚¾[SP+20% ˆÓu" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " K“¾" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + "]", "Your libido is abnormal. [SP+20% WIL" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + " LER" + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0) + "]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®ç²¾åŠ›ã¯å…ƒé€šã‚Šã«ãªã£ãŸã€‚", "Your libido has subsided."), lang("ã‚ãªãŸã¯ç²¾åŠ›ãŒç—…çš„ãªã¾ã§ã«ã¿ãªãã£ã¦ããŸã€‚", "You have full of libido pathologically.")
+			traitrefn = lang("‚ ‚È‚½‚Ì¸—Í‚ÍŒ³’Ê‚è‚É‚È‚Á‚½B", "Your libido has subsided."), lang("‚ ‚È‚½‚Í¸—Í‚ª•a“I‚È‚Ü‚Å‚É‚İ‚È‚¬‚Á‚Ä‚«‚½B", "You have full of libido pathologically.")
 			return 1
 		}
 		sdata(SKILL_ATTR_WIL, CHARA_PLAYER) = limit(sdata(SKILL_ATTR_WIL, CHARA_PLAYER) + limit((4 + cdata(CDATA_LEVEL, CHARA_PLAYER) / 4) * (-1), -255, 0), sdata(SKILL_ATTR_WIL, CHARA_PLAYER) > 0, 9999)
@@ -1241,9 +1255,9 @@
 		if ( traitmode == 0 ) {
 			traitref = 3, -2, 0, 1, 0, 100, -1
 			if ( trait(tid) < 0 ) {
-				traitrefn(2) = "", lang("ã‚ãªãŸã«ã¯ç´°ã„è§¦æ‰‹ãŒç”Ÿãˆã¦ã„ã‚‹[æˆ¦é—˜ãƒ»å¹²æ¸‰æ™‚ã«è§¦æ‰‹æš´èµ°]", "Thin tentacles are growing from you. [Tentacles runaway during battle and interference]"), lang("ã‚ãªãŸã«ã¯å¤ªã„è§¦æ‰‹ãŒç”Ÿãˆã¦ã„ã‚‹[æˆ¦é—˜ãƒ»å¹²æ¸‰æ™‚ã«å¼·è§¦æ‰‹æš´èµ°]", "Thick tentacles are growing from you. [Strong tentacles runaway during battle and interference]")
+				traitrefn(2) = "", lang("‚ ‚È‚½‚É‚Í×‚¢Gè‚ª¶‚¦‚Ä‚¢‚é[í“¬EŠ±Â‚ÉGè–\‘–]", "Thin tentacles are growing from you. [Tentacles runaway during battle and interference]"), lang("‚ ‚È‚½‚É‚Í‘¾‚¢Gè‚ª¶‚¦‚Ä‚¢‚é[í“¬EŠ±Â‚É‹­Gè–\‘–]", "Thick tentacles are growing from you. [Strong tentacles runaway during battle and interference]")
 			}
-			traitrefn = lang("ã‚ãªãŸã®è§¦æ‰‹ã¯ã—ãªã³ãŸã€‚", "Your tentacles have shrunk."), lang("ã‚ãªãŸã®ä½“ã‹ã‚‰è§¦æ‰‹ãŒç”Ÿãˆã¦ããŸã€‚", "Tentacles have grown from your body.")
+			traitrefn = lang("‚ ‚È‚½‚ÌGè‚Í‚µ‚È‚Ñ‚½B", "Your tentacles have shrunk."), lang("‚ ‚È‚½‚Ì‘Ì‚©‚çGè‚ª¶‚¦‚Ä‚«‚½B", "Tentacles have grown from your body.")
 			return 1
 		}
 		return 1

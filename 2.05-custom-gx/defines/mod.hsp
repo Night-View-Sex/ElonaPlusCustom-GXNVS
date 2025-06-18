@@ -621,8 +621,9 @@
 #define global	SKILL_SPACT_POKER_FORCE	868
 #define global	SKILL_SPACT_CLEMENTIA	869
 #define global	SKILL_SPACT_MIASMA_OF_HELL	870
+#define global	SKILL_SPACT_WICKED_BLADE	871//Wicked Blade
 
-#define global	MAX_SKILL	(SKILL_SPACT_MIASMA_OF_HELL + 1)
+#define global	MAX_SKILL	(SKILL_SPACT_WICKED_BLADE + 1)
 
 // Absolute skill limits
 #define global	MAX_SPACT_COUNT	500 // Maximum number of spact slots available in the array, beginning at STARTING_SKILL_SPACT, meaning the effective max skillid is 1099 (1100 if you really push it)
@@ -1474,6 +1475,7 @@
 #define global	TRAIT_NORMAL_OTHER_MOUNT_BOND	48
 #define global	TRAIT_NORMAL_SPACT_MISTELTEIN	49
 #define global	MAX_NORMAL_TRAIT	50
+#define global	TRAIT_NORMAL_SPACT_WICKED	51
 
 #define global	TRAIT_RACE_RES_FIRE	150
 #define global	TRAIT_RACE_RES_COLD	151

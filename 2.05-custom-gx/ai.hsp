@@ -85,8 +85,8 @@
 			if ( cdata(CDATA_PIC, cc) == xy2pic(5, 4) | cdata(CDATA_PIC, cc) == xy2pic(23, 9) ) {
 				cdata(CDATA_PIC, cc) = xy2pic(1, 23)
 			}
-			evname = lang("äººç‹¼", "werewolf")
-			evold = lang("å¸‚æ°‘", "citizen")
+			evname = lang("l˜T", "werewolf")
+			evold = lang("s–¯", "citizen")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -94,8 +94,8 @@
 				cdatan(CDATAN_NAME, cc) = strmid(cdatan(CDATAN_NAME, cc), 0, strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold)) + evname
 			}
 		} else {
-			evold = lang("äººç‹¼", "werewolf")
-			evname = lang("å¸‚æ°‘", "citizen")
+			evold = lang("l˜T", "werewolf")
+			evname = lang("s–¯", "citizen")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -114,8 +114,8 @@
 					cdata(CDATA_PIC, cc) = xy2pic(1, 23) + COLOR_BROWN * COLOR_TINT_MULT
 				}
 			}
-			evname = lang("äººç‹¼æ¢åµ", "werewolf detective")
-			evold = lang("æ¢åµ", "detective")
+			evname = lang("l˜T’T’ã", "werewolf detective")
+			evold = lang("’T’ã", "detective")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -123,8 +123,8 @@
 				cdatan(CDATAN_NAME, cc) = strmid(cdatan(CDATAN_NAME, cc), 0, strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold)) + evname
 			}
 		} else {
-			evold = lang("äººç‹¼æ¢åµ", "werewolf detective")
-			evname = lang("æ¢åµ", "detective")
+			evold = lang("l˜T’T’ã", "werewolf detective")
+			evname = lang("’T’ã", "detective")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -152,8 +152,8 @@
 			if ( cdata(CDATA_PIC, cc) == xy2pic(4, 4) | cdata(CDATA_PIC, cc) == xy2pic(21, 4) | cdata(CDATA_PIC, cc) == xy2pic(5, 4) | cdata(CDATA_PIC, cc) == xy2pic(23, 9) ) {
 				cdata(CDATA_PIC, cc) = xy2pic(5, 23)
 			}
-			evname = lang("å¦–ç‹", "fox spirit")
-			evold = lang("å¸‚æ°‘", "citizen")
+			evname = lang("—dŒÏ", "fox spirit")
+			evold = lang("s–¯", "citizen")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -161,8 +161,8 @@
 				cdatan(CDATAN_NAME, cc) = strmid(cdatan(CDATAN_NAME, cc), 0, strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold)) + evname
 			}
 		} else {
-			evold = lang("å¦–ç‹", "fox spirit")
-			evname = lang("å¸‚æ°‘", "citizen")
+			evold = lang("—dŒÏ", "fox spirit")
+			evname = lang("s–¯", "citizen")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -175,8 +175,8 @@
 		if ( cc < MAX_CHARA_FOLLOWER | cdata(CDATA_ROLE, cc) == ROLE_SPECIAL | cdata(CDATA_ALLIED, cc) == 100 ) {
 			if ( cdata(CDATA_PIC, cc) == xy2pic(4, 4) | cdata(CDATA_PIC, cc) == xy2pic(21, 4) | cdata(CDATA_PIC, cc) == xy2pic(5, 4) | cdata(CDATA_PIC, cc) == xy2pic(23, 9) ) {
 				cdata(CDATA_PIC, cc) = xy2pic(6, 23)
-				evname = lang("ã‚¹ãƒ³ãƒãƒ©ãƒªã‚¢æ˜Ÿäºº", "sunbararian")
-				evold = lang("å¸‚æ°‘", "citizen")
+				evname = lang("ƒXƒ“ƒoƒ‰ƒŠƒA¯l", "sunbararian")
+				evold = lang("s–¯", "citizen")
 				if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 					cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 				}
@@ -185,8 +185,8 @@
 				}
 			}
 		} else {
-			evold = lang("ã‚¹ãƒ³ãƒãƒ©ãƒªã‚¢æ˜Ÿäºº", "sunbararian")
-			evname = lang("å¸‚æ°‘", "citizen")
+			evold = lang("ƒXƒ“ƒoƒ‰ƒŠƒA¯l", "sunbararian")
+			evname = lang("s–¯", "citizen")
 			if ( strmid(cdatan(CDATAN_NAME, cc), 0, strlen(evold)) == evold ) {
 				cdatan(CDATAN_NAME, cc) = evname + strmid(cdatan(CDATAN_NAME, cc), strlen(evold), strlen(cdatan(CDATAN_NAME, cc)) - strlen(evold))
 			}
@@ -349,32 +349,32 @@
 						snd SOUNDLIST_CURSE2
 						animeload 8, cc
 						txtef COLOR_RED
-                        txt lang(name(cc) + "ã¯æˆ¦ã£ã¦ã„ã‚‹ç†ç”±ã‚’å¿˜ã‚ŒãŸã€‚", name(cc) + " forgot the reason why " + he(cc, 1) + " " + was(cc) + " fighting.")
+                        txt lang(name(cc) + "‚Íí‚Á‚Ä‚¢‚é——R‚ğ–Y‚ê‚½B", name(cc) + " forgot the reason why " + he(cc, 1) + " " + was(cc) + " fighting.")
 					}
 					if ( gdata(GDATA_FLAG_CHAOS_CHILD_FORGET) == 220 ) {
 						snd SOUNDLIST_CURSE2
 						animeload 8, cc
 						txtef COLOR_RED
-                        txt lang(name(cc) + "ã¯æ­©ãæ–¹ã‚’å¿˜ã‚ŒãŸã€‚", name(cc) + " forgot how to walk.")
+                        txt lang(name(cc) + "‚Í•à‚«•û‚ğ–Y‚ê‚½B", name(cc) + " forgot how to walk.")
 					}
 					if ( gdata(GDATA_FLAG_CHAOS_CHILD_FORGET) == 230 ) {
 						snd SOUNDLIST_CURSE2
 						animeload 8, cc
 						txtef COLOR_RED
-                        txt lang(name(cc) + "ã¯å‘¼å¸ã®ä»•æ–¹ã‚’å¿˜ã‚ŒãŸã€‚", name(cc) + " forgot how to breathe.")
+                        txt lang(name(cc) + "‚ÍŒÄ‹z‚Ìd•û‚ğ–Y‚ê‚½B", name(cc) + " forgot how to breathe.")
 					}
 					if ( gdata(GDATA_FLAG_CHAOS_CHILD_FORGET) == 240 ) {
 						snd SOUNDLIST_CURSE2
 						animeload 8, cc
 						txtef COLOR_RED
-                        txt lang(name(cc) + "ã¯é—˜äº‰æœ¬èƒ½ã‚’å¿˜ã‚ŒãŸã€‚", name(cc) + " forgot " + his(cc) + " fighting instincts.")
+                        txt lang(name(cc) + "‚Í“¬‘ˆ–{”\‚ğ–Y‚ê‚½B", name(cc) + " forgot " + his(cc) + " fighting instincts.")
 					}
 					if ( gdata(GDATA_FLAG_CHAOS_CHILD_FORGET) >= 250 ) {
 						gdata(GDATA_FLAG_CHAOS_CHILD_FORGET) = 250
 						snd SOUNDLIST_CURSE2
 						animeload 8, cc
 						txtef COLOR_RED
-						txt lang(name(cc) + "ã¯å…¨ã¦ã‚’å¿˜ã‚Œã€å®Œå…¨ã«å‹•ãã‚’æ­¢ã‚ãŸâ€¦ã€‚", name(tc) + " forgot everything and completely stopped moving....")
+						txt lang(name(cc) + "‚Í‘S‚Ä‚ğ–Y‚êAŠ®‘S‚É“®‚«‚ğ~‚ß‚½cB", name(tc) + " forgot everything and completely stopped moving....")
 						gdata(GDATA_FLAG_MAIN) = 755
 						evadd EVENT_NAGAREW
 						goto *turn_end
@@ -440,7 +440,7 @@
 			if ( rnd(30) == 0 ) {
 				tc = cc
 				chatc@DP = cc
-				txt lang("ã€Œã‚‚ã£ã¨ã¶ã£ã¦" + _yo(2) + "ã€", cnvtalk("Release me now.")), lang("ã€Œã“ã‚“ãªã“ã¨ã—ã¦ã€è¨±ã•ãªã„" + _yo() + "ã€", cnvtalk("I won't forget this.")), lang("ã€Œä½•ã‚’ã™ã‚‹" + _nda(2) + "ã€", cnvtalk("Hit me!"))
+				txt lang("u‚à‚Á‚Æ‚Ô‚Á‚Ä" + _yo(2) + "v", cnvtalk("Release me now.")), lang("u‚±‚ñ‚È‚±‚Æ‚µ‚ÄA‹–‚³‚È‚¢" + _yo() + "v", cnvtalk("I won't forget this.")), lang("u‰½‚ğ‚·‚é" + _nda(2) + "v", cnvtalk("Hit me!"))
 			}
 		}
 		cdata(CDATA_AI_AGGRO, cc) = 0
@@ -450,7 +450,7 @@
 		if ( synccheck(cc, -1) ) {
 			if ( rnd(30) == 0 ) {
 				tc = cc
-				txt lang("ã€Œã“ã“ã‹ã‚‰å‡ºã›ãƒ¼ï¼ã€", cnvtalk("Release me now!")), lang("ã€Œã“ã‚“ãªã“ã¨ã—ã¦ã€è¨±ã•ãªã„" + _yo(2) + "ã€", cnvtalk("I won't forget this!")), lang("ã€Œã©ã“ã«é€£ã‚Œã¦ã„ã" + _nda(2) + "ã€", cnvtalk("Where are you taking me?"))
+				txt lang("u‚±‚±‚©‚ço‚¹[Iv", cnvtalk("Release me now!")), lang("u‚±‚ñ‚È‚±‚Æ‚µ‚ÄA‹–‚³‚È‚¢" + _yo(2) + "v", cnvtalk("I won't forget this!")), lang("u‚Ç‚±‚É˜A‚ê‚Ä‚¢‚­" + _nda(2) + "v", cnvtalk("Where are you taking me?"))
 			}
 		}
 		cdata(CDATA_AI_AGGRO, cc) = 0
@@ -490,13 +490,13 @@
 							else {
 								if ( rnd(2) ) {
 									chatc@DP = cc
-									txt lang("ã€Œç—›ã£ï¼ã€", cnvtalk("Ouch!")), lang("ã€Œã‚„ã‚ã¦ï¼ã€", cnvtalk("Stop it!"))
+									txt lang("u’É‚ÁIv", cnvtalk("Ouch!")), lang("u‚â‚ß‚ÄIv", cnvtalk("Stop it!"))
 									hostileaction CHARA_PLAYER, cc
 								}
 								if ( rnd(4) == 0 ) {
 									cbitmod CHARA_BIT_LEASHED, cc, 0
 									txtef COLOR_SKY_BLUE
-									txt lang(name(cc) + "ã¯å·»ãã¤ã„ã¦ãŸã²ã‚‚ã‚’ã»ã©ã„ãŸã€‚", name(cc) + " untangle" + _s(cc) + " the leash.")
+									txt lang(name(cc) + "‚ÍŠª‚«‚Â‚¢‚Ä‚½‚Ğ‚à‚ğ‚Ù‚Ç‚¢‚½B", name(cc) + " untangle" + _s(cc) + " the leash.")
 								}
 							}
 							tc = CHARA_PLAYER
@@ -620,7 +620,7 @@
 					txtef COLOR_BLUE
 					txtmore
 					chatc@DP = cc
-					txt lang("ã€Œã„ã„ãï¼ã€", cnvtalk("Come on!")), lang("ã€Œã‚‚ã£ã¨ã‚„ã‚Œãƒ¼ã€", cnvtalk("More blood!")), lang("ã€Œè¡€ã‚’ã¿ã›ã‚ãƒ¼ã€", cnvtalk("Beat'em!")), lang("ã€Œé ‘å¼µã£ã¦ï¼ã€", cnvtalk("Use your brain!")), lang("ã€Œã†ã‰ã‰ã‰ã‰ï¼ã€", cnvtalk("Wooooo!")), lang("ã€Œè¡Œã‘ã‡ï¼ã€", cnvtalk("Go go!")), lang("ã€Œé ­ã‚’ä½¿ãˆã‚ˆã€", cnvtalk("Good fighting.")), lang("ã€Œãã‚ƒãƒ¼ã€", cnvtalk("Yeeee!"))
+					txt lang("u‚¢‚¢‚¼Iv", cnvtalk("Come on!")), lang("u‚à‚Á‚Æ‚â‚ê[v", cnvtalk("More blood!")), lang("uŒŒ‚ğ‚İ‚¹‚ë[v", cnvtalk("Beat'em!")), lang("uŠæ’£‚Á‚ÄIv", cnvtalk("Use your brain!")), lang("u‚¤‚§‚§‚§‚§Iv", cnvtalk("Wooooo!")), lang("us‚¯‚¥Iv", cnvtalk("Go go!")), lang("u“ª‚ğg‚¦‚æv", cnvtalk("Good fighting.")), lang("u‚«‚á[v", cnvtalk("Yeeee!"))
 				}
 				goto *ai_calmMove
 			}
@@ -632,7 +632,7 @@
 					txtef COLOR_BLUE
 					txtmore
 					chatc@DP = cc
-					txt lang("ã€Œé¢ç™½ãã†ï¼ã€", cnvtalk("Come on!")), lang("ã€Œã©ã£ã¡ã‚‚ãŒã‚“ã°ã‚Œãƒ¼ã€", cnvtalk("More blood!"))
+					txt lang("u–Ê”’‚»‚¤Iv", cnvtalk("Come on!")), lang("u‚Ç‚Á‚¿‚à‚ª‚ñ‚Î‚ê[v", cnvtalk("More blood!"))
 				}
 				goto *turn_end
 			}
@@ -754,7 +754,7 @@
 										kaiwa = rnd(3)
 										if ( kaiwa == 0 ) {
 											if ( jp ) {
-												txt "ã€Œã‚«ãƒãªã‚‰æ¸¡ã™ã‹ã‚‰ã€è¨±ã—ã¦" + _kure(3) + "ï¼ã€", "ã€Œã‹ã€ã‚«ãƒãŒæ¬²ã—ã„ã‚“" + _dana(3) + "ï¼ï¼Ÿã€"
+												txt "uƒJƒl‚È‚ç“n‚·‚©‚çA‹–‚µ‚Ä" + _kure(3) + "Iv", "u‚©AƒJƒl‚ª—~‚µ‚¢‚ñ" + _dana(3) + "IHv"
 											}
 											else {
 												txt cnvtalk("I'll give you my every penny! Please don't kill me....!"), cnvtalk("You.. want money, right? Please forgive me...")
@@ -762,7 +762,7 @@
 										}
 										if ( kaiwa == 1 ) {
 											if ( jp ) {
-												txt "ã€Œãªã€ãªã‚“ã§ã‚‚ã™ã‚‹ã‹ã‚‰æ®ºã•ãªã„ã§" + _kure(3) + "ã€", "ã€Œ" + _ore(3) + "ã®èº«ä½“ã¯å¥½ãã«ã—ã¦ã„ã„ã‹ã‚‰ã€è¦‹é€ƒã—ã¦" + _kure(3) + "â€¦ã€"
+												txt "u‚ÈA‚È‚ñ‚Å‚à‚·‚é‚©‚çE‚³‚È‚¢‚Å" + _kure(3) + "v", "u" + _ore(3) + "‚Ìg‘Ì‚ÍD‚«‚É‚µ‚Ä‚¢‚¢‚©‚çAŒ©“¦‚µ‚Ä" + _kure(3) + "cv"
 											}
 											else {
 												txt cnvtalk("I'll do anything! Please don't kill me....!"), cnvtalk("You can do whatever you want to me, so please forgive me...")
@@ -770,7 +770,7 @@
 										}
 										if ( kaiwa == 2 ) {
 											if ( jp ) {
-												txt "ã€Œè¨±ã—ã¦ã‚¯ãƒ¬ãƒ¡ãƒ³ãƒ†ã‚£ã‚¢ã€", "ã€Œè¬ã‚‹" + _yo(3) + "ï¼ã©ã†ã‹ã€ã“ã®ã¨ãŠã‚Šï¼ã€"
+												txt "u‹–‚µ‚ÄƒNƒŒƒƒ“ƒeƒBƒAv", "uÓ‚é" + _yo(3) + "I‚Ç‚¤‚©A‚±‚Ì‚Æ‚¨‚èIv"
 											}
 											else {
 												txt cnvtalk("Forgive me...!"), cnvtalk("I am reflecting on my actions!")
@@ -811,7 +811,7 @@
 			ci = stat
 			if ( inv(INV_ITEM_NUM, ci) > 0 ) {
 				txtef COLOR_BLUE
-				txt lang("ã‚­ãƒƒãƒˆã‚’ä½¿ã„" + name(cc) + "ã¯å¿œæ€¥æ‰‹å½“ã‚’è¡Œã£ãŸã€‚", name(cc) + " used a first aid kit.")
+				txt lang("ƒLƒbƒg‚ğg‚¢" + name(cc) + "‚Í‰‹}è“–‚ğs‚Á‚½B", name(cc) + " used a first aid kit.")
 				inv(INV_ITEM_NUM, ci)--
 				tc = cc
 				animeid = ANIMATION_HEAL
@@ -951,7 +951,7 @@
 				customtalk cc, DBMODE_FLAVOR_DISCIPLINE_EAT
 				gosub *convert_word
 				if ( gdata(GDATA_CUSTOM_TALK) == 100 ) {
-					txt lang(name(cc) + "ã¯ã‚ãªãŸã®é¡”è‰²ã‚’ã†ã‹ãŒã„ãªãŒã‚‰æã‚‹æã‚‹é£Ÿã¹ç‰©ã‚’æ‰‹ã«å–ã£ãŸã€‚", name(cc) + " consults your expression and cautiously touches the food.")
+					txt lang(name(cc) + "‚Í‚ ‚È‚½‚ÌŠçF‚ğ‚¤‚©‚ª‚¢‚È‚ª‚ç‹°‚é‹°‚éH‚×•¨‚ğè‚Éæ‚Á‚½B", name(cc) + " consults your expression and cautiously touches the food.")
 				}
 				goto *act_eat
 			}
@@ -1031,7 +1031,7 @@
 
 			if ( cdata(CDATA_HUNGER, cc) <= 5000 & rnd(1000) == 0 ) {
 				cdata(CDATA_EMO_ICON, cc) = 16 + 100 * 3
-				txt lang("" + name(cc) + "ã®æ‰€æŒå“å†…ã«é£Ÿæ–™ãŒå­˜åœ¨ã—ãªã„ã€‚", "" + name(cc) + " searched " + him(cc) + " bag and find nothing to eat!")
+				txt lang("" + name(cc) + "‚ÌŠ•i“à‚ÉH—¿‚ª‘¶İ‚µ‚È‚¢B", "" + name(cc) + " searched " + him(cc) + " bag and find nothing to eat!")
 			}
 		}
 	}
@@ -1060,7 +1060,7 @@
 
 			if ( cdata(CDATA_THIRST, cc) <= 5000 & rnd(1000) == 0 ) {
 				cdata(CDATA_EMO_ICON, cc) = 9 + 100 * 3
-				txt lang("" + name(cc) + "ã®å–‰ãŒã‚«ãƒ©ã‚«ãƒ©ã ã€‚", "" + name(cc) + " searched " + him(cc) + " bag and find nothing to drink!")
+				txt lang("" + name(cc) + "‚ÌA‚ªƒJƒ‰ƒJƒ‰‚¾B", "" + name(cc) + " searched " + him(cc) + " bag and find nothing to drink!")
 			}
 		}
 	}
@@ -1094,7 +1094,7 @@
 						p = refitem(inv(INV_ITEM_ID, ci), DBSPEC_TYPE)
 						if ( inv(INV_ITEM_ID, ci) == ITEM_ID_PUFF_PUFF_BREAD ) {
 							txtef COLOR_BLUE
-							txt lang(name(cc) + "ã¯è¶³å…ƒã®ãµã‹ãµã‹ãƒ‘ãƒ³ã«æ€¯ãˆã¦ã„ã‚‹â€¦ã€‚", name(cc) + " " + is(cc) + " frightned by the puff puff bread at " + his(cc) + " feet.")
+							txt lang(name(cc) + "‚Í‘«Œ³‚Ì‚Ó‚©‚Ó‚©ƒpƒ“‚É‹¯‚¦‚Ä‚¢‚écB", name(cc) + " " + is(cc) + " frightned by the puff puff bread at " + his(cc) + " feet.")
 							dmgcon cc, CONDITION_FEAR, 500
 						}
 					}
@@ -1122,7 +1122,7 @@
 									if ( itemusingfind(ci) != (-1) & itemusingfind(ci) == cdata(CDATA_TAGTEAM_PARTNER, cc) ) {
 										if ( rnd(5) == 0 ) {
 											txtef COLOR_BLUE
-											txt lang(name(cc) + "ã¯ãƒ‘ãƒ¼ãƒˆãƒŠãƒ¼ã®é£Ÿäº‹ã‚’é™ã‹ã«è¦‹å®ˆã£ã¦ã„ã‚‹â€¦ã€‚", name(cc) + " silently watches " + his(cc) + " partner have a meal.")
+											txt lang(name(cc) + "‚Íƒp[ƒgƒi[‚ÌH–‚ğÃ‚©‚ÉŒ©ç‚Á‚Ä‚¢‚écB", name(cc) + " silently watches " + his(cc) + " partner have a meal.")
 										}
 									}
 									else {
@@ -1138,7 +1138,7 @@
 																if ( cdata(CDATA_MASTER_SERVANT, cc) > 0 ) {
 																	if ( rnd(cdata(CDATA_MASTER_SERVANT, cc) + 1) == 0 ) {
 																		txtef COLOR_RED
-																		txt lang(name(cc) + "ã¯æˆ‘æ…¢ã§ããšé£Ÿã¹ç‰©ã«è¿‘ã¥ã„ãŸã€‚", name(cc) + " couldn't endure and approached the food.")
+																		txt lang(name(cc) + "‚Í‰ä–‚Å‚«‚¸H‚×•¨‚É‹ß‚Ã‚¢‚½B", name(cc) + " couldn't endure and approached the food.")
 																		goto *act_eat
 																	}
 																}
@@ -1155,7 +1155,7 @@
 												if ( inv(INV_ITEM_STATUS, ci) >= ITEM_STATUS_NORMAL ) {
 													if ( rnd(5) == 0 ) {
 														txtef COLOR_BLUE
-														txt lang(name(cc) + "ã¯åˆ‡ãªã„ç›®ã§é£Ÿã¹ç‰©ã‚’è¦‹ã¤ã‚ã¦ã„ã‚‹â€¦ã€‚", name(cc) + " " + is(cc) + " gazing at the food with a pained expression.")
+														txt lang(name(cc) + "‚ÍØ‚È‚¢–Ú‚ÅH‚×•¨‚ğŒ©‚Â‚ß‚Ä‚¢‚écB", name(cc) + " " + is(cc) + " gazing at the food with a pained expression.")
 													}
 												}
 											}
@@ -1172,7 +1172,7 @@
 													if ( cbit(CHARA_BIT_PROHIBIT_EATING_FROM_GROUND, cc) == TRUE ) {
 														if ( rnd(5) == 0 ) {
 															txtef COLOR_BLUE
-															txt lang(name(cc) + "ã¯å–‰ã‚’æ½¤ãã†ã¨ã—ãŸãŒã€ä½•ã‹ã‚’æ€ã„å‡ºã—ã¦ã³ãã‚Šã¨éœ‡ãˆãŸã€‚", name(cc) + " salivates to moisten " + his(cc) + " throat, but remembers something and jumps up trembling.")
+															txt lang(name(cc) + "‚ÍA‚ğ‚»‚¤‚Æ‚µ‚½‚ªA‰½‚©‚ğv‚¢o‚µ‚Ä‚Ñ‚­‚è‚Æk‚¦‚½B", name(cc) + " salivates to moisten " + his(cc) + " throat, but remembers something and jumps up trembling.")
 														}
 													}
 													if ( cbit(CHARA_BIT_PROHIBIT_EATING_FROM_GROUND, cc) != TRUE ) {
@@ -1183,7 +1183,7 @@
 															if ( cdata(CDATA_MASTER_SERVANT, cc) > 0 ) {
 																if ( rnd(cdata(CDATA_MASTER_SERVANT, cc) * 2 + 1) == 0 ) {
 																	txtef COLOR_RED
-																	txt lang(name(cc) + "ã¯æˆ‘æ…¢ã§ããšæ°´ã«è¿‘ã¥ã„ãŸã€‚", name(cc) + " couldn't endure and approached the water.")
+																	txt lang(name(cc) + "‚Í‰ä–‚Å‚«‚¸…‚É‹ß‚Ã‚¢‚½B", name(cc) + " couldn't endure and approached the water.")
 																	goto *act_drink
 																}
 															}
@@ -1264,7 +1264,7 @@
 					healsp cc, cdata(CDATA_MAX_SP, cc) / 50 + sqrt(sdata(SKILL_NORMAL_HEALING, cc)) + sqrt(sdata(SKILL_NORMAL_MEDITATION, cc))
 					healhp cc, cdata(CDATA_MAX_HP, cc) / 50 + sdata(SKILL_NORMAL_HEALING, cc) * sqrt(sdata(SKILL_NORMAL_HEALING, cc))
 					healmp cc, cdata(CDATA_MAX_MP, cc) / 50 + sdata(SKILL_NORMAL_MEDITATION, cc) * sqrt(sdata(SKILL_NORMAL_MEDITATION, cc))
-					txt lang(name(cc) + "ã¯å¿œæ€¥å‡¦ç½®ã‚’è¡Œã£ãŸã€‚", name(cc) + " administered first aid.")
+					txt lang(name(cc) + "‚Í‰‹}ˆ’u‚ğs‚Á‚½B", name(cc) + " administered first aid.")
 					goto *turn_end
 				}
 			}
@@ -1390,23 +1390,23 @@
 				}
 				chatc@DP = cc
 				if ( rnd(3) == 0 ) {
-					txt lang("ã€Œç±³ã•ç±³ç¨®ã ã‚â™ªã€", cnvtalk("Vrei sa pleci darâ™ª")), lang("ã€Œé£²ã¾é£²ã¾ã‚¤ã‚§ã‚¤ï¼ï¼ã€", cnvtalk("Numa numa yay!!")), lang("ã€Œé£²ã¾é£²ã¾é£²ã¾ã‚¤ã‚§ã‚¤ï¼ï¼ã€", cnvtalk("Numa numa numa yay!!"))
+					txt lang("u•Ä‚³•Äí‚¾‚ëôv", cnvtalk("Vrei sa pleci darô")), lang("uˆù‚Üˆù‚ÜƒCƒFƒCIIv", cnvtalk("Numa numa yay!!")), lang("uˆù‚Üˆù‚Üˆù‚ÜƒCƒFƒCIIv", cnvtalk("Numa numa numa yay!!"))
 					goto *ai_calmMove_WEND1
 				}
 				if ( rnd(4) == 0 ) {
-					txt lang("ã€Œå­—ãƒ™ãƒ­â™ªæŒ‡â™ªãƒ©ãƒâ™ªï½¸ï¾ï½°!!ã—ã¦â™ªãƒ‘ãƒ³ãƒãƒ©â™ªã€", cnvtalk("Vrei sa pleci darâ™ª")), lang("ã€Œã‚¢ãƒ­ãƒ¼â™ªã‚¢ãƒ¼ãƒ­ãƒ³â™ªã‚¹ã‚²ã‚§â™ªãƒ”ã‚«ã‚½â™ªç®—æ®µãƒ“ãƒ¼ãƒ•â™ªã€", cnvtalk("Numa numa yay!!")), lang("ã€Œã‚­ã‚¹ã™ã”ã„è‚‰â™ªè„±ç·šã—ã¦ã‚“ã®â™ªã•ã‚‰ã«è‚‰â™ªã€", cnvtalk("Numa numa numa yay!!"))
+					txt lang("ušƒxƒôwôƒ‰ƒ}ô¸Ï°!!‚µ‚Äôƒpƒ“ƒ`ƒ‰ôv", cnvtalk("Vrei sa pleci darô")), lang("uƒAƒ[ôƒA[ƒƒ“ôƒXƒQƒFôƒsƒJƒ\ôZ’iƒr[ƒtôv", cnvtalk("Numa numa yay!!")), lang("uƒLƒX‚·‚²‚¢“÷ô’Eü‚µ‚Ä‚ñ‚Ìô‚³‚ç‚É“÷ôv", cnvtalk("Numa numa numa yay!!"))
 					goto *ai_calmMove_WEND1
 				}
 				if ( rnd(4) == 0 ) {
-					txt lang("ã€Œã‚­ãƒ¼ãƒ—ãƒ€ãƒ«ã‚·ãƒ â™ªã‚¢ã‚´ã‚¹ã‚¿ãƒ‡ã‚£ãƒ¼ã‚¤ã‚§ã‚¤â™ªä¸¦ãƒ•ã‚§ã‚¤ã‚¹ã§å¤§ãã„ç­†å…¥ã‚Œâ™ªã€", cnvtalk("Numa numa yay!!")), lang("ã€Œãƒãƒ­ãƒ¼â™ªçŒ¿ãƒ¼â™ªã™ã’ãƒ¼â™ªã†ã‚“å…¥ã‚‹â™ªã€", cnvtalk("Numa numa numa yay!!"))
+					txt lang("uƒL[ƒvƒ_ƒ‹ƒVƒ€ôƒAƒSƒXƒ^ƒfƒB[ƒCƒFƒCô•ÀƒtƒFƒCƒX‚Å‘å‚«‚¢•M“ü‚êôv", cnvtalk("Numa numa yay!!")), lang("uƒnƒ[ô‰[ô‚·‚°[ô‚¤‚ñ“ü‚éôv", cnvtalk("Numa numa numa yay!!"))
 					goto *ai_calmMove_WEND1
 				}
 				if ( rnd(4) == 0 ) {
 					txtef COLOR_BLUE
-					txt lang(" *ï¾‹ï¾Ÿï¾›ï¾˜ã€œï¾‹ï¾Ÿï¾›ï¾˜ã€œ* ", " *whistle-whistle* ")
+					txt lang(" *ËßÛØ`ËßÛØ`* ", " *whistle-whistle* ")
 					goto *ai_calmMove_WEND1
 				}
-				txt lang("ã€Œãƒã‚¤ã‚¢ãƒ’ãƒ¼â™ªã€", cnvtalk("Mai-Ya-Hiâ™ª")), lang("ã€Œãƒã‚¤ã‚¢ãƒ•ã‚¥ãƒ¼â™ªã€", cnvtalk("Mai-Ya-Hooâ™ª")), lang("ã€Œãƒã‚¤ã‚¢ãƒ›ãƒ¼â™ªã€", cnvtalk("Mai-Ya-Ha Ma Mi Aâ™ª"))
+				txt lang("uƒ}ƒCƒAƒq[ôv", cnvtalk("Mai-Ya-Hiô")), lang("uƒ}ƒCƒAƒtƒD[ôv", cnvtalk("Mai-Ya-Hooô")), lang("uƒ}ƒCƒAƒz[ôv", cnvtalk("Mai-Ya-Ha Ma Mi Aô"))
 				goto *ai_calmMove_WEND1
 			}
 		}
@@ -1463,7 +1463,7 @@
 											tlocy = cdata(CDATA_Y, gdata(GDATA_FLAG_GIANT_ID))
 											txtef COLOR_SKY_BLUE
 											chatc@DP = cc
-											txt lang("ã€ŒåŒ–ã‘ç‰©ã‚ï¼ã€", cnvtalk("Filthy monster!")), lang("ã€ŒããŸã°ã‚Œã£ã€", cnvtalk("Go to hell!")), lang("ã€Œé€€æ²»ã—ã¦ã‚„ã‚‹ã…ï¼ã€", cnvtalk("I'll get rid of you.")), lang("ã€Œãã‚‰ãˆãƒ¼ï¼ã€", cnvtalk("Eat this!"))
+											txt lang("u‰»‚¯•¨‚ßIv", cnvtalk("Filthy monster!")), lang("u‚­‚½‚Î‚ê‚Áv", cnvtalk("Go to hell!")), lang("u‘Ş¡‚µ‚Ä‚â‚é‚£Iv", cnvtalk("I'll get rid of you.")), lang("u‚­‚ç‚¦[Iv", cnvtalk("Eat this!"))
 											goto *act_throw
 										}
 									}
@@ -1495,7 +1495,7 @@
 									itemcreate -1, ITEM_ID_SNOW_MAN, cdata(CDATA_X, cc), cdata(CDATA_Y, cc), 0
 									if ( stat == 1 ) {
 										snd SOUNDLIST_SNOW
-										txt lang(name(cc) + "ã¯" + itemname(ci) + "ã‚’ä½œã£ãŸï¼", name(cc) + " make" + _s(cc) + " " + itemname(ci) + "!")
+										txt lang(name(cc) + "‚Í" + itemname(ci) + "‚ğì‚Á‚½I", name(cc) + " make" + _s(cc) + " " + itemname(ci) + "!")
 										goto *turn_end
 									}
 								}
@@ -1508,7 +1508,7 @@
 									tlocy = cdata(CDATA_Y, CHARA_PLAYER)
 									txtef COLOR_SKY_BLUE
 									chatc@DP = cc
-									txt lang(" *ã‚¯ã‚¹ã‚¯ã‚¹* ", " *grin* "), lang("ã€Œãˆã„ã£ã€", cnvtalk("Fire in the hole!")), lang("ã€Œã†ã‚Šã‚ƒã€", cnvtalk("Tee-hee-hee!")), lang("ã€Œãã‚‰ãˆãƒ¼ï¼ã€", cnvtalk("Eat this!")), lang("ã€Œå±ãªã„ã£ï¼ã€", cnvtalk("Watch out!")), lang("ã€Œé¿ã‘ã¦ãƒ¼ã€", cnvtalk("Scut!"))
+									txt lang(" *ƒNƒXƒNƒX* ", " *grin* "), lang("u‚¦‚¢‚Áv", cnvtalk("Fire in the hole!")), lang("u‚¤‚è‚áv", cnvtalk("Tee-hee-hee!")), lang("u‚­‚ç‚¦[Iv", cnvtalk("Eat this!")), lang("uŠë‚È‚¢‚ÁIv", cnvtalk("Watch out!")), lang("u”ğ‚¯‚Ä[v", cnvtalk("Scut!"))
 									txtmore
 									goto *act_throw
 								}
@@ -1655,7 +1655,7 @@
 							txtef COLOR_SKY_BLUE
 							txtmore
 							chatc@DP = cc
-							txt lang("ã€Œãªã‚ãã˜ã ï¼ã€", cnvtalk("Snail!")), lang("ã€Œæ®ºã™ï¼ã€", cnvtalk("Kill!"))
+							txt lang("u‚È‚ß‚­‚¶‚¾Iv", cnvtalk("Snail!")), lang("uE‚·Iv", cnvtalk("Kill!"))
 						}
 						goto *act_throw
 					}
@@ -1693,7 +1693,7 @@
 					if ( cdata(CDATA_TARGET, cc) != 0 ) {
 						if ( synccheck(cc, -1) ) {
 							if ( synccheck(tc, -1) ) {
-								txt lang(cdatan(CDATAN_NAME, cc) + "ã¯" + cdatan(CDATAN_NAME, tc) + "ã‚’ç‹™ã£ã¦ã„ã‚‹â€¦ã€‚", cdatan(CDATAN_NAME, cc) + " seems to be aiming at " + cdatan(CDATAN_NAME, tc) + "...")
+								txt lang(cdatan(CDATAN_NAME, cc) + "‚Í" + cdatan(CDATAN_NAME, tc) + "‚ğ‘_‚Á‚Ä‚¢‚écB", cdatan(CDATAN_NAME, cc) + " seems to be aiming at " + cdatan(CDATAN_NAME, tc) + "...")
 							}
 						}
 					}
@@ -1768,11 +1768,11 @@
 					if ( a == FILTER_ORE ) {
 						if ( sdata(SKILL_NORMAL_JEWELER, cc) != 0 ) {
 							txtef COLOR_SKY_BLUE
-							txt lang(name(cc) + "ã¯æ‰€æŒã‚¢ã‚¤ãƒ†ãƒ ã‚’åŠ å·¥ã—ãŸï¼", name(cc) + " processed the items in " + his(cc) + " possession!")
+							txt lang(name(cc) + "‚ÍŠƒAƒCƒeƒ€‚ğ‰ÁH‚µ‚½I", name(cc) + " processed the items in " + his(cc) + " possession!")
 						}
 						if ( sdata(SKILL_NORMAL_NEGOTIATION, cc) != 0 ) {
 							txtef COLOR_SKY_BLUE
-							txt lang(name(cc) + "ã¯åº—ä¸»ã¨å€¤æ®µäº¤æ¸‰ã—ã¦ã„ã‚‹â€¦ã€‚", name(cc) + " " + is(cc) + " negotiating prices with the shopkeeper...")
+							txt lang(name(cc) + "‚Í“Xå‚Æ’l’iŒğÂ‚µ‚Ä‚¢‚écB", name(cc) + " " + is(cc) + " negotiating prices with the shopkeeper...")
 						}
 						p = (inv(INV_ITEM_VALUE, cnt) * 4 / 5 + 1 + sdata(SKILL_NORMAL_NEGOTIATION, cc) / 5) * inv(INV_ITEM_NUM, cnt) * limit(sdata(SKILL_NORMAL_JEWELER, cc) + 100, 100, 400) / 100 * (2 + tiep) / 2
 						sell += inv(INV_ITEM_NUM, cnt)
@@ -1798,13 +1798,13 @@
 				loop
 				if ( sell != 0 ) {
 					txtef COLOR_SKY_BLUE
-					txt lang(name(cc) + "ã¯" + sell + "å€‹ã®ã‚¢ã‚¤ãƒ†ãƒ ã‚’å£²ã‚Šã•ã°ã" + sell(1) + "goldã‚’ç¨¼ã„ã ã€‚", name(cc) + " sells " + sell + " items and earns " + sell(1) + " gold pieces.")
+					txt lang(name(cc) + "‚Í" + sell + "ŒÂ‚ÌƒAƒCƒeƒ€‚ğ”„‚è‚³‚Î‚«" + sell(1) + "gold‚ğ‰Ò‚¢‚¾B", name(cc) + " sells " + sell + " items and earns " + sell(1) + " gold pieces.")
 				}
 				if ( sell != 0 ) {
 					if ( cdata(CDATA_ALLIED, cc) == 100 ) {
 						if ( cdata(CDATA_IN_TAGTEAM, cc) != 0 ) {
 							if ( cdata(CDATA_TAGTEAM_PARTNER, cc) != 0 ) {
-								txt lang(name(cc) + "ã¯ãƒ‘ãƒ¼ãƒˆãƒŠãƒ¼ã«ç¨¼ãã‚’åˆ†ã‘ã¦ã‚ã’ãŸã€‚", name(cc) + " shared coins with partner.")
+								txt lang(name(cc) + "‚Íƒp[ƒgƒi[‚É‰Ò‚¬‚ğ•ª‚¯‚Ä‚ ‚°‚½B", name(cc) + " shared coins with partner.")
 								cdata(CDATA_GOLD, cdata(CDATA_TAGTEAM_PARTNER, cc)) += sell(1) / 2
 								cdata(CDATA_GOLD, cc) -= sell(1) / 2
 							}
@@ -1831,7 +1831,7 @@
 						inv(INV_ITEM_NUM, pettrain)--
 						snd SOUNDLIST_DING3
 						txtef COLOR_SKY_BLUE
-						txt lang(cdatan(CDATAN_NAME, cc) + "ã¯è¨“ç·´åˆ¸ã‚’ä½¿ã£ã¦è¨“ç·´æ‰€ã«é€šã„ã€æ½œåœ¨èƒ½åŠ›ã‚’ä¼¸ã°ã—ãŸï¼", cdatan(CDATAN_NAME, cc) + " used a training ticket at a trainer and developed " + his(cc) + " potential!")
+						txt lang(cdatan(CDATAN_NAME, cc) + "‚ÍŒP—ûŒ”‚ğg‚Á‚ÄŒP—ûŠ‚É’Ê‚¢Aöİ”\—Í‚ğL‚Î‚µ‚½I", cdatan(CDATAN_NAME, cc) + " used a training ticket at a trainer and developed " + his(cc) + " potential!")
 						modgrowth cc, SKILL_ATTR_STR, 15
 						modgrowth cc, SKILL_ATTR_CON, 15
 						modgrowth cc, SKILL_ATTR_DEX, 15
@@ -1877,7 +1877,7 @@
 							cdata(CDATA_GOLD, cc) -= hiyou
 							snd SOUNDLIST_DING3
 							txtef COLOR_SKY_BLUE
-							txt lang(cdatan(CDATAN_NAME, cc) + "ã¯" + hiyou + "gpä½¿ã£ã¦è¨“ç·´æ‰€ã«é€šã„ã€æ½œåœ¨èƒ½åŠ›ã‚’ä¼¸ã°ã—ãŸï¼", cdatan(CDATAN_NAME, cc) + " spent " + hiyou + "gp to visit a trainer and develop " + his(cc) + " potential!")
+							txt lang(cdatan(CDATAN_NAME, cc) + "‚Í" + hiyou + "gpg‚Á‚ÄŒP—ûŠ‚É’Ê‚¢Aöİ”\—Í‚ğL‚Î‚µ‚½I", cdatan(CDATAN_NAME, cc) + " spent " + hiyou + "gp to visit a trainer and develop " + his(cc) + " potential!")
 							modgrowth cc, SKILL_ATTR_STR, 15
 							modgrowth cc, SKILL_ATTR_CON, 15
 							modgrowth cc, SKILL_ATTR_DEX, 15
@@ -1977,11 +1977,11 @@
 			tc = cellchara
 			cell_swap cc, tc
 			snd SOUNDLIST_BASH1
-			txt lang(name(cc) + "ã¯" + name(tc) + "ã‚’è½¢ã„ãŸã€‚", name(cc) + " ran over " + name(tc) + ".")
+			txt lang(name(cc) + "‚Í" + name(tc) + "‚ğç€‚¢‚½B", name(cc) + " ran over " + name(tc) + ".")
 			dmghp tc, (sdata(SKILL_ATTR_WIL, cc) / 5 + 5) * ((sdata(SKILL_ACTIVE_RIDING, cc) + 1) / 5 + 5) + rnd(sdata(SKILL_ATTR_SPD, cc) + 5) + calcLevelDmg(cc), cc, SKILL_RESDMG_CRUSH, 1000
 			if ( cdata(CDATA_CONDITION_WINCE, tc) <= 0 ) {
 				cdata(CDATA_CONDITION_WINCE, tc) = 10
-				txt lang(name(tc) + "ã¯æ€¯ã‚“ã ã€‚", name(tc) + " " + is(tc) + " faltered.")
+				txt lang(name(tc) + "‚Í‹¯‚ñ‚¾B", name(tc) + " " + is(tc) + " faltered.")
 			}
 			if ( charaGivesExp(tc) & tc != CHARA_PLAYER ) {
 				skillexp SKILL_ACTIVE_RIDING, cc, 30
@@ -2006,40 +2006,40 @@
 				if ( cdata(CDATA_TARGET, cc) != tc & cdata(CDATA_CONDITION_BIND, cc) < 20 ) {
 					cell_swap cc, tc
 					if ( synccheck(cc, -1) ) {
-						txt lang(name(cc) + "ã¯" + name(tc) + "ã‚’æŠ¼ã—ã®ã‘ãŸã€‚", name(cc) + " displace" + _s(cc) + " " + name(tc) + ".")
+						txt lang(name(cc) + "‚Í" + name(tc) + "‚ğ‰Ÿ‚µ‚Ì‚¯‚½B", name(cc) + " displace" + _s(cc) + " " + name(tc) + ".")
 					}
 					if ( cdata(CDATA_ROW_ACT, tc) == ACTION_EAT ) {
 						if ( cdata(CDATA_ACTION_PERIOD, tc) > 0 ) {
 							if ( cc != CHARA_PLAYER | cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) < 200 ) {
 								if ( synccheck(cc, -1) ) {
-									txt lang(name(tc) + "ã¯" + name(cc) + "ã‚’ç¨ã¿ä»˜ã‘ãŸã€‚", name(tc) + " glare" + _s(tc) + " at " + name(cc) + ".")
+									txt lang(name(tc) + "‚Í" + name(cc) + "‚ğáÉ‚İ•t‚¯‚½B", name(tc) + " glare" + _s(tc) + " at " + name(cc) + ".")
 								}
 							}
 							if ( cc == CHARA_PLAYER ) {
 								if ( cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) >= 200 & cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) < 250 ) {
 									if ( synccheck(cc, -1) ) {
-										txt lang(name(tc) + "ã¯" + name(cc) + "ã‚’ä¸æº€ã’ã«è¦‹ã¤ã‚ãŸã€‚", name(tc) + " looked at " + name(cc) + " with dissatisfaction.")
+										txt lang(name(tc) + "‚Í" + name(cc) + "‚ğ•s–‚°‚ÉŒ©‚Â‚ß‚½B", name(tc) + " looked at " + name(cc) + " with dissatisfaction.")
 									}
 								}
 							}
 							if ( cc == CHARA_PLAYER ) {
 								if ( cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) >= 250 & cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) < 300 ) {
 									if ( synccheck(cc, -1) ) {
-										txt lang(name(tc) + "ã¯æ®‹å¿µãã†ã«ã†ãªã ã‚ŒãŸã€‚", name(tc) + " looked disappointed.")
+										txt lang(name(tc) + "‚Íc”O‚»‚¤‚É‚¤‚È‚¾‚ê‚½B", name(tc) + " looked disappointed.")
 									}
 								}
 							}
 							if ( cc == CHARA_PLAYER ) {
 								if ( cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) >= 300 & cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) < 350 ) {
 									if ( synccheck(cc, -1) ) {
-										txt lang(name(tc) + "ã¯å°ã•ãé ·ã„ãŸã€‚", name(tc) + " nodded slightly.")
+										txt lang(name(tc) + "‚Í¬‚³‚­èõ‚¢‚½B", name(tc) + " nodded slightly.")
 									}
 								}
 							}
 							if ( cc == CHARA_PLAYER ) {
 								if ( cdata(CDATA_IMPRESSION, tc) + cdata(CDATA_MASTER_SERVANT, tc) >= 350 ) {
 									if ( synccheck(cc, -1) ) {
-										txt lang(name(tc) + "ã¯ä½•ã‚‚è¨€ã‚ãšä¸€æ­©ä¸‹ãŒã£ãŸã€‚", name(tc) + " stepped back without a word.")
+										txt lang(name(tc) + "‚Í‰½‚àŒ¾‚í‚¸ˆê•à‰º‚ª‚Á‚½B", name(tc) + " stepped back without a word.")
 									}
 								}
 							}
@@ -2051,26 +2051,26 @@
 						if ( cdata(CDATA_ROW_ACT, ttc) == ACTION_EAT ) {
 							if ( cdata(CDATA_ACTION_PERIOD, ttc) > 0 ) {
 								if ( cc != CHARA_PLAYER | cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) < 200 ) {
-									txt lang(cdatan(CDATAN_NAME, ttc) + "ã¯" + name(cc) + "ã‚’ç¨ã¿ä»˜ã‘ãŸã€‚", cdatan(CDATAN_NAME, ttc) + " glare" + _s(ttc) + " at " + name(cc) + ".")
+									txt lang(cdatan(CDATAN_NAME, ttc) + "‚Í" + name(cc) + "‚ğáÉ‚İ•t‚¯‚½B", cdatan(CDATAN_NAME, ttc) + " glare" + _s(ttc) + " at " + name(cc) + ".")
 								}
 								if ( cc == CHARA_PLAYER ) {
 									if ( cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) >= 200 & cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) < 250 ) {
-										txt lang(cdatan(CDATAN_NAME, ttc) + "ã¯" + name(cc) + "ã‚’ä¸æº€ã’ã«è¦‹ã¤ã‚ãŸã€‚", cdatan(CDATAN_NAME, ttc) + " looked at " + name(cc) + " with dissatisfaction.")
+										txt lang(cdatan(CDATAN_NAME, ttc) + "‚Í" + name(cc) + "‚ğ•s–‚°‚ÉŒ©‚Â‚ß‚½B", cdatan(CDATAN_NAME, ttc) + " looked at " + name(cc) + " with dissatisfaction.")
 									}
 								}
 								if ( cc == CHARA_PLAYER ) {
 									if ( cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) >= 250 & cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) < 300 ) {
-										txt lang(cdatan(CDATAN_NAME, ttc) + "ã¯æ®‹å¿µãã†ã«ã†ãªã ã‚ŒãŸã€‚", cdatan(CDATAN_NAME, ttc) + " looked disappointed.")
+										txt lang(cdatan(CDATAN_NAME, ttc) + "‚Íc”O‚»‚¤‚É‚¤‚È‚¾‚ê‚½B", cdatan(CDATAN_NAME, ttc) + " looked disappointed.")
 									}
 								}
 								if ( cc == CHARA_PLAYER ) {
 									if ( cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) >= 300 & cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) < 350 ) {
-										txt lang(cdatan(CDATAN_NAME, ttc) + "ã¯å°ã•ãé ·ã„ãŸã€‚", cdatan(CDATAN_NAME, ttc) + " nodded slightly.")
+										txt lang(cdatan(CDATAN_NAME, ttc) + "‚Í¬‚³‚­èõ‚¢‚½B", cdatan(CDATAN_NAME, ttc) + " nodded slightly.")
 									}
 								}
 								if ( cc == CHARA_PLAYER ) {
 									if ( cdata(CDATA_IMPRESSION, ttc) + cdata(CDATA_MASTER_SERVANT, ttc) >= 350 ) {
-										txt lang(cdatan(CDATAN_NAME, ttc) + "ã¯ä½•ã‚‚è¨€ã‚ãšä¸€æ­©ä¸‹ãŒã£ãŸã€‚", cdatan(CDATAN_NAME, ttc) + " stepped back without a word.")
+										txt lang(cdatan(CDATAN_NAME, ttc) + "‚Í‰½‚àŒ¾‚í‚¸ˆê•à‰º‚ª‚Á‚½B", cdatan(CDATAN_NAME, ttc) + " stepped back without a word.")
 									}
 								}
 								rowactend ttc
@@ -2095,7 +2095,7 @@
 									cell_featset x, y, 0, 0, 0, 0
 									spillfrag x, y, 2
 									if ( synccheck(cc, -1) ) {
-										txt lang(name(cc) + "ã¯æ‰‰ã‚’ç ´å£Šã—ãŸï¼", name(cc) + " crush" + _s(cc, 1) + " the door!")
+										txt lang(name(cc) + "‚Í”à‚ğ”j‰ó‚µ‚½I", name(cc) + " crush" + _s(cc, 1) + " the door!")
 									}
 								}
 							}
@@ -2106,7 +2106,7 @@
 								gosub *anime
 								spillfrag x, y, 2
 								if ( synccheck(cc, -1) ) {
-									txt lang(name(cc) + "ã¯å£ã‚’ç ´å£Šã—ãŸï¼", name(cc) + " crush" + _s(cc, 1) + " the wall!")
+									txt lang(name(cc) + "‚Í•Ç‚ğ”j‰ó‚µ‚½I", name(cc) + " crush" + _s(cc, 1) + " the wall!")
 								}
 							}
 						}
@@ -2238,7 +2238,7 @@
 				if ( rnd(4) == 0 ) {
 					cdata(CDATA_CONDITION_DIM, cc) = 1000
 					txtef COLOR_RED
-					txt lang(name(cc) + "ã¯æ¿€ç—›ã«è€ãˆåˆ‡ã‚Œãšæ°—çµ¶ã—ãŸã€‚", name(cc) + " fainted after failing to endure the severe pain.")
+					txt lang(name(cc) + "‚ÍŒƒ’É‚É‘Ï‚¦Ø‚ê‚¸‹Câ‚µ‚½B", name(cc) + " fainted after failing to endure the severe pain.")
 				}
 			}
 		}
@@ -2255,31 +2255,31 @@
 	if ( cbit(CHARA_BIT_BIRTHED_CHILD, cc) == TRUE ) {
 		if ( cdata(CDATA_SPRITE_SIZE_MILK, cc) == (-5) ) {
 			if ( rnd(100) < 20 ) {
-				txt lang(cdatan(CDATAN_NAME, cc) + "ã¯å…ƒæ°—ã«ã¯ã—ã‚ƒã„ã§ã„ã‚‹ï¼", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " rolling fine!")
+				txt lang(cdatan(CDATAN_NAME, cc) + "‚ÍŒ³‹C‚É‚Í‚µ‚á‚¢‚Å‚¢‚éI", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " rolling fine!")
 				goto *turn_end
 			}
 		}
 		if ( cdata(CDATA_SPRITE_SIZE_MILK, cc) == (-4) ) {
 			if ( rnd(100) < 15 ) {
-				txt lang(cdatan(CDATAN_NAME, cc) + "ã¯é£›ã³è·³ã­ã¦éŠã‚“ã§ã„ã‚‹ï¼", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " hopping and playing!")
+				txt lang(cdatan(CDATAN_NAME, cc) + "‚Í”ò‚Ñ’µ‚Ë‚Ä—V‚ñ‚Å‚¢‚éI", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " hopping and playing!")
 				goto *turn_end
 			}
 		}
 		if ( cdata(CDATA_SPRITE_SIZE_MILK, cc) == (-3) ) {
 			if ( rnd(100) < 10 ) {
-				txt lang(cdatan(CDATAN_NAME, cc) + "ã¯èˆˆå‘³æ´¥ã€…ã«ã‚ˆãè¦‹ã‚’ã—ã¦ã„ã‚‹ï¼", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " looking away with interest!")
+				txt lang(cdatan(CDATAN_NAME, cc) + "‚Í‹»–¡’ÃX‚É‚æ‚»Œ©‚ğ‚µ‚Ä‚¢‚éI", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " looking away with interest!")
 				goto *turn_end
 			}
 		}
 		if ( cdata(CDATA_SPRITE_SIZE_MILK, cc) == (-2) ) {
 			if ( rnd(100) < 5 ) {
-				txt lang(cdatan(CDATAN_NAME, cc) + "ã¯çœŸå‰£ãªé¡”ã§è€ƒãˆäº‹ã‚’ã—ã¦ã„ã‚‹ï¼", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " thinking with a serious face!")
+				txt lang(cdatan(CDATAN_NAME, cc) + "‚Í^Œ•‚ÈŠç‚Ål‚¦–‚ğ‚µ‚Ä‚¢‚éI", cdatan(CDATAN_NAME, cc) + " " + is(cc) + " thinking with a serious face!")
 				goto *turn_end
 			}
 		}
 		if ( cdata(CDATA_SPRITE_SIZE_MILK, cc) == (-1) ) {
 			if ( limit(cdata(CDATA_MASTER_SERVANT, cc), 1, 150) / 10 + 80 <= rnd(100) ) {
-				txt lang(cdatan(CDATAN_NAME, cc) + "ã¯è‡ªåˆ†ã®åœ¨ã‚Šæ–¹ã«ã¤ã„ã¦æ‚©ã‚“ã§ã„ã‚‹ï¼", cdatan(CDATAN_NAME, cc) + " " + have(cc) + " doubts about how " + he(cc) + " live" + _s(cc) + "!")
+				txt lang(cdatan(CDATAN_NAME, cc) + "‚Í©•ª‚Ìİ‚è•û‚É‚Â‚¢‚Ä”Y‚ñ‚Å‚¢‚éI", cdatan(CDATAN_NAME, cc) + " " + have(cc) + " doubts about how " + he(cc) + " live" + _s(cc) + "!")
 				goto *turn_end
 			}
 		}
@@ -3216,6 +3216,13 @@
 		if ( cdata(CDATA_ID, cc) == CREATURE_ID_LESSER_PHANTOM ) {
 			if ( rnd(7) == 0 ) {
 				act = SKILL_SPACT_GRAVITY_SPHERE
+			}
+		}
+        if ( cdata(CDATA_ID, cc) == CREATURE_ID_GWEN_THE_INNOCENT ) {//GWEN SAINT BLADE
+			if ( cdata(CDATA_EVOLUTION_STAGE, cc) == 1 ) {
+				if ( rnd(8) == 0 ) {
+					act = SKILL_SPACT_SAINT_BLADE
+	            }
 			}
 		}
 		if ( cdata(CDATA_ID, cc) == CREATURE_ID_LITTLE_GIRL ) {
@@ -4396,7 +4403,7 @@
 		cdatan(CDATAN_NAME, cc) = cdatan(CDATAN_FORM_SHIFT_NAME, cc)
 		cdatan(CDATAN_FORM_SHIFT_NAME, cc) = hikae
 		if ( cdatan(CDATAN_NAME, cc) == "" ) {
-			cdatan(CDATAN_NAME, cc) = cdatan(CDATAN_FORM_SHIFT_NAME, cc) + lang("ï¼ã‚¢ãƒ«ã‚¿ãƒ¼", "-altered")
+			cdatan(CDATAN_NAME, cc) = cdatan(CDATAN_FORM_SHIFT_NAME, cc) + lang("^ƒAƒ‹ƒ^[", "-altered")
 		}
 		if ( cc < MAX_CHARA_FOLLOWER ) {
 			hikae = cdata(CDATA_PORTRAIT, cc)
@@ -4447,7 +4454,7 @@
 		gosub *convert_word
 		if ( gdata(GDATA_CUSTOM_TALK) == 100 ) {
 			chatc@DP = cc
-			txt lang("ã€Œå¤‰èº«ï¼ã€", cnvtalk("Transform!")), lang("ã€Œãƒ•ã‚©ãƒ¼ãƒ ã‚¢ãƒƒãƒ—ï¼ã€", cnvtalk("Form Up!")), lang("ã€Œãƒ‰ãƒ¬ã‚¹ã‚¢ãƒƒãƒ—ï¼ã€", cnvtalk("Dress Up!")), lang("ã€Œãƒˆãƒ©ãƒ³ã‚¹ãƒ•ã‚©ãƒ¼ãƒ ï¼ã€", cnvtalk("Transform!"))
+			txt lang("u•ÏgIv", cnvtalk("Transform!")), lang("uƒtƒH[ƒ€ƒAƒbƒvIv", cnvtalk("Form Up!")), lang("uƒhƒŒƒXƒAƒbƒvIv", cnvtalk("Dress Up!")), lang("uƒgƒ‰ƒ“ƒXƒtƒH[ƒ€Iv", cnvtalk("Transform!"))
 		}
 		if ( inv(INV_ITEM_ID, cic) == ITEM_ID_ALPHA_SHIFT_CORE ) {
 			addbuff cc, BUFF_FORM_SHIFT_ALPHA, 200, 200

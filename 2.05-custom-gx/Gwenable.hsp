@@ -1,0 +1,11 @@
+#module Gwenable
+#defcfunc calcGwenSTBlade int cc
+
+if (cc == 0) { return cdata@(CDATA_KARMA, CHARA_PLAYER) 
+}
+if ( cdata@(CDATA_ID, cc) == CREATURE_ID_GWEN_THE_PITILESS ) { return 40
+}
+if ( cdata@(CDATA_ID, cc) == CREATURE_ID_GWEN_THE_INNOCENT ) { return 40
+}
+return 20
+#global
