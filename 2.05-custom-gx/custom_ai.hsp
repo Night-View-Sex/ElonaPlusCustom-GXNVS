@@ -893,10 +893,10 @@
 	; Failure
 	if ( CAIQuiet(cc) == 0 ) {
 		if ( cc < MAX_CHARA_FOLLOWER ) {
-			txt lang("" + name(cc) + "ã¯ã‚ãªãŸã®æŒ‡ç¤ºã«ã‚ˆã£ã¦ã€ã©ã®ã‚ˆã†ã«å¯¾å¿œã™ã‚Œã°ã„ã„ã®ã‹åˆ†ã‹ã‚‰ãªã„ï¼", "" + name(cc) + " doesn't know how to respond to the situation based on the instructions you've given " + him(cc) + "!")
+			txt lang("" + name(cc) + "‚Í‚ ‚È‚½‚ÌŽwŽ¦‚É‚æ‚Á‚ÄA‚Ç‚Ì‚æ‚¤‚É‘Î‰ž‚·‚ê‚Î‚¢‚¢‚Ì‚©•ª‚©‚ç‚È‚¢I", "" + name(cc) + " doesn't know how to respond to the situation based on the instructions you've given " + him(cc) + "!")
 		}
 		else {
-			txt lang("" + name(cc) + "ã¯è‡ªåˆ†ã®æŒ‡ç¤ºã«ã‚ˆã£ã¦ã€ã©ã®ã‚ˆã†ã«å¯¾å¿œã™ã‚Œã°ã„ã„ã®ã‹åˆ†ã‹ã‚‰ãªã„ï¼", "" + name(cc) + " doesn't know how to respond to the situation based on the instructions " + he(cc) + " " + have(cc) + " been given!")
+			txt lang("" + name(cc) + "‚ÍŽ©•ª‚ÌŽwŽ¦‚É‚æ‚Á‚ÄA‚Ç‚Ì‚æ‚¤‚É‘Î‰ž‚·‚ê‚Î‚¢‚¢‚Ì‚©•ª‚©‚ç‚È‚¢I", "" + name(cc) + " doesn't know how to respond to the situation based on the instructions " + he(cc) + " " + have(cc) + " been given!")
 		}
 	}
 	if ( CAIActDoAsYouPlease(cc) ) {
@@ -1527,7 +1527,7 @@
 *AIConfigMenu
 	GoConfig = 0
 	redraw 0
-	s = "Tactical Instructions", lang("Shift,Esc [æˆ»ã‚‹]  * [å…¥ã‚Œæ›¿]  / [æ¶ˆåŽ»] ", "Shift,Esc [Back]  * [Swap]  / [Clear Row] ")
+	s = "Tactical Instructions", lang("Shift,Esc [–ß‚é]  * [“ü‚ê‘Ö]  / [Á‹Ž] ", "Shift,Esc [Back]  * [Swap]  / [Clear Row] ")
 	display_window (windoww - 680) / 2 + inf_screenx, winposy(500, 1) + 20, 680, 500
 	display_topic "Entity", wx + 28, wy + 30
 	display_topic "Condition", wx + 128, wy + 30
@@ -2256,6 +2256,11 @@
 				swbreak
 			case CREATURE_ID_BLACK_ANGEL
 				ActionToFind = SKILL_SPACT_LULWYS_TRICK
+				gosub *AIFindAction
+				gosub *AIAddAction
+				swbreak
+			case CREATURE_ID_GWEN_THE_INNOCENT//SAINT BLADE FOR EVO
+				ActionToFind = SKILL_SPACT_SAINT_BLADE
 				gosub *AIFindAction
 				gosub *AIAddAction
 				swbreak
@@ -3443,7 +3448,7 @@
 *AIOtherSettingsMenu
 	redraw 0
 	txtnew
-	txt lang("[ã‚«ã‚¹ã‚¿ãƒ AI]ä½•ã‚’ã™ã‚‹ï¼Ÿ", "[Customize AI] What to do when confused?")
+	txt lang("[ƒJƒXƒ^ƒ€AI]‰½‚ð‚·‚éH", "[Customize AI] What to do when confused?")
 	if ( CAIQuiet(tc) == 0 ) {
 		promptAdd "(Current: Tell me.)", "a"
 	} else {
@@ -3469,7 +3474,7 @@
 *AIExportImportMenu
 	redraw 0
 	txtnew
-	txt lang("[ã‚«ã‚¹ã‚¿ãƒ AI]ä½•ã‚’ã™ã‚‹ï¼Ÿ", "[Customize AI] What do you want to do?")
+	txt lang("[ƒJƒXƒ^ƒ€AI]‰½‚ð‚·‚éH", "[Customize AI] What do you want to do?")
 	promptAdd "Export AI Instructions", "a"
 	promptAdd "Import AI Instructions", "b"
 	promptAdd "Reset Current AI", "c"
@@ -3477,7 +3482,7 @@
 	gosub *prompt_key
 	gosub *screen_draw
 	if ( rtval == 0 ) {
-		txt lang("ã©ã®ãƒ•ã‚¡ã‚¤ãƒ«åã§ä¿å­˜ã™ã‚‹ï¼Ÿ", "Enter file name.")
+		txt lang("‚Ç‚Ìƒtƒ@ƒCƒ‹–¼‚Å•Û‘¶‚·‚éH", "Enter file name.")
 		redraw 1
 		fileext = "txt"
 		filedsc = "ElonaPlus CGX custom AI"
@@ -3495,7 +3500,7 @@
 		return
 	}
 	if ( rtval == 1 ) {
-		txt lang("ã©ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰AIã‚’ä½œæˆã™ã‚‹ï¼Ÿ", "Choose the AI file.")
+		txt lang("‚Ç‚Ìƒtƒ@ƒCƒ‹‚©‚çAI‚ðì¬‚·‚éH", "Choose the AI file.")
 		redraw 1
 		fileext = "txt"
 		filedsc = "ElonaPlus CGX custom AI"
