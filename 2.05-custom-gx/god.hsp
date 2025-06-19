@@ -6,7 +6,7 @@
 			txtgod cdata(CDATA_GOD, CHARA_PLAYER), GOD_TEXT_LOVE
 			snd SOUNDLIST_MIND000
 			txtef COLOR_YELLOW2
-			txt lang("ä»Šãªã‚‰ã€ç¥ã¸ã®ç¥ˆã‚ŠãŒç‰¹åˆ¥ãªã‚‚ã®ã‚’ã‚‚ãŸã‚‰ã™ã‹ã‚‚ã—ã‚Œãªã„ï¼", " Now prayer to God may bring something special!")
+			txt lang("¡‚È‚çA_‚Ö‚Ì‹F‚è‚ª“Á•Ê‚È‚à‚Ì‚ğ‚à‚½‚ç‚·‚©‚à‚µ‚ê‚È‚¢I", " Now prayer to God may bring something special!")
 			await 500
 		}
 	}
@@ -17,7 +17,7 @@
 			txtgod cdata(CDATA_GOD, CHARA_PLAYER), GOD_TEXT_LIKE
 			snd SOUNDLIST_MIND000
 			txtef COLOR_YELLOW2
-			txt lang("ä»Šãªã‚‰ã€ç¥ã¸ã®ç¥ˆã‚ŠãŒç‰¹åˆ¥ãªã‚‚ã®ã‚’ã‚‚ãŸã‚‰ã™ã‹ã‚‚ã—ã‚Œãªã„ï¼", " Now prayer to God may bring something special!")
+			txt lang("¡‚È‚çA_‚Ö‚Ì‹F‚è‚ª“Á•Ê‚È‚à‚Ì‚ğ‚à‚½‚ç‚·‚©‚à‚µ‚ê‚È‚¢I", " Now prayer to God may bring something special!")
 		}
 	}
 	if ( gdata(GDATA_GOD_RANK) == 0 ) {
@@ -27,12 +27,12 @@
 			txtgod cdata(CDATA_GOD, CHARA_PLAYER), GOD_TEXT_LIKE
 			snd SOUNDLIST_MIND000
 			txtef COLOR_YELLOW2
-			txt lang("ä»Šãªã‚‰ã€ç¥ã¸ã®ç¥ˆã‚ŠãŒç‰¹åˆ¥ãªã‚‚ã®ã‚’ã‚‚ãŸã‚‰ã™ã‹ã‚‚ã—ã‚Œãªã„ï¼", " Now prayer to God may bring something special!")
+			txt lang("¡‚È‚çA_‚Ö‚Ì‹F‚è‚ª“Á•Ê‚È‚à‚Ì‚ğ‚à‚½‚ç‚·‚©‚à‚µ‚ê‚È‚¢I", " Now prayer to God may bring something special!")
 		}
 	}
 	if ( sdata(SKILL_NORMAL_FAITH, CHARA_PLAYER) * 100 < cdata(CDATA_PIETY, CHARA_PLAYER) ) {
 		txtnew
-		txt lang("ã‚ãªãŸã®ä¿¡ä»°ã¯æ—¢ã«é™ç•Œã¾ã§é«˜ã¾ã£ã¦ã„ã‚‹ã€‚", "Your god becomes indifferent to your gift.")
+		txt lang("‚ ‚È‚½‚ÌM‹Â‚ÍŠù‚ÉŒÀŠE‚Ü‚Å‚‚Ü‚Á‚Ä‚¢‚éB", "Your god becomes indifferent to your gift.")
 		return 0
 	}
 	cdata(CDATA_PIETY, CHARA_PLAYER) += modpiety_arg1 / (1 + (gdata(GDATA_AREA) == AREA_SHOW_HOUSE) * 9)
@@ -78,15 +78,15 @@
 
 *god_init
 	sdim godname, 20, 9
-	godname(0) = lang("ç„¡ã®ã‚¨ã‚¤ã‚¹", "Eyth of Infidel")
-	godname(1) = lang("æ©Ÿæ¢°ã®ãƒãƒ‹", "Mani of Machine")
-	godname(2) = lang("é¢¨ã®ãƒ«ãƒ«ã‚¦ã‚£", "Lulwy of Wind")
-	godname(3) = lang("å…ƒç´ ã®ã‚¤ãƒ„ãƒ‘ãƒ­ãƒˆãƒ«", "Itzpalt of Element")
-	godname(4) = lang("å¹¸é‹ã®ã‚¨ãƒ˜ã‚«ãƒˆãƒ«", "Ehekatl of Luck")
-	godname(5) = lang("åœ°ã®ã‚ªãƒ‘ãƒ¼ãƒˆã‚¹", "Opatos of Earth")
-	godname(6) = lang("ç™’ã—ã®ã‚¸ãƒ¥ã‚¢", "Jure of Healing")
-	godname(7) = lang("åç©«ã®ã‚¯ãƒŸãƒ­ãƒŸ", "Kumiromi of Harvest")
-	godname(8) = lang("å¯Œã®ãƒ¤ã‚«ãƒ†ã‚¯ãƒˆ", "Yacatect of Wealth")
+	godname(0) = lang("–³‚ÌƒGƒCƒX", "Eyth of Infidel")
+	godname(1) = lang("‹@ŠB‚Ìƒ}ƒj", "Mani of Machine")
+	godname(2) = lang("•—‚Ìƒ‹ƒ‹ƒEƒB", "Lulwy of Wind")
+	godname(3) = lang("Œ³‘f‚ÌƒCƒcƒpƒƒgƒ‹", "Itzpalt of Element")
+	godname(4) = lang("K‰^‚ÌƒGƒwƒJƒgƒ‹", "Ehekatl of Luck")
+	godname(5) = lang("’n‚ÌƒIƒp[ƒgƒX", "Opatos of Earth")
+	godname(6) = lang("–ü‚µ‚ÌƒWƒ…ƒA", "Jure of Healing")
+	godname(7) = lang("ûŠn‚ÌƒNƒ~ƒƒ~", "Kumiromi of Harvest")
+	godname(8) = lang("•x‚Ìƒ„ƒJƒeƒNƒg", "Yacatect of Wealth")
 	return
 
 *god_effect
@@ -267,62 +267,63 @@
 *god_detail
 	buff = " "
 	if ( inv(INV_ITEM_PARAM1, ci) == GOD_EYTH ) {
-		buff += lang("ç„¡ç•ç„¡é ¼(è‡ªå‹•:ç¥ã«ä¸ãˆã‚‹ã‚ã‚‰ã‚†ã‚‹ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’+40%)<p>", "Atheism (Passive: Increase all damage you<br>give to gods.)<p>")
+		buff += lang("–³ˆØ–³—Š(©“®:_‚É—^‚¦‚é‚ ‚ç‚ä‚éƒ_ƒ[ƒW‚ğ+40%)<p>", "Atheism (Passive: Increase all damage you<br>give to gods.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_MANI ) {
-		buff = lang("ãƒãƒ‹ã¯æ©Ÿæ¢°ä»•æ›ã‘ã®ç¥ã§ã™ã€‚ãƒãƒ‹ã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€æ©Ÿæ¢°ã«å¯¾ã™ã‚‹è†¨å¤§ãªçŸ¥è­˜ã‚’å¾—ã‚‹ã»ã‹ã€ç ”ãæ¾„ã¾ã•ã‚ŒãŸæ„Ÿè¦šã«ã‚ˆã‚Šç²¾å¯†ãªæ”»æ’ƒãŒå¯èƒ½ã«ãªã‚Šã¾ã™ã€‚<p><p>", "Mani is a clockwork god of machinery. Those faithful to Mani<br>receive immense knowledge of machines and learn a way to use them<br>effectively.<p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / éŠƒå™¨ / æ©Ÿæ¢°<p>", "Offering: Corpses/Guns/Machinery<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: å™¨ç”¨ / æ„Ÿè¦š / éŠƒ / æ²»ç™’ / æ¢çŸ¥ / å®çŸ³ç´°å·¥ / éµé–‹ã‘ / å¤§å·¥<p>", "Bonus   : DEX/PER/Firearms/Healing/Detection/Jeweler/Lockpick/Carpentry<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ç²¾å¯†æ”»æ’ƒ(è‡ªå‹•:ä¸ãˆã‚‹ç‰©ç†ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’+20%)<p>", "Ability : Precise Strikes (Physical Damage +20%)<p>")
+		buff = lang("ƒ}ƒj‚Í‹@ŠBdŠ|‚¯‚Ì_‚Å‚·Bƒ}ƒj‚ğM‹Â‚µ‚½Ò‚ÍA‹@ŠB‚É‘Î‚·‚é–c‘å‚È’m¯‚ğ“¾‚é‚Ù‚©AŒ¤‚¬Ÿ‚Ü‚³‚ê‚½Š´Šo‚É‚æ‚è¸–§‚ÈUŒ‚‚ª‰Â”\‚É‚È‚è‚Ü‚·B<p><p>", "Mani is a clockwork god of machinery. Those faithful to Mani<br>receive immense knowledge of machines and learn a way to use them<br>effectively.<p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / eŠí / ‹@ŠB<p>", "Offering: Corpses/Guns/Machinery<p>")
+		buff += lang("ƒ{[ƒiƒX: Ší—p / Š´Šo / e / ¡–ü / ’T’m / •óÎ×H / Œ®ŠJ‚¯ / ‘åH<p>", "Bonus   : DEX/PER/Firearms/Healing/Detection/Jeweler/Lockpick/Carpentry<p>")
+		buff += lang("“Áê”\—Í: ¸–§UŒ‚(©“®:—^‚¦‚é•¨—ƒ_ƒ[ƒW‚ğ+20%)<p>", "Ability : Precise Strikes (Physical Damage +20%)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_LULWY ) {
-		buff = lang("ãƒ«ãƒ«ã‚¦ã‚£ã¯é¢¨ã‚’å¸ã‚‹å¥³ç¥ã§ã™ã€‚ãƒ«ãƒ«ã‚¦ã‚£ã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€é¢¨ã®æ©æµã‚’å—ã‘ç´ æ—©ãå‹•ãã“ã¨ãŒå¯èƒ½ã«ãªã‚Šã¾ã™ã€‚<p><p>", "Lulwy is a goddess of wind. Those faithful to Lulwy receive<br>the blessing of wind and can move swiftly.<p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / å¼“/ çŸ¢<p>", "Offering: Corpses/Bows/Arrows<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: æ„Ÿè¦š / é€Ÿåº¦ / å¼“ / ã‚¯ãƒ­ã‚¹ãƒœã‚¦ / éš å¯† / é­”é“å…·<p>", "Bonus   : PER/SPD/Bow/Crossbow/Stealth/Magic Device<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ãƒ«ãƒ«ã‚¦ã‚£ã®æ†‘ä¾(ã‚¹ã‚­ãƒ«:ç¬é–“çš„ã«é«˜é€Ÿã«ãªã‚‹)<p>", "Ability : Lulwy's trick (Boosts your speed for a short time.)<p>")
+		buff = lang("ƒ‹ƒ‹ƒEƒB‚Í•—‚ği‚é—_‚Å‚·Bƒ‹ƒ‹ƒEƒB‚ğM‹Â‚µ‚½Ò‚ÍA•—‚Ì‰¶Œb‚ğó‚¯‘f‘‚­“®‚­‚±‚Æ‚ª‰Â”\‚É‚È‚è‚Ü‚·B<p><p>", "Lulwy is a goddess of wind. Those faithful to Lulwy receive<br>the blessing of wind and can move swiftly.<p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / ‹|/ –î<p>", "Offering: Corpses/Bows/Arrows<p>")
+		buff += lang("ƒ{[ƒiƒX: Š´Šo / ‘¬“x / ‹| / ƒNƒƒXƒ{ƒE / ‰B–§ / –‚“¹‹ï<p>", "Bonus   : PER/SPD/Bow/Crossbow/Stealth/Magic Device<p>")
+		buff += lang("“Áê”\—Í: ƒ‹ƒ‹ƒEƒB‚ÌœßˆË(ƒXƒLƒ‹:uŠÔ“I‚É‚‘¬‚É‚È‚é)<p>", "Ability : Lulwy's trick (Boosts your speed for a short time.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_ITZPALT ) {
-		buff = lang("ã‚¤ãƒ„ãƒ‘ãƒ­ãƒˆãƒ«ã¯å…ƒç´ ã‚’å¸ã‚‹ç¥ã§ã™ã€‚ã‚¤ãƒ„ãƒ‘ãƒ­ãƒˆãƒ«ã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€é­”åŠ›ã‚’å¤§æ°—ã‹ã‚‰å¸åã—ã€å…ƒç´ ã«å¯¾ã™ã‚‹ä¿è­·ã‚’å—ã‘ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚<p><p>", "Itzpalt is a god of elements. Those faithful to Itzpalt are<br>protected from elemental damage and learn to absorb mana from<br>their surroundings.<p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / é­”æ–<p>", "Offering: Corpses/Rods<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: é­”åŠ› / ç‘æƒ³ / ç«ç‚è€æ€§ / å†·æ°—è€æ€§ / é›»æ’ƒè€æ€§<p>", "Bonus   : MAG/Meditation/RES Fire/RES Cold/RES Lightning<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: é­”åŠ›ã®å¸å(ã‚¹ã‚­ãƒ«:å‘¨å›²ã®ç©ºæ°—ã‹ã‚‰ãƒãƒŠã‚’å¸ã„å‡ºã™)<p>", "Ability : Absorb magic power (Absorbs mana from the air.)<p>")
+		buff = lang("ƒCƒcƒpƒƒgƒ‹‚ÍŒ³‘f‚ği‚é_‚Å‚·BƒCƒcƒpƒƒgƒ‹‚ğM‹Â‚µ‚½Ò‚ÍA–‚—Í‚ğ‘å‹C‚©‚ç‹zû‚µAŒ³‘f‚É‘Î‚·‚é•ÛŒì‚ğó‚¯‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B<p><p>", "Itzpalt is a god of elements. Those faithful to Itzpalt are<br>protected from elemental damage and learn to absorb mana from<br>their surroundings.<p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / –‚ñ<p>", "Offering: Corpses/Rods<p>")
+		buff += lang("ƒ{[ƒiƒX: –‚—Í / áÒ‘z / ‰Î‰Š‘Ï« / —â‹C‘Ï« / “dŒ‚‘Ï«<p>", "Bonus   : MAG/Meditation/RES Fire/RES Cold/RES Lightning<p>")
+		buff += lang("“Áê”\—Í: –‚—Í‚Ì‹zû(ƒXƒLƒ‹:üˆÍ‚Ì‹ó‹C‚©‚çƒ}ƒi‚ğ‹z‚¢o‚·)", "Ability : Absorb magic power (Absorbs mana from the air.)")
+		buff += lang("                                     ‹}‘¬–‚–@iƒpƒbƒVƒu:ƒ_[ƒg–‚–@‚ª3‰ñ”­Ë‚³‚ê‚é)<p>", "                                      Rapid magic (Passive: Dart spells shoots thrice.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_EHEKATL ) {
-		buff = lang("ã‚¨ãƒ˜ã‚«ãƒˆãƒ«ã¯å¹¸é‹ã®å¥³ç¥ã§ã™ã€‚ã‚¨ãƒ˜ã‚«ãƒˆãƒ«ã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€é‹ã‚’å‘³æ–¹ã«ã¤ã‘ã¾ã™ã€‚<p><p>", "Ehekatl is a goddess of luck. Those faithful to Ehekatl are<br>really lucky.<p><p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / é­š<p>", "Offering: Corpses/Fish<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: é­…åŠ› / é‹ / å›é¿ / é­”åŠ›ã®é™ç•Œ / é‡£ã‚Š/ éµé–‹ã‘<p>", "Bonus   : CHR/LUCK/Evasion/Magic Capacity/Fishing/Lockpick<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ã‚¨ãƒ˜ã‚«ãƒˆãƒ«æµé­”è¡“(è‡ªå‹•:ãƒãƒŠã®æ¶ˆè²»ãŒãƒ©ãƒ³ãƒ€ãƒ ã«ãªã‚‹)<p>", "Ability : Ehekatl school of magic (Passive: randomize casting mana<br>cost.)<p>")
+		buff = lang("ƒGƒwƒJƒgƒ‹‚ÍK‰^‚Ì—_‚Å‚·BƒGƒwƒJƒgƒ‹‚ğM‹Â‚µ‚½Ò‚ÍA‰^‚ğ–¡•û‚É‚Â‚¯‚Ü‚·B<p><p>", "Ehekatl is a goddess of luck. Those faithful to Ehekatl are<br>really lucky.<p><p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / ‹›<p>", "Offering: Corpses/Fish<p>")
+		buff += lang("ƒ{[ƒiƒX: –£—Í / ‰^ / ‰ñ”ğ / –‚—Í‚ÌŒÀŠE / ’Ş‚è/ Œ®ŠJ‚¯<p>", "Bonus   : CHR/LUCK/Evasion/Magic Capacity/Fishing/Lockpick<p>")
+		buff += lang("“Áê”\—Í: ƒGƒwƒJƒgƒ‹—¬–‚p(©“®:ƒ}ƒi‚ÌÁ”ï‚ªƒ‰ƒ“ƒ_ƒ€‚É‚È‚é)<p>", "Ability : Ehekatl school of magic (Passive: randomize casting mana<br>cost.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_OPATOS ) {
-		buff = lang("ã‚ªãƒ‘ãƒ¼ãƒˆã‚¹ã¯å¤§åœ°ã®ç¥ã§ã™ã€‚ã‚ªãƒ‘ãƒ¼ãƒˆã‚¹ã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€é«˜ã„é˜²å¾¡åŠ›ã¨ç ´å£ŠåŠ›ã‚’èº«ã«ã¤ã‘ã¾ã™ã€‚<p><p>", "Opatos is a god of earth. Those faithful to Opatos have massive<br>strength and defense.<p><p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / é‰±çŸ³<p>", "Offering: Corpses/Ores<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: ç­‹åŠ› / è€ä¹… / ç›¾ / é‡é‡æŒ™ã’ / æ¡æ˜ / é­”é“å…·<p>", "Bonus   : STR/CON/Shield/Weight Lifting/Mining/Magic Device<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ã‚ªãƒ‘ãƒ¼ãƒˆã‚¹ã®ç”²æ®»(è‡ªå‹•:ã‚ã‚‰ã‚†ã‚‹è¢«ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’-10%)<p>", "Ability : Opatos' shell (Passive: Reduce any damage you<br>receive.)<p>")
+		buff = lang("ƒIƒp[ƒgƒX‚Í‘å’n‚Ì_‚Å‚·BƒIƒp[ƒgƒX‚ğM‹Â‚µ‚½Ò‚ÍA‚‚¢–hŒä—Í‚Æ”j‰ó—Í‚ğg‚É‚Â‚¯‚Ü‚·B<p><p>", "Opatos is a god of earth. Those faithful to Opatos have massive<br>strength and defense.<p><p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / zÎ<p>", "Offering: Corpses/Ores<p>")
+		buff += lang("ƒ{[ƒiƒX: ‹Ø—Í / ‘Ï‹v / ‚ / d—Ê‹“‚° / ÌŒ@ / –‚“¹‹ï<p>", "Bonus   : STR/CON/Shield/Weight Lifting/Mining/Magic Device<p>")
+		buff += lang("“Áê”\—Í: ƒIƒp[ƒgƒX‚ÌbŠk(©“®:‚ ‚ç‚ä‚é”íƒ_ƒ[ƒW‚ğ-10%)<p>", "Ability : Opatos' shell (Passive: Reduce any damage you<br>receive.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_JURE ) {
-		buff = lang("ã‚¸ãƒ¥ã‚¢ã¯ç™’ã—ã®å¥³ç¥ã§ã™ã€‚ã‚¸ãƒ¥ã‚¢ã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€å‚·ã¤ã„ãŸèº«ä½“ã‚’ç™’ã™ã“ã¨ãŒã§ãã¾ã™ã€‚<p><p>", "Jure is a god of healing. Those faithful to Jure can heal wounds.<p><p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / èŠ±é¡<p>", "Offering: Corpses/Flowers<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: æ„å¿— / æ²»ç™’ / ç‘æƒ³ / è§£å‰–å­¦ / æ–™ç† / é­”é“å…· / é­”åŠ›ã®é™ç•Œ<p>", "Bonus   : WIL/Healing/Meditation/Anatomy/Cooking/Magic Device/Magic Capacity<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ã‚¸ãƒ¥ã‚¢ã®ç¥ˆã‚Š(ã‚¹ã‚­ãƒ«:å¤±ã£ãŸä½“åŠ›ã‚’å›å¾©)<p>", "Ability : Prayer of Jure (Heal yourself.)<p>")
+		buff = lang("ƒWƒ…ƒA‚Í–ü‚µ‚Ì—_‚Å‚·BƒWƒ…ƒA‚ğM‹Â‚µ‚½Ò‚ÍA‚Â‚¢‚½g‘Ì‚ğ–ü‚·‚±‚Æ‚ª‚Å‚«‚Ü‚·B<p><p>", "Jure is a god of healing. Those faithful to Jure can heal wounds.<p><p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / ‰Ô—Ş<p>", "Offering: Corpses/Flowers<p>")
+		buff += lang("ƒ{[ƒiƒX: ˆÓu / ¡–ü / áÒ‘z / ‰ğ–UŠw / —¿— / –‚“¹‹ï / –‚—Í‚ÌŒÀŠE<p>", "Bonus   : WIL/Healing/Meditation/Anatomy/Cooking/Magic Device/Magic Capacity<p>")
+		buff += lang("“Áê”\—Í: ƒWƒ…ƒA‚Ì‹F‚è(ƒXƒLƒ‹:¸‚Á‚½‘Ì—Í‚ğ‰ñ•œ)<p>", "Ability : Prayer of Jure (Heal yourself.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_KUMIROMI ) {
-		buff = lang("ã‚¯ãƒŸãƒ­ãƒŸã¯åç©«ã®ç¥ã§ã™ã€‚ã‚¯ãƒŸãƒ­ãƒŸã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€å¤§åœ°ã®æµã¿ã‚’åç©«ã—ã€ãã‚Œã‚’åŠ å·¥ã™ã‚‹è¡“ã‚’çŸ¥ã‚Šã¾ã™ã€‚<p><p>", "Kumiromi is a god of harvest. Those faithful to Kumiromi receive<br>the blessings of nature.<p><p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“ / é‡èœ<p>", "Offering: Corpses/Vegetables<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: æ„Ÿè¦š / å™¨ç”¨ / ç¿’å¾— / æ ½åŸ¹ / éŒ¬é‡‘è¡“ / è£ç¸« / èª­æ›¸<p>", "Bonus   : PER/DEX/LER/Gardening/Alchemy/Tailoring/Literacy<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ç„¡é™ã®æ´»æ€§åŠ›(è‡ªå‹•ï¼šã‚¹ã‚¿ãƒŸãƒŠã®è‡ªå‹•å›å¾©å¢—åŠ )<p>", "Ability : Boundless vigor (Passive: Heal stamina turn by turn.)<p>")
+		buff = lang("ƒNƒ~ƒƒ~‚ÍûŠn‚Ì_‚Å‚·BƒNƒ~ƒƒ~‚ğM‹Â‚µ‚½Ò‚ÍA‘å’n‚ÌŒb‚İ‚ğûŠn‚µA‚»‚ê‚ğ‰ÁH‚·‚ép‚ğ’m‚è‚Ü‚·B<p><p>", "Kumiromi is a god of harvest. Those faithful to Kumiromi receive<br>the blessings of nature.<p><p>")
+		buff += lang("@•ù‚°•¨: €‘Ì / –ìØ<p>", "Offering: Corpses/Vegetables<p>")
+		buff += lang("ƒ{[ƒiƒX: Š´Šo / Ší—p / K“¾ / Í”| / ˜B‹àp / Ù–D / “Ç‘<p>", "Bonus   : PER/DEX/LER/Gardening/Alchemy/Tailoring/Literacy<p>")
+		buff += lang("“Áê”\—Í: –³ŒÀ‚ÌŠˆ«—Í(©“®FƒXƒ^ƒ~ƒi‚Ì©“®‰ñ•œ‘‰Á)<p>", "Ability : Boundless vigor (Passive: Heal stamina turn by turn.)<p>")
 	}
 	if ( inv(INV_ITEM_GOD, ci) == GOD_YACATECT ) {
-		buff = lang("ãƒ¤ã‚«ãƒ†ã‚¯ãƒˆã¯å¯Œã®å¥³ç¥ã§ã™ã€‚ãƒ¤ã‚«ãƒ†ã‚¯ãƒˆã‚’ä¿¡ä»°ã—ãŸè€…ã¯ã€é«˜ã„äº¤æ¸‰æŠ€è¡“ã‚’èº«ã«ã¤ã‘è«å¤§ãªå¯Œã‚’ç¯‰ãä¸Šã’ã¾ã™ã€‚<p><p>", "Yacatect is a god of wealth.<p><p>")
-		buff += lang("ã€€æ§ã’ç‰©: æ­»ä½“  / é¦–é£¾ã‚Š / æŒ‡è¼ª<p>", "Offering: Corpses/Accessories<p>")
-		buff += lang("ãƒœãƒ¼ãƒŠã‚¹: æ„Ÿè¦š / è€ä¹… / äº¤æ¸‰ / è‡ªç„¶é‘‘å®š / æ—…æ­©ã / éŒ¬é‡‘è¡“ / æŠ•è³‡<p>", "Bonus   : PER/CON/Negotiation/Sense Quality/Traveling/Alchemy/Investing<p>")
-		buff += lang("ç‰¹æ®Šèƒ½åŠ›: ã‚ªãƒ¼ãƒ«ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³(è‡ªå‹•ï¼šã‚¢ã‚¤ãƒ†ãƒ ãƒ‰ãƒ­ãƒƒãƒ—åˆ¤å®šå¢—åŠ )<p>", "Ability : All collection (Passive: Increase chances of get loot.)<p>")
+		buff = lang("ƒ„ƒJƒeƒNƒg‚Í•x‚Ì—_‚Å‚·Bƒ„ƒJƒeƒNƒg‚ğM‹Â‚µ‚½Ò‚ÍA‚‚¢ŒğÂ‹Zp‚ğg‚É‚Â‚¯”œ‘å‚È•x‚ğ’z‚«ã‚°‚Ü‚·B<p><p>", "Yacatect is a god of wealth.<p><p>")
+		buff += lang("@•ù‚°•¨: €‘Ì  / ñü‚è / w—Ö<p>", "Offering: Corpses/Accessories<p>")
+		buff += lang("ƒ{[ƒiƒX: Š´Šo / ‘Ï‹v / ŒğÂ / ©‘RŠÓ’è / —·•à‚« / ˜B‹àp / “Š‘<p>", "Bonus   : PER/CON/Negotiation/Sense Quality/Traveling/Alchemy/Investing<p>")
+		buff += lang("“Áê”\—Í: ƒI[ƒ‹ƒRƒŒƒNƒVƒ‡ƒ“(©“®FƒAƒCƒeƒ€ƒhƒƒbƒv”»’è‘‰Á)<p>", "Ability : All collection (Passive: Increase chances of get loot.)<p>")
 	}
 	return
 
 *god_select
 	if ( gdata(GDATA_AREA) == AREA_CHAOS_CRADLE & gdata(GDATA_LEVEL) == 179 ) {
 		txtef COLOR_PURPLE
-		txt lang("ã“ã“ã‹ã‚‰ã§ã¯ç¥ã«å±Šã‹ãªã„ã‚ˆã†ã â€¦ã€‚", "It seems that it will not reach the god from here...")
+		txt lang("‚±‚±‚©‚ç‚Å‚Í_‚É“Í‚©‚È‚¢‚æ‚¤‚¾cB", "It seems that it will not reach the god from here...")
 		goto *turn_end
 	}
 	cs = 0
@@ -337,17 +338,17 @@
 	chatesc = 2
 	if ( cdata(CDATA_GOD, CHARA_PLAYER) != GOD_EYTH ) {
 		if ( inv(INV_ITEM_GOD, ci) == GOD_EYTH ) {
-			s = lang("ä¿¡ä»°ã‚’æ¨ã¦ã‚‹", "Abandon God")
+			s = lang("M‹Â‚ğÌ‚Ä‚é", "Abandon God")
 		}
 		else {
-			s = lang(godname(inv(INV_ITEM_GOD, ci)) + "ã«æ”¹å®—ã™ã‚‹", "Convert to " + godname(inv(INV_ITEM_GOD, ci)))
+			s = lang(godname(inv(INV_ITEM_GOD, ci)) + "‚É‰ü@‚·‚é", "Convert to " + godname(inv(INV_ITEM_GOD, ci)))
 		}
 		chatList 0, s
 	}
 	else {
-		chatList 0, lang(godname(inv(INV_ITEM_GOD, ci)) + "ã‚’ä¿¡ä»°ã™ã‚‹", "Believe in " + godname(inv(INV_ITEM_GOD, ci)))
+		chatList 0, lang(godname(inv(INV_ITEM_GOD, ci)) + "‚ğM‹Â‚·‚é", "Believe in " + godname(inv(INV_ITEM_GOD, ci)))
 	}
-	chatList 2, lang("ã‚„ã‚ã‚‹", "Cancel")
+	chatList 2, lang("‚â‚ß‚é", "Cancel")
 	snd SOUNDLIST_POP4
 	redraw 0
 	gsel 4
@@ -389,31 +390,31 @@
 	pos wx + 20, wy + 20
 	color 0, 0, 0
 	if ( inv(INV_ITEM_PARAM1, ci) == 0 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 85, 85, 85
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 85, 85, 85
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 1 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 155, 155, 155
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 155, 155, 155
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 2 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 155, 125, 205
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 155, 125, 205
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 3 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 255, 255, 205
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 255, 255, 205
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 4 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 105, 255, 255
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 105, 255, 255
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 5 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 255, 155, 105
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 255, 155, 105
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 6 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 255, 255, 255
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 255, 255, 255
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 7 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 105, 255, 105
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 105, 255, 105
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) == 8 ) {
-		bmes lang("ã€Š ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" ã€‹", " >"), 255, 155, 255
+		bmes lang("s ", "< ") + godname(inv(INV_ITEM_PARAM1, ci)) + lang(" t", " >"), 255, 155, 255
 	}
 	if ( inv(INV_ITEM_PARAM1, ci) != 0 ) {
 		font lang(cfg_font1, cfg_font2), 15 - en * 2, 0
@@ -421,28 +422,28 @@
 		pos wx + 20, wy + 45
 		color 0, 0, 0
 		if ( inv(INV_ITEM_PARAM1, ci) == 1 ) {
-			bmes lang("ã€Œâ€¦æ©Ÿæ¢°ã«èˆˆå‘³ãŒã‚ã‚‹ã®ã‹ï¼Ÿã€", "--- Are you... interested in machines? ---"), 155, 155, 155
+			bmes lang("uc‹@ŠB‚É‹»–¡‚ª‚ ‚é‚Ì‚©Hv", "--- Are you... interested in machines? ---"), 155, 155, 155
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 2 ) {
-			bmes lang("ã€Œãƒãƒ­ãƒã¯æ­»ã¬ã€ã£ã¦ã“ã¨ã«ã‚ˆã†ã‚„ãæ°—ã¥ã„ãŸã¿ãŸã„ã­ã€", "--- Ahaha! Looks like you finally realized that slow is going to die! ---"), 155, 125, 205
+			bmes lang("uƒmƒƒ}‚Í€‚ÊA‚Á‚Ä‚±‚Æ‚É‚æ‚¤‚â‚­‹C‚Ã‚¢‚½‚İ‚½‚¢‚Ëv", "--- Ahaha! Looks like you finally realized that slow is going to die! ---"), 155, 125, 205
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 3 ) {
-			bmes lang("ã€Œç ”é‘½ã›ã‚ˆã€‚å…ƒç´ ã¯å¤§ã„ãªã‚‹åŠ›ã‚’æ±ã«ã‚‚ãŸã‚‰ã™ã€", "--- Elements will be your great power ---"), 255, 255, 205
+			bmes lang("uŒ¤èr‚¹‚æBŒ³‘f‚Í‘å‚¢‚È‚é—Í‚ğ“ğ‚É‚à‚½‚ç‚·v", "--- Elements will be your great power ---"), 255, 255, 205
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 4 ) {
-			bmes lang("ã€ŒãŸã‚‰ã°ãŒã«ã€ã™ãï¼ï¼ï¼ã€", "--- Mewmewmew! Coconut crab! ---"), 105, 255, 255
+			bmes lang("u‚½‚ç‚Î‚ª‚ÉA‚·‚«IIIv", "--- Mewmewmew! Coconut crab! ---"), 105, 255, 255
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 5 ) {
-			bmes lang("ã€Œãƒ•ãƒãƒãƒ¼ï¼é›ãˆãŸãƒœãƒ‡ã‚£ã¯æœ€å¾Œã¾ã§ãŠå‰ã®å‘³æ–¹ã ã£ã€", "--- Muwahaha! A well-trained body will be your friend until the end! ---"), 255, 155, 105
+			bmes lang("uƒtƒnƒn[I’b‚¦‚½ƒ{ƒfƒB‚ÍÅŒã‚Ü‚Å‚¨‘O‚Ì–¡•û‚¾‚Áv", "--- Muwahaha! A well-trained body will be your friend until the end! ---"), 255, 155, 105
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 6 ) {
-			bmes lang("ã€Œã‘ã€æ€ªæˆ‘ã‚’æ²»ã—ã¦ã‚ã’ã‚‹ã£ã¦è¨€ã£ã¦ã‚“ã®ã‚ˆâ€¦ã€", "--- I-I say that I will heal your wounds... ---"), 255, 255, 255
+			bmes lang("u‚¯A‰ö‰ä‚ğ¡‚µ‚Ä‚ ‚°‚é‚Á‚ÄŒ¾‚Á‚Ä‚ñ‚Ì‚æcv", "--- I-I say that I will heal your wounds... ---"), 255, 255, 255
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 7 ) {
-			bmes lang("ã€Œåƒ•ã€æ´»åŠ›â€¦ä¸ãˆã‚‹â€¦ã‹ã‚‰ã€", "--- I give...vitality... ---"), 105, 255, 105
+			bmes lang("u–lAŠˆ—Íc—^‚¦‚éc‚©‚çv", "--- I give...vitality... ---"), 105, 255, 105
 		}
 		if ( inv(INV_ITEM_PARAM1, ci) == 8 ) {
-			bmes lang("ã€Œä½•ã™ã‚‹ã«ã—ã¦ã‚‚è³‡ç”£ã¯æœ‰ã£ãŸã»ã†ãŒãˆãˆã‚„ã‚ï¼Ÿã‚¦ãƒã®å‡ºç•ªã‚„ã‚“ï¼ã€", "--- Yeah~! No matter what you do, it's better to have property, right? ---"), 255, 155, 255
+			bmes lang("u‰½‚·‚é‚É‚µ‚Ä‚à‘Y‚Í—L‚Á‚½‚Ù‚¤‚ª‚¦‚¦‚â‚ëHƒEƒ`‚Ìo”Ô‚â‚ñIv", "--- Yeah~! No matter what you do, it's better to have property, right? ---"), 255, 155, 255
 		}
 	}
 	gmesx = HIGHDPI_X(wx + 23)
@@ -557,7 +558,7 @@
 		if ( cdata(CDATA_GOD, CHARA_PLAYER) != GOD_EYTH ) {
 			mode = MODELIST_TXT_ADV
 			txtef COLOR_PURPLE
-			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã¯æ¿€æ€’ã—ãŸã€‚", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " is enraged.")
+			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚ÍŒƒ“{‚µ‚½B", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " is enraged.")
 			txtgod cdata(CDATA_GOD, CHARA_PLAYER), GOD_TEXT_BETRAY
 			redraw 1
 			efid = SKILL_SPACT_PUNISHMENT
@@ -587,7 +588,7 @@
 	gdata(GDATA_FLAG_TRUCE_GROUND_SUMMONING) = 1
 	if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_EYTH ) {
 		txtef COLOR_YELLOW
-		txt lang("ã‚ãªãŸã¯ä»Šã‚„ç„¡ä¿¡ä»°è€…ã ã€‚", "You are an unbeliever now.")
+		txt lang("‚ ‚È‚½‚Í¡‚â–³M‹ÂÒ‚¾B", "You are an unbeliever now.")
 	}
 	else {
 		animeid = ANIMATION_HOLY
@@ -595,7 +596,7 @@
 		gosub *anime
 		snd SOUNDLIST_COMPLETE1
 		txtef COLOR_YELLOW
-		txt lang("ã‚ãªãŸã¯ä»Šã‚„" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã®ä¿¡è€…ã ï¼", "You become a follower of " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "!")
+		txt lang("‚ ‚È‚½‚Í¡‚â" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚ÌMÒ‚¾I", "You become a follower of " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "!")
 		if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_ITZPALT ) {
 			spact(SKILL_SPACT_ABSORB_MAGIC - STARTING_SKILL_SPACT) = 1
 		}
@@ -613,32 +614,32 @@
 
 *god_pray
 	if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_EYTH ) {
-		txt lang(name(CHARA_PLAYER) + "ã¯ç¥ã‚’ä¿¡ä»°ã—ã¦ã„ãªã„ãŒã€è©¦ã—ã«ç¥ˆã£ã¦ã¿ãŸã€‚", "You don't believe in the gods.")
+		txt lang(name(CHARA_PLAYER) + "‚Í_‚ğM‹Â‚µ‚Ä‚¢‚È‚¢‚ªA‚µ‚É‹F‚Á‚Ä‚İ‚½B", "You don't believe in the gods.")
 		goto *turn_end
 	}
 	txtnew
-	txt lang("ã‚ãªãŸã®ç¥ã«ç¥ˆã‚Šã‚’ä¹ã†ï¼Ÿ", "Really pray to your god?")
+	txt lang("‚ ‚È‚½‚Ì_‚É‹F‚è‚ğŒî‚¤H", "Really pray to your god?")
 	promptYesNo
 	if ( rtval != 0 ) {
 		gosub *screen_draw
 		goto *pc_turn
 	}
-	txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã«ç¥ˆã£ãŸã€‚", "You pray to " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + ".")
+	txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚É‹F‚Á‚½B", "You pray to " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + ".")
 	if ( cdata(CDATA_PIETY, CHARA_PLAYER) < 200 | cdata(CDATA_PRAY, CHARA_PLAYER) < 1000 ) {
 		txtmore
-		txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã¯ã‚ãªãŸã«ç„¡é–¢å¿ƒã ã€‚", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " is indifferent to you.")
+		txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚Í‚ ‚È‚½‚É–³ŠÖS‚¾B", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " is indifferent to you.")
 		goto *turn_end
 	}
 	if ( gdata(GDATA_AREA) == AREA_CHAOS_CRADLE & gdata(GDATA_LEVEL) == 179 ) {
 		if ( gdata(GDATA_FLAG_MAIN) < 845 ) {
 			txtef COLOR_PURPLE
 			txtmore
-			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã®åŠ©ã‘ã‚‚ã€ã“ã“ã«å±Šã‹ãªã„ã‚ˆã†ã â€¦ã€‚", "" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "'s help does not seem to reach here...")
+			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚Ì•‚¯‚àA‚±‚±‚É“Í‚©‚È‚¢‚æ‚¤‚¾cB", "" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "'s help does not seem to reach here...")
 		}
 		if ( gdata(GDATA_FLAG_MAIN) >= 845 & gdata(GDATA_FLAG_MAIN) < 900 ) {
 			txtef COLOR_PURPLE
 			txtmore
-			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã‚‚ã€ä»Šã¯ä½™è£•ãŒãªã„ã‚ˆã†ã â€¦ã€‚", "It seems that not even " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " can afford to help you right now...")
+			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚àA¡‚Í—]—T‚ª‚È‚¢‚æ‚¤‚¾cB", "It seems that not even " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " can afford to help you right now...")
 		}
 		goto *turn_end
 	}
@@ -670,7 +671,7 @@
 						p++
 						if ( p + gdata(GDATA_ACTIVE_GOD_PETS) >= sdata(SKILL_NORMAL_FAITH, CHARA_PLAYER) / 10 ) {
 							f = 1
-							txt lang("ä»Šã®ä¿¡ä»°ã‚¹ã‚­ãƒ«ã§ã¯ã“ã‚Œä»¥ä¸Šç¥ã®ä½¿å¾’ã¯ä»²é–“ã«ã§ããªã„ã€‚", "With your current faith skill, you are unable to befriend any more god pets.")
+							txt lang("¡‚ÌM‹ÂƒXƒLƒ‹‚Å‚Í‚±‚êˆÈã_‚Ìg“k‚Í’‡ŠÔ‚É‚Å‚«‚È‚¢B", "With your current faith skill, you are unable to befriend any more god pets.")
 							break
 						}
 					}
@@ -679,12 +680,12 @@
 			if ( f == 0 ) {
 				if ( get_freeally() == 0 ) {
 					f = 1
-					txt lang("ä»²é–“ãŒä¸€æ¯ã§ã€ç¥ã‹ã‚‰ã®è´ˆã‚Šç‰©ã‚’å—ã‘å–ã‚‹ã“ã¨ãŒã§ããªã‹ã£ãŸã€‚", "Your party is full. The gift is reserved.")
+					txt lang("’‡ŠÔ‚ªˆê”t‚ÅA_‚©‚ç‚Ì‘¡‚è•¨‚ğó‚¯æ‚é‚±‚Æ‚ª‚Å‚«‚È‚©‚Á‚½B", "Your party is full. The gift is reserved.")
 				}
 			}
 			if ( f ) {
 				txtmore
-				txt lang("ã“ã®è´ˆã‚Šç‰©ã‚’è«¦ã‚ã‚‹ï¼Ÿ", "Do you want to decline this gift?")
+				txt lang("‚±‚Ì‘¡‚è•¨‚ğ’ú‚ß‚éH", "Do you want to decline this gift?")
 				promptYesNo
 				if ( rtval == 0 ) {
 					gdata(GDATA_GOD_RANK)++
@@ -697,35 +698,35 @@
 			txtmore
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_MANI ) {
 				dbid = CREATURE_ID_ANDROID
-				txt lang("ã“ã®ã‚¢ãƒ³ãƒ‰ãƒ­ã‚¤ãƒ‰ã¯æã‚ã—ãé ‘ä¸ˆãªã‚ˆã†ã ã€‚", "This android appears to be incredibly durable.")
+				txt lang("‚±‚ÌƒAƒ“ƒhƒƒCƒh‚Í‹°‚ë‚µ‚­Šæä‚È‚æ‚¤‚¾B", "This android appears to be incredibly durable.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_LULWY ) {
 				dbid = CREATURE_ID_BLACK_ANGEL
-				txt lang("ã“ã®é»’å¤©ä½¿ã¯ãƒ–ãƒ¼ã‚¹ãƒˆã—ãŸæ™‚ã«æã‚‹ã¹ãåŠ›ã‚’ç™ºæ®ã™ã‚‹ã‚ˆã†ã ã€‚", "This black angel shows enormous strength when boosting.")
+				txt lang("‚±‚Ì•“Vg‚Íƒu[ƒXƒg‚µ‚½‚É‹°‚é‚×‚«—Í‚ğ”­Šö‚·‚é‚æ‚¤‚¾B", "This black angel shows enormous strength when boosting.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_ITZPALT ) {
 				dbid = CREATURE_ID_EXILE
-				txt lang("ã“ã®è¿½æ”¾è€…ã¯é€£ç¶šçŸ¢é­”æ³•ã‚’ä½¿ãˆã‚‹ã‚ˆã†ã ã€‚", "This exile can cast several spells in a raw.")
+				txt lang("‚±‚Ì’Ç•úÒ‚Í˜A‘±–î–‚–@‚ğg‚¦‚é‚æ‚¤‚¾B", "This exile can cast several spells in a raw.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_EHEKATL ) {
 				dbid = CREATURE_ID_BLACK_CAT
-				txt lang("ã“ã®çŒ«ã«èˆã‚ã‚‰ã‚ŒãŸæ­¦å…·ã¯ã€ã‚¨ãƒ˜ã‚«ãƒˆãƒ«ã®ç¥ç¦ã‚’æˆã‹ã‚‹ã‚ˆã†ã ã€‚ç¥ç¦ã‚’å—ã‘ãŸæ­¦å…·ã«ã¯ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆãŒä¸€ã¤ä»˜ä¸ã•ã‚Œã‚‹ã€‚", "Weapons and armor licked by this cat receive a blessing of Ehekatl which adds an extra enchantment.")
+				txt lang("‚±‚Ì”L‚Éär‚ß‚ç‚ê‚½•‹ï‚ÍAƒGƒwƒJƒgƒ‹‚Ìj•Ÿ‚ğö‚©‚é‚æ‚¤‚¾Bj•Ÿ‚ğó‚¯‚½•‹ï‚É‚ÍƒGƒ“ƒ`ƒƒƒ“ƒg‚ªˆê‚Â•t—^‚³‚ê‚éB", "Weapons and armor licked by this cat receive a blessing of Ehekatl which adds an extra enchantment.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_OPATOS ) {
 				dbid = CREATURE_ID_GOLDEN_KNIGHT
-				txt lang("ã“ã®é¨å£«ã¯ã‚ã‚‹ç¨‹åº¦é‡ã„ã‚‚ã®ã‚’ã‚‚ãŸã›ã¦ã‚‚æ–‡å¥ã‚’ã„ã‚ãªã„ã‚ˆã†ã ã€‚", "This knight can hold really heavy stuff for you.")
+				txt lang("‚±‚Ì‹Rm‚Í‚ ‚é’ö“xd‚¢‚à‚Ì‚ğ‚à‚½‚¹‚Ä‚à•¶‹å‚ğ‚¢‚í‚È‚¢‚æ‚¤‚¾B", "This knight can hold really heavy stuff for you.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_JURE ) {
 				dbid = CREATURE_ID_DEFENDER
-				txt lang("ã“ã®é˜²è¡›è€…ã¯è‡´æ­»ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’å—ã‘ãŸä»²é–“ã‚’ãƒ¬ã‚¤ãƒãƒ³ãƒ‰ã§å›å¾©ã§ãã‚‹ã‚ˆã†ã ã€‚ãƒ¬ã‚¤ãƒãƒ³ãƒ‰ã¯çœ ã‚‹ãŸã³ã«å†ä½¿ç”¨å¯èƒ½ã«ãªã‚‹ã€‚", "This defender can use Lay on hand to heal a deadly wounded ally. The ability becomes re-useable after sleeping.")
+				txt lang("‚±‚Ì–h‰qÒ‚Í’v€ƒ_ƒ[ƒW‚ğó‚¯‚½’‡ŠÔ‚ğƒŒƒCƒnƒ“ƒh‚Å‰ñ•œ‚Å‚«‚é‚æ‚¤‚¾BƒŒƒCƒnƒ“ƒh‚Í–°‚é‚½‚Ñ‚ÉÄg—p‰Â”\‚É‚È‚éB", "This defender can use Lay on hand to heal a deadly wounded ally. The ability becomes re-useable after sleeping.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_KUMIROMI ) {
 				dbid = CREATURE_ID_CUTE_FAIRY
-				txt lang("ã“ã®å¦–ç²¾ã¯é£Ÿå¾Œã«ç¨®ã‚’åãå‡ºã™ã‚ˆã†ã ã€‚ä¸€åº¦ç¨®ã‚’åãå‡ºã—ãŸå¾Œã¯ç¡çœ ã‚’ã¨ã‚‹ã¾ã§å†åº¦å‡ºã™ã“ã¨ã¯ãªã„ã€‚", "This fairy generates a seed after eating. The ability becomes re-useable after sleeping.")
+				txt lang("‚±‚Ì—d¸‚ÍHŒã‚Éí‚ğ“f‚«o‚·‚æ‚¤‚¾Bˆê“xí‚ğ“f‚«o‚µ‚½Œã‚Í‡–°‚ğ‚Æ‚é‚Ü‚ÅÄ“xo‚·‚±‚Æ‚Í‚È‚¢B", "This fairy generates a seed after eating. The ability becomes re-useable after sleeping.")
 			}
 			if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_YACATECT ) {
 				dbid = CREATURE_ID_GOOSE
-				txt lang("ã“ã®ã‚¬ãƒãƒ§ã‚¦ã¯ãŠãªã‹ã„ã£ã±ã„é£Ÿã¹ã•ã›ã‚‹ã¨ãƒ—ãƒ©ãƒãƒŠã®åµã‚’ç”£ã‚€ã‚ˆã†ã ã€‚ä¸€åº¦ãƒ—ãƒ©ãƒãƒŠã‚’ç”£ã‚“ã å¾Œã¯ç¡çœ ã‚’ã¨ã‚‹ã¾ã§å†åº¦ç”£ã‚€ã“ã¨ã¯ãªã„ã€‚", "This goose lay platinum after eating. The ability becomes re-useable after sleeping.")
+				txt lang("‚±‚ÌƒKƒ`ƒ‡ƒE‚Í‚¨‚È‚©‚¢‚Á‚Ï‚¢H‚×‚³‚¹‚é‚Æƒvƒ‰ƒ`ƒi‚Ì—‘‚ğY‚Ş‚æ‚¤‚¾Bˆê“xƒvƒ‰ƒ`ƒi‚ğY‚ñ‚¾Œã‚Í‡–°‚ğ‚Æ‚é‚Ü‚ÅÄ“xY‚Ş‚±‚Æ‚Í‚È‚¢B", "This goose lay platinum after eating. The ability becomes re-useable after sleeping.")
 			}
 			flt
 			novoidlv = 1
@@ -849,7 +850,7 @@
 				if ( cdata(CDATA_GOD, CHARA_PLAYER) != GOD_EYTH ) {
 					if ( gdata(GDATA_FLAG_TRUCE_GROUND_SUMMONING) == 0 ) {
 						txtef COLOR_GREEN
-						txt lang("ã‚ãªãŸã®ç¥ˆã‚ŠãŒç¥ã‚’å‘¼ã³å¯„ã›ãŸï¼", "Your prayers have summoned your god.")
+						txt lang("‚ ‚È‚½‚Ì‹F‚è‚ª_‚ğŒÄ‚ÑŠñ‚¹‚½I", "Your prayers have summoned your god.")
 						if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_MANI ) {
 							dbid = CREATURE_ID_MANI
 							gdata(GDATA_FLAG_TRUCE_GROUND_SUMMONING) = CREATURE_ID_MANI
@@ -896,16 +897,16 @@
 *god_offer
 	if ( gdata(GDATA_AREA) == AREA_CHAOS_CRADLE & gdata(GDATA_LEVEL) == 179 ) {
 		txtef COLOR_PURPLE
-		txt lang("ã“ã“ã‹ã‚‰ã§ã¯ç¥ã«å±Šã‹ãªã„ã‚ˆã†ã â€¦ã€‚", "It seems that it will not reach your god from here...")
+		txt lang("‚±‚±‚©‚ç‚Å‚Í_‚É“Í‚©‚È‚¢‚æ‚¤‚¾cB", "It seems that it will not reach your god from here...")
 		goto *turn_end
 	}
 	if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_EYTH ) {
-		txt lang("ã‚ãªãŸã¯ç¥ã‚’ä¿¡ä»°ã—ã¦ã„ãªã„ãŒã€è©¦ã—ã«æ§ã’ã¦ã¿ãŸã€‚", "You don't believe in the gods.")
+		txt lang("‚ ‚È‚½‚Í_‚ğM‹Â‚µ‚Ä‚¢‚È‚¢‚ªA‚µ‚É•ù‚°‚Ä‚İ‚½B", "You don't believe in the gods.")
 		goto *turn_end
 	}
 	rowact_item ci
 	item_separate ci
-	txt lang("ã‚ãªãŸã¯" + itemname(ci) + "ã‚’" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã«æ§ã’ã€ãã®åã‚’å”±ãˆãŸã€‚", "You put " + itemname(ci) + " on the altar and mutter the name of " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + ".")
+	txt lang("‚ ‚È‚½‚Í" + itemname(ci) + "‚ğ" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚É•ù‚°A‚»‚Ì–¼‚ğ¥‚¦‚½B", "You put " + itemname(ci) + " on the altar and mutter the name of " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + ".")
 	snd SOUNDLIST_OFFER2
 	animeid = ANIMATION_OFFER
 	tc = CHARA_PLAYER
@@ -936,10 +937,10 @@
 		f = 0
 		if ( inv(INV_ITEM_GOD, ti) == GOD_EYTH ) {
 			f = 1
-			txt lang("ç•°ä¸–ç•Œã§ã€" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ãŒç©ºç™½ã®ç¥­å£‡ã®æ¨©åˆ©ã‚’ä¸»å¼µã—ãŸã€‚", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " claims the empty altar.")
+			txt lang("ˆÙ¢ŠE‚ÅA" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚ª‹ó”’‚ÌÕ’d‚ÌŒ —˜‚ğå’£‚µ‚½B", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " claims the empty altar.")
 		}
 		else {
-			txt lang("ç•°æ§˜ãªéœ§ãŒç¾ã‚Œã€" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã¨" + godname(inv(INV_ITEM_GOD, ti)) + "ã®å¹»å½±ãŒã›ã‚ãã‚ã£ãŸã€‚", "Strange fogs surround all over the place. You see shadows of " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " and " + godname(inv(INV_ITEM_GOD, ti)) + " make a fierce dance.")
+			txt lang("ˆÙ—l‚È–¶‚ªŒ»‚êA" + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚Æ" + godname(inv(INV_ITEM_GOD, ti)) + "‚ÌŒ¶‰e‚ª‚¹‚ß‚¬‚ ‚Á‚½B", "Strange fogs surround all over the place. You see shadows of " + godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " and " + godname(inv(INV_ITEM_GOD, ti)) + " make a fierce dance.")
 			if ( rnd(17) <= i ) {
 				f = 1
 			}
@@ -955,15 +956,15 @@
 			gosub *anime
 			snd SOUNDLIST_PRAY2
 			if ( inv(INV_ITEM_GOD, ti) != GOD_EYTH ) {
-				txt lang("ã‚ãªãŸã®ç¥ã®å¹»å½±ã¯ã€æ¬¡ç¬¬ã«è‰²æ¿ƒããªã£ãŸã€‚", "The shadow of your god slowly gets bolder.")
+				txt lang("‚ ‚È‚½‚Ì_‚ÌŒ¶‰e‚ÍAŸ‘æ‚ÉF”Z‚­‚È‚Á‚½B", "The shadow of your god slowly gets bolder.")
 			}
 			txtef COLOR_YELLOW
-			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "ã¯" + itemname(ti) + "ã‚’æ”¯é…ã—ãŸã€‚", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " takes over the altar.")
+			txt lang(godname(cdata(CDATA_GOD, CHARA_PLAYER)) + "‚Í" + itemname(ti) + "‚ğx”z‚µ‚½B", godname(cdata(CDATA_GOD, CHARA_PLAYER)) + " takes over the altar.")
 			txtgod cdata(CDATA_GOD, CHARA_PLAYER), GOD_TEXT_TAKE_OVER
 			inv(INV_ITEM_GOD, ti) = cdata(CDATA_GOD, CHARA_PLAYER)
 		}
 		else {
-			txt lang(godname(inv(INV_ITEM_GOD, ti)) + "ã¯ç¥­å£‡ã‚’å®ˆã‚Šãã£ãŸã€‚", godname(inv(INV_ITEM_GOD, ti)) + " keeps the altar.")
+			txt lang(godname(inv(INV_ITEM_GOD, ti)) + "‚ÍÕ’d‚ğç‚è‚«‚Á‚½B", godname(inv(INV_ITEM_GOD, ti)) + " keeps the altar.")
 			txtgod inv(INV_ITEM_GOD, ti), GOD_TEXT_TAKE_OVER_FAIL
 			gosub *god_punish
 		}
@@ -973,33 +974,33 @@
 		repeat 1
 			if ( i == 60 ) {
 				if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_EHEKATL ) {
-					txt lang(itemname(ci) + "ã¯ã¾ã°ã‚†ãè¼ã„ã¦æ¶ˆãˆã€å››ã¤è‘‰ã®ã‚¯ãƒ­ãƒ¼ãƒãƒ¼ãŒãµã£ã¦ããŸã€‚", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " brightly and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ". A four-leaved clover falls onto the altar.")
+					txt lang(itemname(ci) + "‚Í‚Ü‚Î‚ä‚­‹P‚¢‚ÄÁ‚¦Al‚Â—t‚ÌƒNƒ[ƒo[‚ª‚Ó‚Á‚Ä‚«‚½B", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " brightly and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ". A four-leaved clover falls onto the altar.")
 					txtef COLOR_YELLOW
-					txt lang("ã€ŒãŸã‚‰ã°ãŒã«ï¼Ÿâ€¦ãŸã‚‰ã°ãŒã«ï¼ï¼ï¼ï¼ï¼ã€", cnvtalk("Coconut crab?.. Coconut crab!!!!"))
+					txt lang("u‚½‚ç‚Î‚ª‚ÉHc‚½‚ç‚Î‚ª‚ÉIIIIIv", cnvtalk("Coconut crab?.. Coconut crab!!!!"))
 					break
 				}
 				if ( cdata(CDATA_GOD, CHARA_PLAYER) == GOD_JURE ) {
-					txt lang(itemname(ci) + "ã¯ã¾ã°ã‚†ãè¼ã„ã¦æ¶ˆãˆã€å››ã¤è‘‰ã®ã‚¯ãƒ­ãƒ¼ãƒãƒ¼ãŒãµã£ã¦ããŸã€‚", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " brightly and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ". A four-leaved clover falls onto the altar.")
+					txt lang(itemname(ci) + "‚Í‚Ü‚Î‚ä‚­‹P‚¢‚ÄÁ‚¦Al‚Â—t‚ÌƒNƒ[ƒo[‚ª‚Ó‚Á‚Ä‚«‚½B", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " brightly and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ". A four-leaved clover falls onto the altar.")
 					txtef COLOR_YELLOW
-					txt lang("ã€Œã‚ãã£â™ªâ€¦â€¦â€¦ãªã€ä½•ã‚ˆï¼ï¼Ÿåˆ¥ã«å–œã‚“ã§ã„ã‚‹ã‚ã‘ã˜ã‚ƒãªã„ã‹ã‚‰ï¼ã€", cnvtalk("I'm glad....j-just a little!!"))
+					txt lang("u‚í‚Ÿ‚Áôccc‚ÈA‰½‚æIH•Ê‚ÉŠì‚ñ‚Å‚¢‚é‚í‚¯‚¶‚á‚È‚¢‚©‚çIv", cnvtalk("I'm glad....j-just a little!!"))
 					break
 				}
 			}
 			if ( i >= 15 ) {
-				txt lang(itemname(ci) + "ã¯ã¾ã°ã‚†ãè¼ã„ã¦æ¶ˆãˆãŸã€‚", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " brightly and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ".")
+				txt lang(itemname(ci) + "‚Í‚Ü‚Î‚ä‚­‹P‚¢‚ÄÁ‚¦‚½B", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " brightly and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ".")
 				txtgod cdata(CDATA_GOD, CHARA_PLAYER), GOD_TEXT_OFFER_GREAT
 				break
 			}
 			if ( i >= 10 ) {
-				txt lang(itemname(ci) + "ã¯è¼ã„ã¦æ¶ˆãˆã€ä¸‰ã¤è‘‰ã®ã‚¯ãƒ­ãƒ¼ãƒãƒ¼ãŒãµã£ã¦ããŸã€‚", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " for a moment and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ". A three-leaved clover falls from the altar.")
+				txt lang(itemname(ci) + "‚Í‹P‚¢‚ÄÁ‚¦AO‚Â—t‚ÌƒNƒ[ƒo[‚ª‚Ó‚Á‚Ä‚«‚½B", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " for a moment and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ". A three-leaved clover falls from the altar.")
 				break
 			}
 			if ( i >= 5 ) {
-				txt lang(itemname(ci) + "ã¯ä¸€ç¬è¼ã„ã¦æ¶ˆãˆãŸã€‚", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " for a moment and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ".")
+				txt lang(itemname(ci) + "‚Íˆêu‹P‚¢‚ÄÁ‚¦‚½B", itemname(ci) + " shine" + _s2(inv(INV_ITEM_NUM, ci)) + " for a moment and disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ".")
 				break
 			}
 			if ( i >= 1 ) {
-				txt lang(itemname(ci) + "ã¯æ¶ˆãˆãŸã€‚", itemname(ci) + " disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ".")
+				txt lang(itemname(ci) + "‚ÍÁ‚¦‚½B", itemname(ci) + " disappear" + _s2(inv(INV_ITEM_NUM, ci)) + ".")
 				break
 			}
 		loop
