@@ -622,8 +622,9 @@
 #define global	SKILL_SPACT_CLEMENTIA	869
 #define global	SKILL_SPACT_MIASMA_OF_HELL	870
 #define global	SKILL_SPACT_WICKED_BLADE	871//Wicked Blade
+#define global	SKILL_SPACT_CORRUPTION	872//Corruption
 
-#define global	MAX_SKILL	(SKILL_SPACT_WICKED_BLADE + 1)
+#define global	MAX_SKILL	(SKILL_SPACT_CORRUPTION + 1)
 
 // Absolute skill limits
 #define global	MAX_SPACT_COUNT	500 // Maximum number of spact slots available in the array, beginning at STARTING_SKILL_SPACT, meaning the effective max skillid is 1099 (1100 if you really push it)

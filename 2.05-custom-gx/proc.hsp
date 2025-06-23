@@ -24603,7 +24603,7 @@
 		goto *effect_end
 		_switch_sw++
 	}
-	if ( _switch_val == SKILL_SPACT_PURIFICATION | _switch_sw ) {
+	if ( _switch_val == SKILL_SPACT_PURIFICATION | _switch_sw ) {//PURIFICATION
 		_switch_sw = 0
 		if ( cc == CHARA_PLAYER ) {
 			if ( cdata(CDATA_KARMA, CHARA_PLAYER) < 1 ) {
@@ -24695,9 +24695,9 @@
 			}
 		}
 		txt lang(name(cc) + "は" + name(tc) + "悪魔の力で切り裂かれた", name(cc) + " slashed " + name(tc) + " with a demonic power.")
-		snd SOUNDLIST_ENC
+		snd SOUNDLIST_CURSE1
 		animeload 444, tc
-		snd SOUNDLIST_ATKSWORD
+		snd SOUNDLIST_ATK_HELL
 		dmg = (sdata(SKILL_ATTR_LER, cc) / 5 + 5) * ((sdata(SKILL_NORMAL_ANATOMY, cc) + 1) / 5 + 5) + rnd(sdata(SKILL_NORMAL_ANATOMY, cc) * 2 + 5) + (calcLevelDmg(cc) + 1) / 3
 		if ( cc == CHARA_PLAYER ) {
             p = cdata(CDATA_KARMA, CHARA_PLAYER)
@@ -24705,10 +24705,65 @@
         else {
             p = -20
         }
-		p * -1
-		dmg = dmg * (p / 10 + 10) / 10 + 1
+		np = p * -1
+		dmg = dmg * (np / 10 + 10) / 10 + 1
 		dmghp tc, dmg, cc, SKILL_RESDMG_CRUSH, 1000
 		if ( charaGivesExp(tc) & tc != CHARA_PLAYER ) {
+			skillexp SKILL_NORMAL_ANATOMY, cc, 50
+		}
+		goto *effect_end
+		_switch_sw++
+	}
+	if ( _switch_val == SKILL_SPACT_CORRUPTION | _switch_sw ) {//CORRUPTION
+		_switch_sw = 0
+		if ( cc == CHARA_PLAYER ) {
+			if ( cdata(CDATA_KARMA, CHARA_PLAYER) > -1 ) {
+				txt lang("何も起こらない……。あなたのカルマが高すぎるようです。", "Nothing happens....It seems like your karma is too high.")
+				goto *effect_end
+			}
+		}
+		snd SOUNDLIST_ATK_HELL
+		animeload 445, cc
+		txt lang(name(cc) + "無差別的に腐敗をもたらした。", name(cc) + " indiscriminately brought corruption.")
+		repeat MAX_CHARA_TOTAL
+			if ( cdata(CDATA_EXIST, cnt) != CHAR_STATE_ALIVE ) {
+				continue
+			}
+			if ( cc == cnt ) {
+				continue
+			}
+			tc = cnt
+			dx = cdata(CDATA_X, tc)
+			dy = cdata(CDATA_Y, tc)
+			if ( dist(cdata(CDATA_X, cc), cdata(CDATA_Y, cc), dx, dy) > sdataref(SKILL_DATAREF_TG, SKILL_SPACT_CHEER) \ 1000 + 1 ) {
+				continue
+			}
+			if ( fov_los(cdata(CDATA_X, cc), cdata(CDATA_Y, cc), dx, dy) == 0 ) {
+				continue
+			}
+			if ( charaGivesExp(tc) & tc != CHARA_PLAYER ) {
+				f = 1
+			}
+			dmg = (sdata(SKILL_ATTR_LER, cc) / 5 + 5) * ((sdata(SKILL_NORMAL_ANATOMY, cc) + 1) / 5 + 5) + rnd(sdata(SKILL_ATTR_LER, cc) * 2 + 5) + (calcLevelDmg(cc) + 1) / 8
+			if ( cc == CHARA_PLAYER ) {
+				p = cdata(CDATA_KARMA, CHARA_PLAYER)
+			}
+			else {
+				p = -20
+			}
+            np = p * -1
+			dmg = dmg * (np / 10 + 10) / 10 + 1
+			s = refchara(cdata(CDATA_ID, tc), DBSPEC_CHARA_FILTER, 1)
+			if ( instr(s, 0, "/man/") != (-1) ) {
+				dmg = dmg * 3
+			}
+			if ( instr(s, 0, "/god/") != (-1) ) {
+				dmg = dmg / 2
+			}
+			dmghp tc, dmg, cc, SKILL_RESDMG_ETHER, 1200
+		loop
+		if ( f == 1 ) {
+			f = 0
 			skillexp SKILL_NORMAL_ANATOMY, cc, 50
 		}
 		goto *effect_end

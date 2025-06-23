@@ -21450,7 +21450,7 @@
 		goto *chat_default
 	}
 	if ( chatval == 91 & evochat == 3 ) {//LIL-TAIL IRO-IRO
-		hyouzyou = 6
+		hyouzyou = 15
 		cdata(CDATA_EMO_ICON, tc) = 18 + 100 * 3
 		if ( tagevochat == 1 ) {
 			cdata(CDATA_EMO_ICON, ttc) = 18 + 100 * 3

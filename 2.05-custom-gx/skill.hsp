@@ -1915,6 +1915,10 @@
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_PURIFICATION) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 18, 3000 + 6, 500
 	skillname(SKILL_SPACT_PURIFICATION) = lang("浄化の波動", "Purification")
 	skilldesc(SKILL_SPACT_PURIFICATION) = lang("カルマ依存視界内耐久属性攻撃", "Surround(END)/Karma dependent")
+
+	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_CORRUPTION) = SKILL_ATTR_LER, SKILL_TYPE_SP, 18, 3000 + 6, 500//Corruption
+	skillname(SKILL_SPACT_CORRUPTION) = lang("腐敗", "Corruption")
+	skilldesc(SKILL_SPACT_CORRUPTION) = lang("負のカルマ依存 視野範囲 エーテル属性 攻撃", "Surround(Ether)/Negative karma dependent")
 	
 	sdataref(SKILL_DATAREF_USE, SKILL_SPACT_ANGEL_HALO) = SKILL_ATTR_WIL, SKILL_TYPE_SP, 24, 3000 + 6, 500
 	skillname(SKILL_SPACT_ANGEL_HALO) = lang("エンジェルハイロゥ", "Angel Halo")
